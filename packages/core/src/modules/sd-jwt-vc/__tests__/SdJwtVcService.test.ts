@@ -1,5 +1,5 @@
 import type { SdJwtVcHeader } from '../SdJwtVcOptions'
-import type { AgentContext, Jwk, Key } from '@credo-ts/core'
+import type { AgentContext, Jwk, Key } from 'credo-hmd2v-5.17-core'
 
 import { createHeaderAndPayload, StatusList } from '@sd-jwt/jwt-status-list'
 import { SDJWTException } from '@sd-jwt/utils'
@@ -42,7 +42,7 @@ import {
   parseDid,
   TypedArrayEncoder,
   X509ModuleConfig,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 const jwkJsonWithoutUse = (jwk: Jwk) => {
   const jwkJson = jwk.toJson()

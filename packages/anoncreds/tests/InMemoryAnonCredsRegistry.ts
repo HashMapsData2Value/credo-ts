@@ -17,9 +17,9 @@ import type {
   RegisterSchemaOptions,
   RegisterSchemaReturn,
 } from '../src'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { Hasher, utils } from '@credo-ts/core'
+import { Hasher, utils } from 'credo-hmd2v-5.17-core'
 import BigNumber from 'bn.js'
 
 import {

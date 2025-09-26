@@ -29,8 +29,8 @@ import type {
   RegisterRevocationStatusListReturnStateWait,
   RegisterRevocationStatusListReturnStateAction,
   RegisterRevocationStatusListOptions,
-} from '@credo-ts/anoncreds'
-import type { AgentContext } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { SchemaResponse } from '@hyperledger/indy-vdr-shared'
 
 import {
@@ -42,8 +42,8 @@ import {
   parseIndyRevocationRegistryId,
   parseIndySchemaId,
   dateToTimestamp,
-} from '@credo-ts/anoncreds'
-import { CredoError } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import { CredoError } from 'credo-hmd2v-5.17-core'
 import {
   RevocationRegistryEntryRequest,
   RevocationRegistryDefinitionRequest,

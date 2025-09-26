@@ -1,4 +1,4 @@
-import type { DifPresentationExchangeDefinitionV1 } from '@credo-ts/core'
+import type { DifPresentationExchangeDefinitionV1 } from 'credo-hmd2v-5.17-core'
 
 export const presentationDefinition: DifPresentationExchangeDefinitionV1 = {
   id: '5591656f-5b5d-40f8-ab5c-9041c8e3a6a0',

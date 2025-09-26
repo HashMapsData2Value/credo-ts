@@ -10,7 +10,7 @@ import type {
   DifPresentationExchangeSubmission,
   DifPresentationExchangeDefinitionV2,
   VerifiablePresentation,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 export type ResponseMode = 'direct_post' | 'direct_post.jwt'
 

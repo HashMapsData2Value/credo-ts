@@ -5,8 +5,8 @@ import {
   UpdateAssistant,
   utils,
   MediatorRoutingRecord,
-} from '@credo-ts/core'
-import { agentDependencies } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { agentDependencies } from 'credo-hmd2v-5.17-node'
 import { readFileSync } from 'fs'
 import path from 'path'
 

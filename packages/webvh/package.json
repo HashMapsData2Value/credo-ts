@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/webvh",
+  "name": "credo-hmd2v-5.17-webvh",
   "version": "0.5.17",
   "description": "Credo WebVH DID method implementation",
   "main": "build/index.js",
@@ -22,13 +22,13 @@
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand --config jest.config.js"
   },
   "dependencies": {
-    "@credo-ts/anoncreds": "workspace:*",
-    "@credo-ts/core": "workspace:*",
     "class-transformer": "^0.5.1",
     "class-validator": "0.14.1",
     "didwebvh-ts": "^2.5.3",
     "json-canonicalize": "^1.2.0",
-    "tsyringe": "^4.8.0"
+    "tsyringe": "^4.8.0",
+    "credo-hmd2v-5.17-core": "workspace:*",
+    "credo-hmd2v-5.17-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "^4.4.0",

@@ -1,6 +1,6 @@
-import type { Wallet } from '@credo-ts/core'
+import type { Wallet } from 'credo-hmd2v-5.17-core'
 
-import { Key } from '@credo-ts/core'
+import { Key } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContext, mockFunction } from '../../../../core/tests/helpers'
 import { TenantRecord, TenantRoutingRecord } from '../../repository'

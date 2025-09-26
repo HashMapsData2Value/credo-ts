@@ -1,6 +1,6 @@
-import type { ProblemReportMessageOptions } from '@credo-ts/core'
+import type { ProblemReportMessageOptions } from 'credo-hmd2v-5.17-core'
 
-import { IsValidMessageType, parseMessageType, ProblemReportMessage } from '@credo-ts/core'
+import { IsValidMessageType, parseMessageType, ProblemReportMessage } from 'credo-hmd2v-5.17-core'
 
 export type ActionMenuProblemReportMessageOptions = ProblemReportMessageOptions
 

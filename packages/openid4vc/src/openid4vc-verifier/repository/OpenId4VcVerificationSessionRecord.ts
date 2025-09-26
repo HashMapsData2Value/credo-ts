@@ -1,8 +1,8 @@
 import type { OpenId4VcSiopAuthorizationResponsePayload } from '../../shared/models'
 import type { OpenId4VcVerificationSessionState } from '../OpenId4VcVerificationSessionState'
-import type { RecordTags, TagsBase } from '@credo-ts/core'
+import type { RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { Jwt, CredoError, BaseRecord, utils } from '@credo-ts/core'
+import { Jwt, CredoError, BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 export type OpenId4VcVerificationSessionRecordTags = RecordTags<OpenId4VcVerificationSessionRecord>
 

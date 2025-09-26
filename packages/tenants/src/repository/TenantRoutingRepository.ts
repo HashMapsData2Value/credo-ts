@@ -1,6 +1,6 @@
-import type { AgentContext, Key } from '@credo-ts/core'
+import type { AgentContext, Key } from 'credo-hmd2v-5.17-core'
 
-import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from '@credo-ts/core'
+import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from 'credo-hmd2v-5.17-core'
 
 import { TenantRoutingRecord } from './TenantRoutingRecord'
 

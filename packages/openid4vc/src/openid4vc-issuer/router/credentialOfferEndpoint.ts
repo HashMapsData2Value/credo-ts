@@ -2,7 +2,7 @@ import type { OpenId4VcIssuanceRequest } from './requestContext'
 import type { OpenId4VcIssuanceSessionStateChangedEvent } from '../OpenId4VcIssuerEvents'
 import type { Router, Response } from 'express'
 
-import { joinUriParts, EventEmitter } from '@credo-ts/core'
+import { joinUriParts, EventEmitter } from 'credo-hmd2v-5.17-core'
 
 import { getRequestContext, sendErrorResponse } from '../../shared/router'
 import { OpenId4VcIssuanceSessionState } from '../OpenId4VcIssuanceSessionState'

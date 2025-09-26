@@ -1,8 +1,8 @@
-import type { InitConfig, KeyDidCreateOptions, ModulesMap, VerificationMethod } from '@credo-ts/core'
+import type { InitConfig, KeyDidCreateOptions, ModulesMap, VerificationMethod } from 'credo-hmd2v-5.17-core'
 import type { Express } from 'express'
 
-import { Agent, DidKey, HttpOutboundTransport, KeyType, TypedArrayEncoder } from '@credo-ts/core'
-import { HttpInboundTransport, agentDependencies } from '@credo-ts/node'
+import { Agent, DidKey, HttpOutboundTransport, KeyType, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
+import { HttpInboundTransport, agentDependencies } from 'credo-hmd2v-5.17-node'
 import express from 'express'
 
 import { greenText } from './OutputClass'

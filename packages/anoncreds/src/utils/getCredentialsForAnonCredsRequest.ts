@@ -8,7 +8,7 @@ import type {
   AnonCredsRequestedPredicateMatch,
 } from '../models'
 import type { AnonCredsHolderService, GetCredentialsForProofRequestReturn } from '../services'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
 import { AnonCredsHolderServiceSymbol } from '../services'
 

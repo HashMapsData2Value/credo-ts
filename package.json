@@ -10,7 +10,7 @@
   ],
   "packageManager": "pnpm@9.1.0",
   "repository": {
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "type": "git"
   },
   "scripts": {

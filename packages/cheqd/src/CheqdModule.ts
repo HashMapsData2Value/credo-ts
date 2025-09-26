@@ -1,7 +1,7 @@
 import type { CheqdModuleConfigOptions } from './CheqdModuleConfig'
-import type { AgentContext, DependencyManager, Module } from '@credo-ts/core'
+import type { AgentContext, DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig, Buffer } from '@credo-ts/core'
+import { AgentConfig, Buffer } from 'credo-hmd2v-5.17-core'
 
 import { CheqdApi } from './CheqdApi'
 import { CheqdModuleConfig } from './CheqdModuleConfig'

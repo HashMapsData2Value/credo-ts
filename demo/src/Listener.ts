@@ -9,7 +9,7 @@ import type {
   CredentialStateChangedEvent,
   ProofExchangeRecord,
   ProofStateChangedEvent,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type BottomBar from 'inquirer/lib/ui/bottom-bar'
 
 import {
@@ -19,7 +19,7 @@ import {
   CredentialState,
   ProofEventTypes,
   ProofState,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { ui } from 'inquirer'
 
 import { Color, purpleText } from './OutputClass'

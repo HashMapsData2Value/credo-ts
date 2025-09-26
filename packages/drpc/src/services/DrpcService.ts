@@ -1,9 +1,9 @@
 import type { DrpcRequestStateChangedEvent } from '../DrpcRequestEvents'
 import type { DrpcResponseStateChangedEvent } from '../DrpcResponseEvents'
 import type { DrpcRequest, DrpcResponse } from '../messages'
-import type { AgentContext, InboundMessageContext, Query, QueryOptions } from '@credo-ts/core'
+import type { AgentContext, InboundMessageContext, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 
-import { EventEmitter, injectable } from '@credo-ts/core'
+import { EventEmitter, injectable } from 'credo-hmd2v-5.17-core'
 
 import { DrpcRequestEventTypes } from '../DrpcRequestEvents'
 import { DrpcResponseEventTypes } from '../DrpcResponseEvents'

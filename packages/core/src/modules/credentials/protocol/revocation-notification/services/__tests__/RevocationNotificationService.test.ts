@@ -1,6 +1,6 @@
 import type { AgentContext } from '../../../../../../agent'
 import type { RevocationNotificationReceivedEvent } from '../../../../CredentialEvents'
-import type { AnonCredsCredentialMetadata } from '@credo-ts/anoncreds'
+import type { AnonCredsCredentialMetadata } from 'credo-hmd2v-5.17-anoncreds'
 
 import { Subject } from 'rxjs'
 

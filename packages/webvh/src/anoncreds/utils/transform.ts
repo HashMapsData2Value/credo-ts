@@ -1,4 +1,4 @@
-import { IsStringOrStringArray, JsonTransformer } from '@credo-ts/core'
+import { IsStringOrStringArray, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { Type, Expose, Transform } from 'class-transformer'
 import {
   IsOptional,

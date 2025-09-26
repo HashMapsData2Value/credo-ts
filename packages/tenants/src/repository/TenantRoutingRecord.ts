@@ -1,6 +1,6 @@
-import type { RecordTags, TagsBase } from '@credo-ts/core'
+import type { RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { BaseRecord, utils } from '@credo-ts/core'
+import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 export type TenantRoutingRecordTags = RecordTags<TenantRoutingRecord>
 

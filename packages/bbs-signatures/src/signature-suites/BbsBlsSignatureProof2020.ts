@@ -13,9 +13,9 @@
 
 import type { DeriveProofOptions, VerifyProofOptions, CreateVerifyDataOptions, CanonizeOptions } from '../types'
 import type { VerifyProofResult } from '../types/VerifyProofResult'
-import type { JsonObject, DocumentLoader, Proof } from '@credo-ts/core'
+import type { JsonObject, DocumentLoader, Proof } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, TypedArrayEncoder, SECURITY_CONTEXT_URL, vcLibraries } from '@credo-ts/core'
+import { CredoError, TypedArrayEncoder, SECURITY_CONTEXT_URL, vcLibraries } from 'credo-hmd2v-5.17-core'
 import { blsCreateProof, blsVerifyProof } from '@mattrglobal/bbs-signatures'
 import { Bls12381G2KeyPair } from '@mattrglobal/bls12381-key-pair'
 import { randomBytes } from '@stablelib/random'

@@ -1,4 +1,4 @@
-import type { WalletConfig } from '@credo-ts/core'
+import type { WalletConfig } from 'credo-hmd2v-5.17-core'
 
 import {
   WalletExportUnsupportedError,
@@ -8,7 +8,7 @@ import {
   Logger,
   SigningProviderRegistry,
   WalletError,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Store } from '@hyperledger/aries-askar-shared'
 import { inject, injectable } from 'tsyringe'
 

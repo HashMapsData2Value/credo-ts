@@ -1,4 +1,4 @@
-import { Jwt } from '@credo-ts/core'
+import { Jwt } from 'credo-hmd2v-5.17-core'
 import { SigningAlgo } from '@sphereon/oid4vc-common'
 import { cleanAll, enableNetConnect } from 'nock'
 

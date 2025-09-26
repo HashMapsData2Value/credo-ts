@@ -1,8 +1,8 @@
 import type { GetNymResponseData, IndyEndpointAttrib } from './didSovUtil'
 import type { IndyVdrPool } from '../pool'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { parseIndyDid } from '@credo-ts/anoncreds'
+import { parseIndyDid } from 'credo-hmd2v-5.17-anoncreds'
 import {
   CredoError,
   DidDocument,
@@ -15,7 +15,7 @@ import {
   TypedArrayEncoder,
   convertPublicKeyToX25519,
   getKeyFromVerificationMethod,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { GetAttribRequest, GetNymRequest } from '@hyperledger/indy-vdr-shared'
 
 import { IndyVdrError, IndyVdrNotFoundError } from '../error'

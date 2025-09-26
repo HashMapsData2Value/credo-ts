@@ -1,6 +1,6 @@
 import { SdJwtVcRecord } from '../SdJwtVcRecord'
 
-import { JsonTransformer } from '@credo-ts/core'
+import { JsonTransformer } from 'credo-hmd2v-5.17-core'
 
 describe('SdJwtVcRecord', () => {
   test('sets the values passed in the constructor on the record', () => {

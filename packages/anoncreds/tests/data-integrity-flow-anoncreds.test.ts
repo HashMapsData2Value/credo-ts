@@ -1,4 +1,4 @@
-import type { DataIntegrityCredentialRequest, DidRepository } from '@credo-ts/core'
+import type { DataIntegrityCredentialRequest, DidRepository } from 'credo-hmd2v-5.17-core'
 
 import {
   ProofRole,
@@ -19,7 +19,7 @@ import {
   W3cCredentialService,
   W3cCredentialSubject,
   W3cCredentialsModuleConfig,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../tests/InMemoryStorageService'
@@ -55,7 +55,7 @@ import {
   AnonCredsSchemaRecord,
   AnonCredsSchemaRepository,
   AnonCredsVerifierServiceSymbol,
-} from '@credo-ts/anoncreds'
+} from 'credo-hmd2v-5.17-anoncreds'
 
 const registry = new InMemoryAnonCredsRegistry()
 const tailsFileService = new InMemoryTailsFileService()

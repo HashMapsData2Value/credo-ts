@@ -1,5 +1,5 @@
-import type { AnonCredsProofRequest } from '@credo-ts/anoncreds'
-import type { DidRepository } from '@credo-ts/core'
+import type { AnonCredsProofRequest } from 'credo-hmd2v-5.17-anoncreds'
+import type { DidRepository } from 'credo-hmd2v-5.17-core'
 
 import {
   DidResolverService,
@@ -7,7 +7,7 @@ import {
   InjectionSymbols,
   SignatureSuiteToken,
   W3cCredentialsModuleConfig,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import { Subject } from 'rxjs'
 
@@ -40,7 +40,7 @@ import {
   getUnqualifiedSchemaId,
   parseIndyCredentialDefinitionId,
   parseIndySchemaId,
-} from '@credo-ts/anoncreds'
+} from 'credo-hmd2v-5.17-anoncreds'
 
 const agentConfig = getAgentConfig('AnonCredsCredentialFormatServiceTest')
 const anonCredsVerifierService = new AnonCredsRsVerifierService()

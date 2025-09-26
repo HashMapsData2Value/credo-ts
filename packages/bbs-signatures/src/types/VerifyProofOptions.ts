@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import type { Proof, JsonObject, ProofPurpose, DocumentLoader } from '@credo-ts/core'
+import type { Proof, JsonObject, ProofPurpose, DocumentLoader } from 'credo-hmd2v-5.17-core'
 
 /**
  * Options for verifying a proof

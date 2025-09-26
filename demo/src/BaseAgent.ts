@@ -1,5 +1,5 @@
-import type { InitConfig } from '@credo-ts/core'
-import type { IndyVdrPoolConfig } from '@credo-ts/indy-vdr'
+import type { InitConfig } from 'credo-hmd2v-5.17-core'
+import type { IndyVdrPoolConfig } from 'credo-hmd2v-5.17-indy-vdr'
 
 import {
   AnonCredsCredentialFormatService,
@@ -9,15 +9,15 @@ import {
   LegacyIndyProofFormatService,
   V1CredentialProtocol,
   V1ProofProtocol,
-} from '@credo-ts/anoncreds'
-import { AskarModule } from '@credo-ts/askar'
+} from 'credo-hmd2v-5.17-anoncreds'
+import { AskarModule } from 'credo-hmd2v-5.17-askar'
 import {
   CheqdAnonCredsRegistry,
   CheqdDidRegistrar,
   CheqdDidResolver,
   CheqdModule,
   CheqdModuleConfig,
-} from '@credo-ts/cheqd'
+} from 'credo-hmd2v-5.17-cheqd'
 import {
   ConnectionsModule,
   DidsModule,
@@ -29,9 +29,9 @@ import {
   CredentialsModule,
   Agent,
   HttpOutboundTransport,
-} from '@credo-ts/core'
-import { IndyVdrIndyDidResolver, IndyVdrAnonCredsRegistry, IndyVdrModule } from '@credo-ts/indy-vdr'
-import { agentDependencies, HttpInboundTransport } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { IndyVdrIndyDidResolver, IndyVdrAnonCredsRegistry, IndyVdrModule } from 'credo-hmd2v-5.17-indy-vdr'
+import { agentDependencies, HttpInboundTransport } from 'credo-hmd2v-5.17-node'
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'

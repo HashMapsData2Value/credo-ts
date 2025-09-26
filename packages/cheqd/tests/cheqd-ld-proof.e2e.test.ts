@@ -1,6 +1,6 @@
 import type { EventReplaySubject } from '../../core/tests'
 import type { CheqdDidCreateOptions } from '../src'
-import type { Key } from '@credo-ts/core'
+import type { Key } from 'credo-hmd2v-5.17-core'
 
 import {
   DidDocumentBuilder,
@@ -23,7 +23,7 @@ import {
   JsonTransformer,
   ProofEventTypes,
   CredentialEventTypes,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { setupEventReplaySubjects, setupSubjectTransports, testLogger } from '../../core/tests'
 import { getInMemoryAgentOptions, makeConnection, waitForCredentialRecordSubject } from '../../core/tests/helpers'

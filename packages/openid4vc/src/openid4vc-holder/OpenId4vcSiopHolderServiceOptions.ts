@@ -7,7 +7,7 @@ import type {
   DifPexCredentialsForRequest,
   DifPexInputDescriptorToCredentials,
   DifPresentationExchangeDefinition,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 export interface OpenId4VcSiopResolvedAuthorizationRequest {
   /**

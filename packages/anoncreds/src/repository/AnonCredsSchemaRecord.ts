@@ -1,8 +1,8 @@
 import type { AnonCredsSchemaRecordMetadata } from './anonCredsSchemaRecordMetadataTypes'
 import type { AnonCredsSchema } from '../models'
-import type { TagsBase } from '@credo-ts/core'
+import type { TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { BaseRecord, utils } from '@credo-ts/core'
+import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 import { getUnqualifiedSchemaId, isDidIndySchemaId, parseIndySchemaId } from '../utils/indyIdentifiers'
 

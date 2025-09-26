@@ -1,4 +1,4 @@
-import type { BaseAgent } from '@credo-ts/core'
+import type { BaseAgent } from 'credo-hmd2v-5.17-core'
 
 import { migrateAnonCredsCredentialDefinitionRecordToV0_4 } from './credentialDefinition'
 import { migrateCredentialExchangeRecordToV0_4 } from './credentialExchangeRecord'

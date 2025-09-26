@@ -1,8 +1,8 @@
-import type { AgentConfig, AgentContext, Repository, Wallet } from '@credo-ts/core'
-import type { QuestionAnswerStateChangedEvent, ValidResponse } from '@credo-ts/question-answer'
+import type { AgentConfig, AgentContext, Repository, Wallet } from 'credo-hmd2v-5.17-core'
+import type { QuestionAnswerStateChangedEvent, ValidResponse } from 'credo-hmd2v-5.17-question-answer'
 
-import { EventEmitter, InboundMessageContext, DidExchangeState } from '@credo-ts/core'
-import { agentDependencies } from '@credo-ts/node'
+import { EventEmitter, InboundMessageContext, DidExchangeState } from 'credo-hmd2v-5.17-core'
+import { agentDependencies } from 'credo-hmd2v-5.17-node'
 import { Subject } from 'rxjs'
 
 import { InMemoryWallet } from '../../../../tests/InMemoryWallet'
@@ -17,7 +17,7 @@ import {
   QuestionAnswerState,
   QuestionMessage,
   AnswerMessage,
-} from '@credo-ts/question-answer'
+} from 'credo-hmd2v-5.17-question-answer'
 
 jest.mock('../repository/QuestionAnswerRepository')
 const QuestionAnswerRepositoryMock = QuestionAnswerRepository as jest.Mock<QuestionAnswerRepository>

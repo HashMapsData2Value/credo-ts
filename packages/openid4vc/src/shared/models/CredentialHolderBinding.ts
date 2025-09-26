@@ -1,4 +1,4 @@
-import type { Jwk } from '@credo-ts/core'
+import type { Jwk } from 'credo-hmd2v-5.17-core'
 
 export type OpenId4VcCredentialHolderDidBinding = {
   method: 'did'

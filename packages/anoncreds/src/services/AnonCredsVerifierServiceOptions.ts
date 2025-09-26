@@ -5,7 +5,7 @@ import type {
   AnonCredsCredentialDefinitions,
   CredentialWithRevocationMetadata,
 } from '../models/utils'
-import type { W3cJsonLdVerifiablePresentation } from '@credo-ts/core'
+import type { W3cJsonLdVerifiablePresentation } from 'credo-hmd2v-5.17-core'
 
 export interface VerifyProofOptions {
   proofRequest: AnonCredsProofRequest

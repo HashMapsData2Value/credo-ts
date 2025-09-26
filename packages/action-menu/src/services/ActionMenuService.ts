@@ -7,9 +7,9 @@ import type {
 } from './ActionMenuServiceOptions'
 import type { ActionMenuStateChangedEvent } from '../ActionMenuEvents'
 import type { ActionMenuProblemReportMessage } from '../messages'
-import type { AgentContext, InboundMessageContext, Logger, Query, QueryOptions } from '@credo-ts/core'
+import type { AgentContext, InboundMessageContext, Logger, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig, EventEmitter, CredoError, injectable } from '@credo-ts/core'
+import { AgentConfig, EventEmitter, CredoError, injectable } from 'credo-hmd2v-5.17-core'
 
 import { ActionMenuEventTypes } from '../ActionMenuEvents'
 import { ActionMenuRole } from '../ActionMenuRole'

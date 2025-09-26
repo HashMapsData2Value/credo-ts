@@ -1,6 +1,6 @@
 import type { DIDDocument } from '@cheqd/sdk'
 
-import { DidDocument } from '@credo-ts/core'
+import { DidDocument } from 'credo-hmd2v-5.17-core'
 
 import {
   createMsgCreateDidDocPayloadToSign,

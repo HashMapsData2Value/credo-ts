@@ -12,8 +12,8 @@ import {
   MediatorPickupStrategy,
   MediationRecipientModule,
   MediatorModule,
-} from '@credo-ts/core'
-import { HttpInboundTransport } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { HttpInboundTransport } from 'credo-hmd2v-5.17-node'
 
 const recipientAgentOptions = getInMemoryAgentOptions(
   'E2E HTTP Recipient',

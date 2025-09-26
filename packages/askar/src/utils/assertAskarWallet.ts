@@ -1,6 +1,6 @@
-import type { Wallet } from '@credo-ts/core'
+import type { Wallet } from 'credo-hmd2v-5.17-core'
 
-import { CredoError } from '@credo-ts/core'
+import { CredoError } from 'credo-hmd2v-5.17-core'
 
 import { AskarWallet, AskarProfileWallet } from '../wallet'
 

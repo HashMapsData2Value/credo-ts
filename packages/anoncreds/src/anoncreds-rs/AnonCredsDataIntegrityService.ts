@@ -10,7 +10,7 @@ import type {
   DifPresentationExchangeSubmission,
   W3cCredentialRecord,
   W3cJsonLdVerifiableCredential,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { Descriptor, FieldV2, InputDescriptorV1, InputDescriptorV2 } from '@sphereon/pex-models'
 
 import { JSONPath } from '@astronautlabs/jsonpath'
@@ -23,7 +23,7 @@ import {
   deepEquality,
   injectable,
   ClaimFormat,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import BigNumber from 'bn.js'
 
 import { AnonCredsHolderServiceSymbol, AnonCredsVerifierServiceSymbol } from '../services'

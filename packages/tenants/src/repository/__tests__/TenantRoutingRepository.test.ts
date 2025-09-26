@@ -1,6 +1,6 @@
-import type { StorageService, EventEmitter } from '@credo-ts/core'
+import type { StorageService, EventEmitter } from 'credo-hmd2v-5.17-core'
 
-import { Key } from '@credo-ts/core'
+import { Key } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContext, mockFunction } from '../../../../core/tests/helpers'
 import { TenantRoutingRecord } from '../TenantRoutingRecord'

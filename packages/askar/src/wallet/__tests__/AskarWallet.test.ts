@@ -5,7 +5,7 @@ import type {
   KeyPair,
   SignOptions,
   VerifyOptions,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { JwkProps } from '@hyperledger/aries-askar-shared'
 
 import {
@@ -21,7 +21,7 @@ import {
   KeyDerivationMethod,
   Buffer,
   JsonEncoder,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Key as AskarKey } from '@hyperledger/aries-askar-nodejs'
 import { Jwk, Store } from '@hyperledger/aries-askar-shared'
 import { readFileSync } from 'fs'

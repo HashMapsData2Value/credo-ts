@@ -1,4 +1,4 @@
-import { KeyBackend as CredoKeyBackend } from '@credo-ts/core'
+import { KeyBackend as CredoKeyBackend } from 'credo-hmd2v-5.17-core'
 import { KeyBackend as AskarKeyBackend } from '@hyperledger/aries-askar-shared'
 
 export const convertToAskarKeyBackend = (credoKeyBackend: CredoKeyBackend) => {

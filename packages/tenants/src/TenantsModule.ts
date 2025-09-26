@@ -1,7 +1,7 @@
 import type { TenantsModuleConfigOptions } from './TenantsModuleConfig'
-import type { Constructor, ModulesMap, DependencyManager, Module, EmptyModuleMap, Update } from '@credo-ts/core'
+import type { Constructor, ModulesMap, DependencyManager, Module, EmptyModuleMap, Update } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig, InjectionSymbols } from '@credo-ts/core'
+import { AgentConfig, InjectionSymbols } from 'credo-hmd2v-5.17-core'
 
 import { TenantsApi } from './TenantsApi'
 import { TenantsModuleConfig } from './TenantsModuleConfig'

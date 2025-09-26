@@ -1,10 +1,10 @@
-import type { AnonCredsCredentialValue } from '@credo-ts/anoncreds'
-import type { Agent, FileSystem, WalletConfig } from '@credo-ts/core'
+import type { AnonCredsCredentialValue } from 'credo-hmd2v-5.17-anoncreds'
+import type { Agent, FileSystem, WalletConfig } from 'credo-hmd2v-5.17-core'
 import type { EntryObject } from '@hyperledger/aries-askar-shared'
 
-import { AnonCredsCredentialRecord, AnonCredsLinkSecretRecord } from '@credo-ts/anoncreds'
-import { AskarWallet } from '@credo-ts/askar'
-import { InjectionSymbols, KeyDerivationMethod, JsonTransformer, TypedArrayEncoder } from '@credo-ts/core'
+import { AnonCredsCredentialRecord, AnonCredsLinkSecretRecord } from 'credo-hmd2v-5.17-anoncreds'
+import { AskarWallet } from 'credo-hmd2v-5.17-askar'
+import { InjectionSymbols, KeyDerivationMethod, JsonTransformer, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 import { Migration, Key, KeyAlgs, Store } from '@hyperledger/aries-askar-shared'
 
 import { IndySdkToAskarMigrationError } from './errors/IndySdkToAskarMigrationError'

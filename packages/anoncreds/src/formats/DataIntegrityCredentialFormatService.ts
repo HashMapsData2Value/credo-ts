@@ -36,7 +36,7 @@ import type {
   JwsDetachedFormat,
   VerificationMethod,
   W3cCredentialRecord,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import {
   ProblemReportError,
@@ -62,7 +62,7 @@ import {
   deepEquality,
   DataIntegrityCredentialOffer,
   W3cCredentialSubject,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import {
   AnonCredsCredentialDefinitionRepository,

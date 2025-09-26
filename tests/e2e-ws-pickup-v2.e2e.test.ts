@@ -14,8 +14,8 @@ import {
   MediatorPickupStrategy,
   MediationRecipientModule,
   MediatorModule,
-} from '@credo-ts/core'
-import { WsInboundTransport } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { WsInboundTransport } from 'credo-hmd2v-5.17-node'
 
 // FIXME: somehow if we use the in memory wallet and storage service in the WS test it will fail,
 // but it succeeds with Askar. We should look into this at some point

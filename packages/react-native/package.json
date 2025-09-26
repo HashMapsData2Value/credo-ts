@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/react-native",
+  "name": "credo-hmd2v-5.17-react-native",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/react-native",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/react-native",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/react-native"
   },
   "scripts": {
@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "@azure/core-asynciterator-polyfill": "^1.0.2",
-    "@credo-ts/core": "workspace:*",
-    "events": "^3.3.0"
+    "events": "^3.3.0",
+    "credo-hmd2v-5.17-core": "workspace:*"
   },
   "devDependencies": {
     "react-native": "^0.71.4",

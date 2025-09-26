@@ -1,14 +1,14 @@
-import type { Agent } from '@credo-ts/core'
+import type { Agent } from 'credo-hmd2v-5.17-core'
 import type {
   QuestionAnswerRole,
   QuestionAnswerState,
   QuestionAnswerStateChangedEvent,
-} from '@credo-ts/question-answer'
+} from 'credo-hmd2v-5.17-question-answer'
 import type { Observable } from 'rxjs'
 
 import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
 
-import { QuestionAnswerEventTypes } from '@credo-ts/question-answer'
+import { QuestionAnswerEventTypes } from 'credo-hmd2v-5.17-question-answer'
 
 export async function waitForQuestionAnswerRecord(
   agent: Agent,

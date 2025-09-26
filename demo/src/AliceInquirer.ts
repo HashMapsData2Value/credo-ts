@@ -1,4 +1,4 @@
-import type { CredentialExchangeRecord, ProofExchangeRecord } from '@credo-ts/core'
+import type { CredentialExchangeRecord, ProofExchangeRecord } from 'credo-hmd2v-5.17-core'
 
 import { clear } from 'console'
 import { textSync } from 'figlet'

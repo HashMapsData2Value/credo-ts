@@ -1,8 +1,8 @@
-import type { Key } from '@credo-ts/core'
+import type { Key } from 'credo-hmd2v-5.17-core'
 
 import { getInMemoryAgentOptions } from '../../../../tests'
 
-import { Agent, DidKey, getJwkFromKey, KeyType, TypedArrayEncoder } from '@credo-ts/core'
+import { Agent, DidKey, getJwkFromKey, KeyType, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 
 describe('sd-jwt-vc end to end test', () => {
   const issuer = new Agent(getInMemoryAgentOptions('sd-jwt-vc-issuer-agent'))

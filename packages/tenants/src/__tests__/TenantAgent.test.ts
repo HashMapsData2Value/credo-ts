@@ -1,4 +1,4 @@
-import { Agent, AgentContext } from '@credo-ts/core'
+import { Agent, AgentContext } from 'credo-hmd2v-5.17-core'
 
 import { getAgentConfig, getAgentContext, getInMemoryAgentOptions } from '../../../core/tests/helpers'
 import { TenantAgent } from '../TenantAgent'

@@ -6,8 +6,8 @@ import type {
   AnonCredsRevocationStatusList,
   AnonCredsSchema,
   AnonCredsSelectedCredentials,
-} from '@credo-ts/anoncreds'
-import type { DidRepository } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import type { DidRepository } from 'credo-hmd2v-5.17-core'
 import type { JsonObject } from '@hyperledger/anoncreds-shared'
 
 import {
@@ -20,7 +20,7 @@ import {
   W3cCredentialSubject,
   W3cCredentialsModuleConfig,
   W3cJsonLdVerifiableCredential,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import { Subject } from 'rxjs'
 
@@ -47,7 +47,7 @@ import {
   AnonCredsModuleConfig,
   AnonCredsHolderServiceSymbol,
   AnonCredsLinkSecretRecord,
-} from '@credo-ts/anoncreds'
+} from 'credo-hmd2v-5.17-anoncreds'
 
 const agentConfig = getAgentConfig('AnonCredsRsHolderServiceTest')
 const anonCredsHolderService = new AnonCredsRsHolderService()

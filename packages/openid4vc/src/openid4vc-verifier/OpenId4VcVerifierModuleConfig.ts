@@ -1,6 +1,6 @@
 import type { OpenId4VcSiopAuthorizationEndpointConfig } from './router/authorizationEndpoint'
 import type { OpenId4VcSiopAuthorizationRequestEndpointConfig } from './router/authorizationRequestEndpoint'
-import type { Optional } from '@credo-ts/core'
+import type { Optional } from 'credo-hmd2v-5.17-core'
 import type { Router } from 'express'
 
 import { importExpress } from '../shared/router'

@@ -4,8 +4,8 @@ import {
   getUnqualifiedRevocationRegistryDefinitionId,
   parseIndyDid,
   parseIndyRevocationRegistryId,
-} from '@credo-ts/anoncreds'
-import { Agent, DidsModule, TypedArrayEncoder } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import { Agent, DidsModule, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 
 import { getInMemoryAgentOptions, importExistingIndyDidFromPrivateKey } from '../../core/tests/helpers'

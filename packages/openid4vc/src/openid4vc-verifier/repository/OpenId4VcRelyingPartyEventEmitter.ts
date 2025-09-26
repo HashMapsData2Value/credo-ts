@@ -1,5 +1,5 @@
 import type { OpenId4VcVerificationSessionStateChangedEvent } from '../OpenId4VcVerifierEvents'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { AuthorizationEvent, AuthorizationRequest, AuthorizationResponse } from '@sphereon/did-auth-siop'
 
 import {
@@ -10,7 +10,7 @@ import {
   InjectionSymbols,
   EventEmitter,
   AgentDependencies,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { AuthorizationEvents } from '@sphereon/did-auth-siop'
 import { EventEmitter as NativeEventEmitter } from 'events'
 

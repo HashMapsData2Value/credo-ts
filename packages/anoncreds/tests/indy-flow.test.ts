@@ -1,5 +1,5 @@
-import type { AnonCredsCredentialRequest } from '@credo-ts/anoncreds'
-import type { DidRepository, Wallet } from '@credo-ts/core'
+import type { AnonCredsCredentialRequest } from 'credo-hmd2v-5.17-anoncreds'
+import type { DidRepository, Wallet } from 'credo-hmd2v-5.17-core'
 
 import {
   CredentialRole,
@@ -14,7 +14,7 @@ import {
   W3cCredentialsModuleConfig,
   DidResolverService,
   DidsModuleConfig,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../tests/InMemoryStorageService'
@@ -46,7 +46,7 @@ import {
   AnonCredsLinkSecretRepository,
   AnonCredsLinkSecretRecord,
   LegacyIndyProofFormatService,
-} from '@credo-ts/anoncreds'
+} from 'credo-hmd2v-5.17-anoncreds'
 
 const registry = new InMemoryAnonCredsRegistry()
 const anonCredsModuleConfig = new AnonCredsModuleConfig({

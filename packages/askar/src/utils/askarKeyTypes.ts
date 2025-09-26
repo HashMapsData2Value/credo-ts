@@ -1,4 +1,4 @@
-import { KeyType } from '@credo-ts/core'
+import { KeyType } from 'credo-hmd2v-5.17-core'
 import { KeyAlgs } from '@hyperledger/aries-askar-shared'
 
 export enum AskarKeyTypePurpose {

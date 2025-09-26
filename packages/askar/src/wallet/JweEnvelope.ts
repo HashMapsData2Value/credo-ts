@@ -1,4 +1,4 @@
-import { JsonTransformer, TypedArrayEncoder } from '@credo-ts/core'
+import { JsonTransformer, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 import { Expose, Type } from 'class-transformer'
 
 export class JweRecipient {

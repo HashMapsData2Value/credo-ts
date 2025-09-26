@@ -9,7 +9,7 @@ import type {
 
 import { InMemoryWallet } from './InMemoryWallet'
 
-import { RecordNotFoundError, RecordDuplicateError, JsonTransformer, injectable } from '@credo-ts/core'
+import { RecordNotFoundError, RecordDuplicateError, JsonTransformer, injectable } from 'credo-hmd2v-5.17-core'
 
 interface StorageRecord {
   value: Record<string, unknown>

@@ -1,8 +1,8 @@
 import type { IndyVdrPool } from '../pool'
-import type { AgentContext, Key } from '@credo-ts/core'
+import type { AgentContext, Key } from 'credo-hmd2v-5.17-core'
 import type { IndyVdrRequest } from '@hyperledger/indy-vdr-shared'
 
-import { TypedArrayEncoder } from '@credo-ts/core'
+import { TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 
 import { verificationKeyForIndyDid } from '../dids/didIndyUtil'
 

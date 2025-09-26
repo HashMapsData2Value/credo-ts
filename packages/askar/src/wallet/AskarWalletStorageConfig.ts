@@ -1,4 +1,4 @@
-import type { WalletStorageConfig } from '@credo-ts/core'
+import type { WalletStorageConfig } from 'credo-hmd2v-5.17-core'
 
 export interface AskarWalletPostgresConfig {
   host: string

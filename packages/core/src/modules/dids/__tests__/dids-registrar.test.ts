@@ -6,7 +6,7 @@ import { Agent } from '../../../agent/Agent'
 import { KeyType } from '../../../crypto'
 import { PeerDidNumAlgo } from '../methods/peer/didPeer'
 
-import { JsonTransformer, TypedArrayEncoder } from '@credo-ts/core'
+import { JsonTransformer, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 
 const agentOptions = getInMemoryAgentOptions('Faber Dids Registrar')
 

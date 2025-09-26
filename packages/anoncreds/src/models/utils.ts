@@ -5,7 +5,7 @@ import type {
   AnonCredsRevocationRegistryDefinition,
   AnonCredsRevocationStatusList,
 } from './registry'
-import type { W3cJsonLdVerifiableCredential } from '@credo-ts/core'
+import type { W3cJsonLdVerifiableCredential } from 'credo-hmd2v-5.17-core'
 
 export interface AnonCredsSchemas {
   [schemaId: string]: AnonCredsSchema

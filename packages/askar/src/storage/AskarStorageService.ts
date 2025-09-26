@@ -5,9 +5,9 @@ import type {
   Query,
   QueryOptions,
   StorageService,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
-import { RecordDuplicateError, WalletError, RecordNotFoundError, injectable, JsonTransformer } from '@credo-ts/core'
+import { RecordDuplicateError, WalletError, RecordNotFoundError, injectable, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { Scan } from '@hyperledger/aries-askar-shared'
 
 import { AskarErrorCode, isAskarError } from '../utils/askarError'

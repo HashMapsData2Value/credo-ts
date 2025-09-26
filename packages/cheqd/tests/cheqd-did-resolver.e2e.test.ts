@@ -1,6 +1,6 @@
 import type { CheqdDidCreateOptions } from '../src'
 
-import { Agent, JsonTransformer, utils } from '@credo-ts/core'
+import { Agent, JsonTransformer, utils } from 'credo-hmd2v-5.17-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests/helpers'
 import { CheqdDidRegistrar } from '../src'

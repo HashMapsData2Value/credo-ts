@@ -1,6 +1,6 @@
-import type { AgentContext, DidResolutionResult, DidResolver } from '@credo-ts/core'
+import type { AgentContext, DidResolutionResult, DidResolver } from 'credo-hmd2v-5.17-core'
 
-import { DidDocument, JsonTransformer } from '@credo-ts/core'
+import { DidDocument, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { resolveDID } from 'didwebvh-ts'
 
 import { WebvhDidCrypto } from './WebvhDidCrypto'

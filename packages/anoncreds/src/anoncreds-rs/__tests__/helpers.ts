@@ -5,8 +5,8 @@ import type {
   AnonCredsCredentialInfo,
   AnonCredsCredentialOffer,
   AnonCredsSchema,
-} from '@credo-ts/anoncreds'
-import type { AgentContext } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { JsonObject } from '@hyperledger/anoncreds-shared'
 
 import {
@@ -14,7 +14,7 @@ import {
   W3cCredentialRepository,
   W3cCredentialService,
   W3cJsonLdVerifiableCredential,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import {
   CredentialDefinition,
   CredentialOffer,

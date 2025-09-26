@@ -24,9 +24,9 @@ import type {
   ProofFormatAutoRespondProposalOptions,
   ProofFormatAutoRespondRequestOptions,
   ProofFormatAutoRespondPresentationOptions,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
-import { CredoError, Attachment, AttachmentData, JsonEncoder, ProofFormatSpec, JsonTransformer } from '@credo-ts/core'
+import { CredoError, Attachment, AttachmentData, JsonEncoder, ProofFormatSpec, JsonTransformer } from 'credo-hmd2v-5.17-core'
 
 import { AnonCredsProofRequest as AnonCredsProofRequestClass } from '../models/AnonCredsProofRequest'
 import { AnonCredsVerifierServiceSymbol, AnonCredsHolderServiceSymbol } from '../services'

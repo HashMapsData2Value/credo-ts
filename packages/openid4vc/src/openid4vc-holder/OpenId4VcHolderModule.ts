@@ -1,6 +1,6 @@
-import type { DependencyManager, Module } from '@credo-ts/core'
+import type { DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig } from '@credo-ts/core'
+import { AgentConfig } from 'credo-hmd2v-5.17-core'
 
 import { OpenId4VcHolderApi } from './OpenId4VcHolderApi'
 import { OpenId4VciHolderService } from './OpenId4VciHolderService'

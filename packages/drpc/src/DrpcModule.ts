@@ -1,6 +1,6 @@
-import type { FeatureRegistry, DependencyManager, Module } from '@credo-ts/core'
+import type { FeatureRegistry, DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 
-import { Protocol, AgentConfig } from '@credo-ts/core'
+import { Protocol, AgentConfig } from 'credo-hmd2v-5.17-core'
 
 import { DrpcApi } from './DrpcApi'
 import { DrpcRole } from './models/DrpcRole'

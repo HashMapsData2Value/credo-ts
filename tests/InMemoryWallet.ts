@@ -6,7 +6,7 @@ import type {
   UnpackedMessageContext,
   WalletVerifyOptions,
   Wallet,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { CryptoBox, Store, Key as AskarKey, keyAlgFromString } from '@hyperledger/aries-askar-nodejs'
 import BigNumber from 'bn.js'
@@ -27,7 +27,7 @@ import {
   Key,
   TypedArrayEncoder,
   KeyBackend,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 const inMemoryWallets: InMemoryWallets = {}
 

@@ -1,8 +1,8 @@
 import type { DrpcRequest, DrpcResponse } from '../messages'
 import type { DrpcRole, DrpcState } from '../models'
-import type { RecordTags, TagsBase } from '@credo-ts/core'
+import type { RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { BaseRecord, CredoError, utils } from '@credo-ts/core'
+import { BaseRecord, CredoError, utils } from 'credo-hmd2v-5.17-core'
 
 export type CustomDrpcMessageTags = TagsBase
 export type DefaultDrpcMessageTags = {

@@ -1,4 +1,4 @@
-import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from '@credo-ts/core'
+import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from 'credo-hmd2v-5.17-core'
 import type {
   W3CVerifiableCredential as SphereonW3cVerifiableCredential,
   W3CVerifiablePresentation as SphereonW3cVerifiablePresentation,
@@ -17,7 +17,7 @@ import {
   Mdoc,
   TypedArrayEncoder,
   MdocDeviceResponse,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 export function getSphereonVerifiableCredential(
   verifiableCredential: VerifiableCredential

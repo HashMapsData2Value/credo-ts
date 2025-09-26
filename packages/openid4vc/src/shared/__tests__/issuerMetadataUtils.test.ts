@@ -1,6 +1,6 @@
-import type { Wallet } from '@credo-ts/core'
+import type { Wallet } from 'credo-hmd2v-5.17-core'
 
-import { KeyType } from '@credo-ts/core'
+import { KeyType } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContext } from '../../../../core/tests'
 import { credentialsSupportedV11ToV13, credentialsSupportedV13ToV11 } from '../issuerMetadataUtils'

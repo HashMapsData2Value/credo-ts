@@ -1,5 +1,5 @@
 import type { DrpcService } from '../services/DrpcService'
-import type { MessageHandler, MessageHandlerInboundMessage } from '@credo-ts/core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'credo-hmd2v-5.17-core'
 
 import { DrpcResponseMessage } from '../messages'
 

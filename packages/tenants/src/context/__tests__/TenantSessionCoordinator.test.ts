@@ -1,7 +1,7 @@
 import type { TenantAgentContextMapping } from '../TenantSessionCoordinator'
-import type { DependencyManager } from '@credo-ts/core'
+import type { DependencyManager } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig, AgentContext, WalletApi } from '@credo-ts/core'
+import { AgentConfig, AgentContext, WalletApi } from 'credo-hmd2v-5.17-core'
 import { Mutex, withTimeout } from 'async-mutex'
 
 import { getAgentConfig, getAgentContext, mockFunction } from '../../../../core/tests/helpers'

@@ -1,6 +1,6 @@
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { Repository, InjectionSymbols, StorageService, EventEmitter, injectable, inject } from '@credo-ts/core'
+import { Repository, InjectionSymbols, StorageService, EventEmitter, injectable, inject } from 'credo-hmd2v-5.17-core'
 
 import { AnonCredsLinkSecretRecord } from './AnonCredsLinkSecretRecord'
 

@@ -7,7 +7,7 @@ import type {
   AnonCredsProposeCredentialFormat,
 } from './AnonCredsCredentialFormat'
 import type { AnonCredsCredential, AnonCredsCredentialOffer, AnonCredsCredentialRequest } from '../models'
-import type { CredentialFormat } from '@credo-ts/core'
+import type { CredentialFormat } from 'credo-hmd2v-5.17-core'
 
 // Legacy indy credential proposal doesn't support _id properties
 export type LegacyIndyCredentialProposalFormat = Omit<

@@ -1,6 +1,6 @@
-import type { TagsBase } from '@credo-ts/core'
+import type { TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { KeyDerivationMethod } from '@credo-ts/core'
+import { KeyDerivationMethod } from 'credo-hmd2v-5.17-core'
 import { KdfMethod, StoreKeyMethod } from '@hyperledger/aries-askar-shared'
 
 /**

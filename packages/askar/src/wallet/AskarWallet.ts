@@ -1,4 +1,4 @@
-import type { WalletConfig, WalletConfigRekey, WalletExportImportConfig } from '@credo-ts/core'
+import type { WalletConfig, WalletConfigRekey, WalletExportImportConfig } from 'credo-hmd2v-5.17-core'
 
 import {
   WalletExportPathExistsError,
@@ -14,7 +14,7 @@ import {
   KeyDerivationMethod,
   WalletImportPathExistsError,
   WalletExportUnsupportedError,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Store } from '@hyperledger/aries-askar-shared'
 import { inject, injectable } from 'tsyringe'
 

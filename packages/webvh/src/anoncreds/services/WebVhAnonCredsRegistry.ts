@@ -10,10 +10,10 @@ import type {
   RegisterRevocationRegistryDefinitionReturn,
   RegisterRevocationStatusListReturn,
   RegisterSchemaReturn,
-} from '@credo-ts/anoncreds'
-import type { AgentContext } from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-anoncreds'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, JsonTransformer, MultiBaseEncoder, MultiHashEncoder, TypedArrayEncoder } from '@credo-ts/core'
+import { CredoError, JsonTransformer, MultiBaseEncoder, MultiHashEncoder, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 import { canonicalize } from 'json-canonicalize'
 
 import { EddsaJcs2022Cryptosuite } from '../../cryptosuites/eddsa-jcs-2022'

@@ -1,7 +1,7 @@
 import type { DummyRecord } from './repository/DummyRecord'
-import type { Query, QueryOptions } from '@credo-ts/core'
+import type { Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 
-import { getOutboundMessageContext, AgentContext, ConnectionService, injectable, MessageSender } from '@credo-ts/core'
+import { getOutboundMessageContext, AgentContext, ConnectionService, injectable, MessageSender } from 'credo-hmd2v-5.17-core'
 
 import { DummyRequestHandler, DummyResponseHandler } from './handlers'
 import { DummyState } from './repository'

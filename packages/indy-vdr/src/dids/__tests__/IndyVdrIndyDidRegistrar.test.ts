@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import type { DidRecord, RecordSavedEvent } from '@credo-ts/core'
+import type { DidRecord, RecordSavedEvent } from 'credo-hmd2v-5.17-core'
 
 import {
   DidCommV1Service,
@@ -17,7 +17,7 @@ import {
   TypedArrayEncoder,
   VerificationMethod,
   NewDidCommV2ServiceEndpoint,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'

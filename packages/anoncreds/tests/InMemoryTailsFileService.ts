@@ -1,9 +1,9 @@
-import type { AnonCredsRevocationRegistryDefinition } from '@credo-ts/anoncreds'
-import type { AgentContext, FileSystem } from '@credo-ts/core'
+import type { AnonCredsRevocationRegistryDefinition } from 'credo-hmd2v-5.17-anoncreds'
+import type { AgentContext, FileSystem } from 'credo-hmd2v-5.17-core'
 
-import { InjectionSymbols } from '@credo-ts/core'
+import { InjectionSymbols } from 'credo-hmd2v-5.17-core'
 
-import { BasicTailsFileService } from '@credo-ts/anoncreds'
+import { BasicTailsFileService } from 'credo-hmd2v-5.17-anoncreds'
 
 export class InMemoryTailsFileService extends BasicTailsFileService {
   private tailsFilePaths: Record<string, string> = {}

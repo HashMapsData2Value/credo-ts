@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/cheqd",
+  "name": "credo-hmd2v-5.17-cheqd",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/cheqd",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/cheqd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/cheqd"
   },
   "scripts": {
@@ -31,13 +31,13 @@
     "@cosmjs/crypto": "~0.30.1",
     "@cosmjs/proto-signing": "~0.30.1",
     "@cosmjs/stargate": "~0.30.1",
-    "@credo-ts/anoncreds": "workspace:*",
-    "@credo-ts/core": "workspace:*",
     "@stablelib/ed25519": "^1.0.3",
     "class-transformer": "^0.5.1",
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
-    "tsyringe": "^4.8.0"
+    "tsyringe": "^4.8.0",
+    "credo-hmd2v-5.17-core": "workspace:*",
+    "credo-hmd2v-5.17-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "^4.0.7",

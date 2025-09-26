@@ -3,7 +3,7 @@ import type {
   OpenId4VcSiopResolvedAuthorizationRequest,
 } from './OpenId4vcSiopHolderServiceOptions'
 import type { OpenId4VcJwtIssuer } from '../shared'
-import type { AgentContext, JwkJson, VerifiablePresentation } from '@credo-ts/core'
+import type { AgentContext, JwkJson, VerifiablePresentation } from 'credo-hmd2v-5.17-core'
 import type {
   AuthorizationResponsePayload,
   PresentationExchangeResponseOpts,
@@ -26,7 +26,7 @@ import {
   injectable,
   parseDid,
   MdocDeviceResponse,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { OP, ResponseIss, ResponseMode, ResponseType, SupportedVersion, VPTokenLocation } from '@sphereon/did-auth-siop'
 
 import { getSphereonVerifiablePresentation } from '../shared/transform'

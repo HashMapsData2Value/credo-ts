@@ -1,6 +1,6 @@
 import type { TenantAgent } from './TenantAgent'
 import type { TenantConfig } from './models/TenantConfig'
-import type { ModulesMap, UpdateAssistantUpdateOptions } from '@credo-ts/core'
+import type { ModulesMap, UpdateAssistantUpdateOptions } from 'credo-hmd2v-5.17-core'
 
 export interface GetTenantAgentOptions {
   tenantId: string

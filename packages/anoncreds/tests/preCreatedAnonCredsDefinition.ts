@@ -1,5 +1,5 @@
 import type { AnonCredsSchema, AnonCredsCredentialDefinition } from '../src'
-import type { Agent } from '@credo-ts/core'
+import type { Agent } from 'credo-hmd2v-5.17-core'
 
 import {
   AnonCredsCredentialDefinitionRepository,

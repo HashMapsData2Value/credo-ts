@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/core",
+  "name": "credo-hmd2v-5.17-core",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/core",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/core",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/core"
   },
   "scripts": {

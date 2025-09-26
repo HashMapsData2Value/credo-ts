@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "demo-openid"
   },
   "license": "Apache-2.0",
@@ -21,15 +21,15 @@
     "inquirer": "^8.2.5"
   },
   "devDependencies": {
-    "@credo-ts/askar": "workspace:*",
-    "@credo-ts/core": "workspace:*",
-    "@credo-ts/node": "workspace:*",
-    "@credo-ts/openid4vc": "workspace:*",
     "@types/express": "^4.17.13",
     "@types/figlet": "^1.5.4",
     "@types/inquirer": "^8.2.6",
     "clear": "^0.1.0",
     "figlet": "^1.5.2",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "credo-hmd2v-5.17-core": "workspace:*",
+    "credo-hmd2v-5.17-askar": "workspace:*",
+    "credo-hmd2v-5.17-node": "workspace:*",
+    "credo-hmd2v-5.17-openid4vc": "workspace:*"
   }
 }

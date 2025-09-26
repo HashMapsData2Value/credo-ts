@@ -1,13 +1,13 @@
-import type { InitConfig } from '@credo-ts/core'
+import type { InitConfig } from 'credo-hmd2v-5.17-core'
 
-import { Agent } from '@credo-ts/core'
-import { agentDependencies } from '@credo-ts/node'
+import { Agent } from 'credo-hmd2v-5.17-core'
+import { agentDependencies } from 'credo-hmd2v-5.17-node'
 
 import { AskarModule, AskarMultiWalletDatabaseScheme, AskarProfileWallet, AskarWallet } from '../../askar/src'
 import { askarModuleConfig } from '../../askar/tests/helpers'
 import { getAskarWalletConfig, testLogger } from '../../core/tests'
 
-import { TenantsModule } from '@credo-ts/tenants'
+import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
 
 describe('Tenants Askar database schemes E2E', () => {
   test('uses AskarWallet for all wallets and tenants when database schema is DatabasePerWallet', async () => {

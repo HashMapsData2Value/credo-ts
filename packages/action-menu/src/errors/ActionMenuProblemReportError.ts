@@ -1,7 +1,7 @@
 import type { ActionMenuProblemReportReason } from './ActionMenuProblemReportReason'
-import type { ProblemReportErrorOptions } from '@credo-ts/core'
+import type { ProblemReportErrorOptions } from 'credo-hmd2v-5.17-core'
 
-import { ProblemReportError } from '@credo-ts/core'
+import { ProblemReportError } from 'credo-hmd2v-5.17-core'
 
 import { ActionMenuProblemReportMessage } from '../messages'
 

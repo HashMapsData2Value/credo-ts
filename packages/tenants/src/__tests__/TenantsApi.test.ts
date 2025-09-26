@@ -1,4 +1,4 @@
-import { Agent, AgentContext, InjectionSymbols } from '@credo-ts/core'
+import { Agent, AgentContext, InjectionSymbols } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContext, getInMemoryAgentOptions, mockFunction } from '../../../core/tests'
 import { TenantAgent } from '../TenantAgent'

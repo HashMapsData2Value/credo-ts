@@ -17,7 +17,7 @@ import {
   MediatorModule,
   MediatorPickupStrategy,
   MediationRecipientModule,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 const recipientAgentOptions = getAgentOptions(
   'E2E Askar Subject Recipient',

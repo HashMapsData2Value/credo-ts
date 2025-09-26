@@ -22,7 +22,7 @@ import type {
   JwaSignatureAlgorithm,
   MdocSignOptions,
   Key,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 export interface OpenId4VciPreAuthorizedCodeFlowConfig {
   preAuthorizedCode?: string

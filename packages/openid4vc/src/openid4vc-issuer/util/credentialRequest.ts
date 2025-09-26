@@ -1,6 +1,6 @@
 import type { OpenId4VciCredentialRequest } from '../../shared'
 
-import { Jwt, CredoError } from '@credo-ts/core'
+import { Jwt, CredoError } from 'credo-hmd2v-5.17-core'
 
 /**
  * Extract the 'nonce' parameter from the JWT payload of the credential request.

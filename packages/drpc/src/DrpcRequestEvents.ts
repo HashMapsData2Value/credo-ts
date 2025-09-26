@@ -1,5 +1,5 @@
 import type { DrpcRecord } from './repository'
-import type { BaseEvent } from '@credo-ts/core'
+import type { BaseEvent } from 'credo-hmd2v-5.17-core'
 
 export enum DrpcRequestEventTypes {
   DrpcRequestStateChanged = 'DrpcRequestStateChanged',

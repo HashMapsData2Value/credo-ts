@@ -11,10 +11,10 @@ import type {
   DidOperationStateActionBase,
   DidRegistrar,
   DidUpdateResult,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { IndyVdrRequest } from '@hyperledger/indy-vdr-shared'
 
-import { parseIndyDid } from '@credo-ts/anoncreds'
+import { parseIndyDid } from 'credo-hmd2v-5.17-anoncreds'
 import {
   DidCommV1Service,
   NewDidCommV2Service,
@@ -27,7 +27,7 @@ import {
   KeyType,
   DidCommV2Service,
   TypedArrayEncoder,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { AttribRequest, CustomRequest, NymRequest } from '@hyperledger/indy-vdr-shared'
 
 import { IndyVdrError } from '../error'

@@ -1,6 +1,6 @@
-import type { Key } from '@credo-ts/core'
+import type { Key } from 'credo-hmd2v-5.17-core'
 
-import { TypedArrayEncoder, KeyType } from '@credo-ts/core'
+import { TypedArrayEncoder, KeyType } from 'credo-hmd2v-5.17-core'
 import { GetNymRequest, NymRequest, SchemaRequest, CredentialDefinitionRequest } from '@hyperledger/indy-vdr-shared'
 
 import { InMemoryWallet } from '../../../tests/InMemoryWallet'

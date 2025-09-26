@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/anoncreds",
+  "name": "credo-hmd2v-5.17-anoncreds",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/anoncreds",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/anoncreds",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/anoncreds"
   },
   "scripts": {
@@ -27,21 +27,21 @@
   },
   "dependencies": {
     "@astronautlabs/jsonpath": "^1.1.2",
-    "@credo-ts/core": "workspace:*",
     "@sphereon/pex-models": "^2.3.1",
     "big-integer": "^1.6.51",
     "bn.js": "^5.2.1",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "credo-hmd2v-5.17-core": "workspace:*"
   },
   "devDependencies": {
-    "@credo-ts/node": "workspace:*",
     "@hyperledger/anoncreds-nodejs": "^0.2.2",
     "@hyperledger/anoncreds-shared": "^0.2.2",
     "rimraf": "^4.4.0",
     "rxjs": "^7.8.0",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "credo-hmd2v-5.17-node": "workspace:*"
   },
   "peerDependencies": {
     "@hyperledger/anoncreds-shared": "^0.2.2"

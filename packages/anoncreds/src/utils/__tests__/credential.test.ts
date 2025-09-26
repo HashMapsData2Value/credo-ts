@@ -1,4 +1,4 @@
-import { CredentialPreviewAttribute } from '@credo-ts/core'
+import { CredentialPreviewAttribute } from 'credo-hmd2v-5.17-core'
 
 import {
   assertCredentialValuesMatch,

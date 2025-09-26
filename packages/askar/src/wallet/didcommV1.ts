@@ -1,6 +1,6 @@
-import type { EncryptedMessage } from '@credo-ts/core'
+import type { EncryptedMessage } from 'credo-hmd2v-5.17-core'
 
-import { WalletError, JsonEncoder, JsonTransformer, Key, KeyType, TypedArrayEncoder, Buffer } from '@credo-ts/core'
+import { WalletError, JsonEncoder, JsonTransformer, Key, KeyType, TypedArrayEncoder, Buffer } from 'credo-hmd2v-5.17-core'
 import { CryptoBox, Key as AskarKey, KeyAlgs } from '@hyperledger/aries-askar-shared'
 
 import { JweEnvelope, JweRecipient } from './JweEnvelope'

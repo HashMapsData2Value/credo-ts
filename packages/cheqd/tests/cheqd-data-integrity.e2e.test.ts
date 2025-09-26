@@ -1,6 +1,6 @@
 import type { AnonCredsTestsAgent } from '../../anoncreds/tests/anoncredsSetup'
 import type { EventReplaySubject } from '../../core/tests'
-import type { DifPresentationExchangeDefinitionV2 } from '@credo-ts/core'
+import type { DifPresentationExchangeDefinitionV2 } from 'credo-hmd2v-5.17-core'
 
 import {
   AutoAcceptCredential,
@@ -9,7 +9,7 @@ import {
   ProofState,
   W3cCredential,
   W3cCredentialSubject,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { InMemoryAnonCredsRegistry } from '../../anoncreds/tests/InMemoryAnonCredsRegistry'
 import { setupAnonCredsTests } from '../../anoncreds/tests/anoncredsSetup'

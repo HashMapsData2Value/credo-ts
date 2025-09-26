@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/askar",
+  "name": "credo-hmd2v-5.17-askar",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/askar",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/askar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/askar"
   },
   "scripts": {
@@ -26,12 +26,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@credo-ts/core": "workspace:*",
     "bn.js": "^5.2.1",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
-    "tsyringe": "^4.8.0"
+    "tsyringe": "^4.8.0",
+    "credo-hmd2v-5.17-core": "workspace:*"
   },
   "devDependencies": {
     "@animo-id/expo-secure-environment": "^0.0.1-alpha.0",

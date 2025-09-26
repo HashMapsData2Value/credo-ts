@@ -1,8 +1,8 @@
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { GetNymResponse } from '@hyperledger/indy-vdr-shared'
 
-import { didIndyRegex } from '@credo-ts/anoncreds'
-import { Logger, InjectionSymbols, injectable, inject, CacheModuleConfig } from '@credo-ts/core'
+import { didIndyRegex } from 'credo-hmd2v-5.17-anoncreds'
+import { Logger, InjectionSymbols, injectable, inject, CacheModuleConfig } from 'credo-hmd2v-5.17-core'
 import { GetNymRequest } from '@hyperledger/indy-vdr-shared'
 
 import { IndyVdrModuleConfig } from '../IndyVdrModuleConfig'

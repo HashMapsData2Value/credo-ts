@@ -7,10 +7,10 @@ import type {
   Metadata,
 } from '@cheqd/ts-proto/cheqd/resource/v2'
 import type { DirectSecp256k1HdWallet, DirectSecp256k1Wallet } from '@cosmjs/proto-signing'
-import type { DidDocumentMetadata } from '@credo-ts/core'
+import type { DidDocumentMetadata } from 'credo-hmd2v-5.17-core'
 
 import { createCheqdSDK, DIDModule, ResourceModule, CheqdNetwork, FeemarketModule } from '@cheqd/sdk'
-import { CredoError, inject, injectable, InjectionSymbols, Logger } from '@credo-ts/core'
+import { CredoError, inject, injectable, InjectionSymbols, Logger } from 'credo-hmd2v-5.17-core'
 
 import { CheqdModuleConfig } from '../CheqdModuleConfig'
 import { parseCheqdDid } from '../anoncreds/utils/identifiers'

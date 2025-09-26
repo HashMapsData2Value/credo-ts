@@ -1,6 +1,6 @@
 import type { CheqdModuleConfigOptions } from '../src'
 
-import { DidsModule } from '@credo-ts/core'
+import { DidsModule } from 'credo-hmd2v-5.17-core'
 
 import { CheqdModule, CheqdDidRegistrar, CheqdDidResolver } from '../src'
 

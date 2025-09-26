@@ -1,6 +1,6 @@
 import type { IndyVdrDidCreateOptions, IndyVdrDidCreateResult } from '../src/dids/IndyVdrIndyDidRegistrar'
 
-import { didIndyRegex } from '@credo-ts/anoncreds'
+import { didIndyRegex } from 'credo-hmd2v-5.17-anoncreds'
 import {
   Key,
   JsonTransformer,
@@ -12,7 +12,7 @@ import {
   Agent,
   DidsModule,
   NewDidCommV2ServiceEndpoint,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 import { convertPublicKeyToX25519, generateKeyPairFromSeed } from '@stablelib/ed25519'
 

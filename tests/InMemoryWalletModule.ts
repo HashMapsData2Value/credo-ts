@@ -1,9 +1,9 @@
-import type { DependencyManager, Module } from '@credo-ts/core'
+import type { DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 
 import { InMemoryStorageService } from './InMemoryStorageService'
 import { InMemoryWallet } from './InMemoryWallet'
 
-import { CredoError, InjectionSymbols } from '@credo-ts/core'
+import { CredoError, InjectionSymbols } from 'credo-hmd2v-5.17-core'
 
 export class InMemoryWalletModule implements Module {
   public register(dependencyManager: DependencyManager) {

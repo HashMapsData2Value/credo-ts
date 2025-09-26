@@ -1,4 +1,4 @@
-import { JsonTransformer } from '@credo-ts/core'
+import { JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { Type } from 'class-transformer'
 import { IsArray } from 'class-validator'
 

@@ -1,9 +1,9 @@
 import type { OpenId4VcVerifierModuleConfigOptions } from './OpenId4VcVerifierModuleConfig'
 import type { OpenId4VcVerificationRequest } from './router'
-import type { AgentContext, DependencyManager, Module } from '@credo-ts/core'
+import type { AgentContext, DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 import type { NextFunction } from 'express'
 
-import { AgentConfig } from '@credo-ts/core'
+import { AgentConfig } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContextForActorId, getRequestContext, importExpress } from '../shared/router'
 

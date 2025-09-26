@@ -1,8 +1,8 @@
 import type { AnonCredsRevocationRegistryDefinitionRecordMetadata } from './anonCredsRevocationRegistryDefinitionRecordMetadataTypes'
 import type { AnonCredsRevocationRegistryDefinition } from '../models'
-import type { TagsBase } from '@credo-ts/core'
+import type { TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { BaseRecord, utils } from '@credo-ts/core'
+import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 export interface AnonCredsRevocationRegistryDefinitionRecordProps {
   id?: string

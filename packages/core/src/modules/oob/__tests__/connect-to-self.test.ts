@@ -9,7 +9,7 @@ import { getInMemoryAgentOptions } from '../../../../tests/helpers'
 import { HandshakeProtocol, DidExchangeState } from '../../connections'
 import { OutOfBandState } from '../domain/OutOfBandState'
 
-import { Agent } from '@credo-ts/core'
+import { Agent } from 'credo-hmd2v-5.17-core'
 
 const faberAgentOptions = getInMemoryAgentOptions('Faber Agent OOB Connect to Self', {
   endpoints: ['rxjs:faber'],

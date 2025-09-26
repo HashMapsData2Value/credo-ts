@@ -120,24 +120,6 @@ importers:
         specifier: ^8.2.5
         version: 8.2.6
     devDependencies:
-      '@credo-ts/anoncreds':
-        specifier: workspace:*
-        version: link:../packages/anoncreds
-      '@credo-ts/askar':
-        specifier: workspace:*
-        version: link:../packages/askar
-      '@credo-ts/cheqd':
-        specifier: workspace:*
-        version: link:../packages/cheqd
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../packages/core
-      '@credo-ts/indy-vdr':
-        specifier: workspace:*
-        version: link:../packages/indy-vdr
-      '@credo-ts/node':
-        specifier: workspace:*
-        version: link:../packages/node
       '@types/figlet':
         specifier: ^1.5.4
         version: 1.7.0
@@ -147,6 +129,24 @@ importers:
       clear:
         specifier: ^0.1.0
         version: 0.1.0
+      credo-hmd2v-5.17-anoncreds:
+        specifier: workspace:*
+        version: link:../packages/anoncreds
+      credo-hmd2v-5.17-askar:
+        specifier: workspace:*
+        version: link:../packages/askar
+      credo-hmd2v-5.17-cheqd:
+        specifier: workspace:*
+        version: link:../packages/cheqd
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../packages/core
+      credo-hmd2v-5.17-indy-vdr:
+        specifier: workspace:*
+        version: link:../packages/indy-vdr
+      credo-hmd2v-5.17-node:
+        specifier: workspace:*
+        version: link:../packages/node
       figlet:
         specifier: ^1.5.2
         version: 1.8.2
@@ -172,18 +172,6 @@ importers:
         specifier: ^8.2.5
         version: 8.2.6
     devDependencies:
-      '@credo-ts/askar':
-        specifier: workspace:*
-        version: link:../packages/askar
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../packages/core
-      '@credo-ts/node':
-        specifier: workspace:*
-        version: link:../packages/node
-      '@credo-ts/openid4vc':
-        specifier: workspace:*
-        version: link:../packages/openid4vc
       '@types/express':
         specifier: ^4.17.13
         version: 4.17.23
@@ -196,6 +184,18 @@ importers:
       clear:
         specifier: ^0.1.0
         version: 0.1.0
+      credo-hmd2v-5.17-askar:
+        specifier: workspace:*
+        version: link:../packages/askar
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../packages/core
+      credo-hmd2v-5.17-node:
+        specifier: workspace:*
+        version: link:../packages/node
+      credo-hmd2v-5.17-openid4vc:
+        specifier: workspace:*
+        version: link:../packages/openid4vc
       figlet:
         specifier: ^1.5.2
         version: 1.8.2
@@ -205,15 +205,15 @@ importers:
 
   packages/action-menu:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       class-transformer:
         specifier: 0.5.1
         version: 0.5.1
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
@@ -233,9 +233,6 @@ importers:
       '@astronautlabs/jsonpath':
         specifier: ^1.1.2
         version: 1.1.2
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       '@sphereon/pex-models':
         specifier: ^2.3.1
         version: 2.3.2
@@ -251,19 +248,22 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       reflect-metadata:
         specifier: ^0.1.13
         version: 0.1.14
     devDependencies:
-      '@credo-ts/node':
-        specifier: workspace:*
-        version: link:../node
       '@hyperledger/anoncreds-nodejs':
         specifier: ^0.2.2
         version: 0.2.4
       '@hyperledger/anoncreds-shared':
         specifier: ^0.2.2
         version: 0.2.4
+      credo-hmd2v-5.17-node:
+        specifier: workspace:*
+        version: link:../node
       rimraf:
         specifier: ^4.4.0
         version: 4.4.1
@@ -276,9 +276,6 @@ importers:
 
   packages/askar:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       bn.js:
         specifier: ^5.2.1
         version: 5.2.2
@@ -288,6 +285,9 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
@@ -328,9 +328,6 @@ importers:
       '@animo-id/react-native-bbs-signatures':
         specifier: ^0.1.0
         version: 0.1.0(react-native@0.71.19(@babel/core@7.28.0)(@babel/preset-env@7.28.0(@babel/core@7.28.0))(react@19.1.1))(react@19.1.1)
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       '@mattrglobal/bbs-signatures':
         specifier: ^1.0.0
         version: 1.4.0
@@ -340,8 +337,11 @@ importers:
       '@stablelib/random':
         specifier: ^1.0.2
         version: 1.0.2
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
-      '@credo-ts/node':
+      credo-hmd2v-5.17-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -371,12 +371,6 @@ importers:
       '@cosmjs/stargate':
         specifier: ~0.30.1
         version: 0.30.1
-      '@credo-ts/anoncreds':
-        specifier: workspace:*
-        version: link:../anoncreds
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       '@stablelib/ed25519':
         specifier: ^1.0.3
         version: 1.0.3
@@ -386,6 +380,12 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-anoncreds:
+        specifier: workspace:*
+        version: link:../anoncreds
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
@@ -562,17 +562,17 @@ importers:
 
   packages/drpc:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
-      '@credo-ts/node':
+      credo-hmd2v-5.17-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -587,16 +587,16 @@ importers:
 
   packages/indy-sdk-to-askar-migration:
     dependencies:
-      '@credo-ts/anoncreds':
+      credo-hmd2v-5.17-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      '@credo-ts/askar':
+      credo-hmd2v-5.17-askar:
         specifier: workspace:*
         version: link:../askar
-      '@credo-ts/core':
+      credo-hmd2v-5.17-core:
         specifier: workspace:*
         version: link:../core
-      '@credo-ts/node':
+      credo-hmd2v-5.17-node:
         specifier: workspace:*
         version: link:../node
     devDependencies:
@@ -615,10 +615,10 @@ importers:
 
   packages/indy-vdr:
     dependencies:
-      '@credo-ts/anoncreds':
+      credo-hmd2v-5.17-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      '@credo-ts/core':
+      credo-hmd2v-5.17-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -655,12 +655,12 @@ importers:
       '@2060.io/ref-napi':
         specifier: ^3.0.6
         version: 3.0.6
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       '@types/express':
         specifier: ^4.17.15
         version: 4.17.23
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       express:
         specifier: ^4.17.1
         version: 4.21.2
@@ -689,9 +689,6 @@ importers:
 
   packages/openid4vc:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       '@sphereon/did-auth-siop':
         specifier: 0.16.1-fix.173
         version: 0.16.1-fix.173(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@18.18.8)(typescript@5.5.4))(typescript@5.5.4)
@@ -713,16 +710,19 @@ importers:
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
     devDependencies:
-      '@credo-ts/tenants':
-        specifier: workspace:*
-        version: link:../tenants
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.23
+      credo-hmd2v-5.17-tenants:
+        specifier: workspace:*
+        version: link:../tenants
       express:
         specifier: ^4.18.2
         version: 4.21.2
@@ -738,20 +738,20 @@ importers:
 
   packages/question-answer:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       class-transformer:
         specifier: 0.5.1
         version: 0.5.1
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
     devDependencies:
-      '@credo-ts/node':
+      credo-hmd2v-5.17-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -769,7 +769,7 @@ importers:
       '@azure/core-asynciterator-polyfill':
         specifier: ^1.0.2
         version: 1.0.2
-      '@credo-ts/core':
+      credo-hmd2v-5.17-core:
         specifier: workspace:*
         version: link:../core
       events:
@@ -794,14 +794,14 @@ importers:
 
   packages/tenants:
     dependencies:
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       async-mutex:
         specifier: ^0.4.0
         version: 0.4.1
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
     devDependencies:
-      '@credo-ts/node':
+      credo-hmd2v-5.17-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -816,18 +816,18 @@ importers:
 
   packages/webvh:
     dependencies:
-      '@credo-ts/anoncreds':
-        specifier: workspace:*
-        version: link:../anoncreds
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../core
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-anoncreds:
+        specifier: workspace:*
+        version: link:../anoncreds
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../core
       didwebvh-ts:
         specifier: ^2.5.3
         version: 2.5.3
@@ -847,21 +847,21 @@ importers:
 
   samples/extension-module:
     dependencies:
-      '@credo-ts/askar':
-        specifier: workspace:*
-        version: link:../../packages/askar
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../../packages/core
-      '@credo-ts/node':
-        specifier: workspace:*
-        version: link:../../packages/node
       '@hyperledger/aries-askar-nodejs':
         specifier: ^0.2.3
         version: 0.2.3
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
+      credo-hmd2v-5.17-askar:
+        specifier: workspace:*
+        version: link:../../packages/askar
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../../packages/core
+      credo-hmd2v-5.17-node:
+        specifier: workspace:*
+        version: link:../../packages/node
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
@@ -881,12 +881,6 @@ importers:
 
   samples/tails:
     dependencies:
-      '@credo-ts/anoncreds':
-        specifier: workspace:*
-        version: link:../../packages/anoncreds
-      '@credo-ts/core':
-        specifier: workspace:*
-        version: link:../../packages/core
       '@types/express':
         specifier: ^4.17.13
         version: 4.17.23
@@ -899,6 +893,12 @@ importers:
       '@types/ws':
         specifier: ^8.5.4
         version: 8.18.1
+      credo-hmd2v-5.17-anoncreds:
+        specifier: workspace:*
+        version: link:../../packages/anoncreds
+      credo-hmd2v-5.17-core:
+        specifier: workspace:*
+        version: link:../../packages/core
       form-data:
         specifier: ^4.0.0
         version: 4.0.4

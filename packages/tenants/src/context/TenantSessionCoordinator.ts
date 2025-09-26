@@ -11,7 +11,7 @@ import {
   Logger,
   WalletApi,
   WalletError,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Mutex, withTimeout } from 'async-mutex'
 
 import { TenantsModuleConfig } from '../TenantsModuleConfig'

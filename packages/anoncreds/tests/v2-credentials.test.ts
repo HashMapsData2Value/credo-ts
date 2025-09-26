@@ -1,6 +1,6 @@
 import type { AnonCredsTestsAgent } from './anoncredsSetup'
 import type { EventReplaySubject } from '../../core/tests'
-import type { AnonCredsHolderService, AnonCredsProposeCredentialFormat } from '@credo-ts/anoncreds'
+import type { AnonCredsHolderService, AnonCredsProposeCredentialFormat } from 'credo-hmd2v-5.17-anoncreds'
 
 import {
   DidCommMessageRepository,
@@ -13,7 +13,7 @@ import {
   V2ProposeCredentialMessage,
   V2RequestCredentialMessage,
   CredentialRole,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { waitForCredentialRecord, waitForCredentialRecordSubject } from '../../core/tests'
 import testLogger from '../../core/tests/logger'
@@ -21,7 +21,7 @@ import testLogger from '../../core/tests/logger'
 import { InMemoryAnonCredsRegistry } from './InMemoryAnonCredsRegistry'
 import { issueAnonCredsCredential, setupAnonCredsTests } from './anoncredsSetup'
 
-import { AnonCredsHolderServiceSymbol } from '@credo-ts/anoncreds'
+import { AnonCredsHolderServiceSymbol } from 'credo-hmd2v-5.17-anoncreds'
 
 const credentialPreview = V2CredentialPreview.fromRecord({
   name: 'John',

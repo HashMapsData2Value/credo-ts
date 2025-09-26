@@ -1,8 +1,8 @@
 import type { OpenId4VcIssuerModuleConfigOptions } from './OpenId4VcIssuerModuleConfig'
 import type { OpenId4VcIssuanceRequest } from './router'
-import type { AgentContext, DependencyManager, Module } from '@credo-ts/core'
+import type { AgentContext, DependencyManager, Module } from 'credo-hmd2v-5.17-core'
 
-import { AgentConfig } from '@credo-ts/core'
+import { AgentConfig } from 'credo-hmd2v-5.17-core'
 
 import { getAgentContextForActorId, getRequestContext, importExpress } from '../shared/router'
 

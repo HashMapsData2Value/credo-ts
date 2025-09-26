@@ -8,8 +8,8 @@ import {
   LogLevel,
   WsOutboundTransport,
   ConnectionsModule,
-} from '@credo-ts/core'
-import { agentDependencies } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { agentDependencies } from 'credo-hmd2v-5.17-node'
 import { filter, first, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
 
 import { DummyEventTypes, DummyState, DummyModule } from './dummy'

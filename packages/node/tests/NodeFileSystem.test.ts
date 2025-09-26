@@ -1,4 +1,4 @@
-import { TypedArrayEncoder } from '@credo-ts/core'
+import { TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
 import nock, { cleanAll, enableNetConnect } from 'nock'
 import path from 'path'
 

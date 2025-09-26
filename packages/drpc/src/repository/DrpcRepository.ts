@@ -1,4 +1,4 @@
-import { EventEmitter, InjectionSymbols, inject, injectable, Repository, StorageService } from '@credo-ts/core'
+import { EventEmitter, InjectionSymbols, inject, injectable, Repository, StorageService } from 'credo-hmd2v-5.17-core'
 
 import { DrpcRecord } from './DrpcRecord'
 

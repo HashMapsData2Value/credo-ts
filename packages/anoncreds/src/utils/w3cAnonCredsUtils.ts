@@ -3,9 +3,9 @@ import type { W3cAnonCredsCredentialMetadata } from './metadata'
 import type { AnonCredsCredentialInfo, AnonCredsSchema } from '../models'
 import type { AnonCredsCredentialRecord } from '../repository'
 import type { StoreCredentialOptions } from '../services'
-import type { DefaultW3cCredentialTags, W3cCredentialSubject } from '@credo-ts/core'
+import type { DefaultW3cCredentialTags, W3cCredentialSubject } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, W3cCredentialRecord, utils } from '@credo-ts/core'
+import { CredoError, W3cCredentialRecord, utils } from 'credo-hmd2v-5.17-core'
 
 import { mapAttributeRawValuesToAnonCredsCredentialValues } from './credential'
 import {

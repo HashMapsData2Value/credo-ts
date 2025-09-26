@@ -5,8 +5,8 @@ import type {
   OpenId4VciCredentialOfferPayload,
   OpenId4VciCredentialConfigurationsSupported,
 } from '../shared'
-import type { JwaSignatureAlgorithm, Jwk, KeyType } from '@credo-ts/core'
-import type { VerifiableCredential } from '@credo-ts/core/src/modules/dif-presentation-exchange/models/index'
+import type { JwaSignatureAlgorithm, Jwk, KeyType } from 'credo-hmd2v-5.17-core'
+import type { VerifiableCredential } from 'credo-hmd2v-5.17-core/src/modules/dif-presentation-exchange/models/index'
 import type {
   AccessTokenResponse,
   CredentialOfferRequestWithBaseUrl,

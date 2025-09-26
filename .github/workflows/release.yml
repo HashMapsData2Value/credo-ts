@@ -1,12 +1,13 @@
 name: Release
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - v0.5.x
+      - feat/bip39-mnemonics-v0.5.17
   pull_request:
     branches:
-      - v0.5.x
+      - feat/bip39-mnemonics-v0.5.17
     types:
       - opened
       - synchronize
@@ -21,7 +22,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/v0.5.x'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/feat/bip39-mnemonics-v0.5.17' || github.event_name == 'workflow_dispatch'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -68,7 +69,7 @@ jobs:
     # We don't want to run release and release-unstable concurrently as NPM doesn't allow publishing packages while another version of the same package is
     # still processing. So we wait for release to finish, and the always() ensure that it will run no matter the result of release.
     needs: [release]
-    if: "always() && (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == 'openwallet-foundation/credo-ts') || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'chore(release): new version'))"
+    if: "always() && ((github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == 'HashMapsData2Value/credo-ts') || (github.event_name == 'push' && !startsWith(github.event.head_commit.message, 'chore(release): new version')))"
     steps:
       - uses: snnaplab/get-labels-action@v1
         if: github.event_name == 'pull_request'
@@ -110,7 +111,7 @@ jobs:
           # this ensures there's always a patch release created
           cat << 'EOF' > .changeset/snapshot-template-changeset.md
           ---
-          '@credo-ts/core': patch
+          'credo-hmd2v-5.17-core': patch
           ---
 
           snapshot release

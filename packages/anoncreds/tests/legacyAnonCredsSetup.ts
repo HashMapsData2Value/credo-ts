@@ -9,7 +9,7 @@ import type {
   RegisterCredentialDefinitionReturnStateFinished,
   RegisterSchemaReturnStateFinished,
 } from '../src'
-import type { AutoAcceptProof, ConnectionRecord } from '@credo-ts/core'
+import type { AutoAcceptProof, ConnectionRecord } from 'credo-hmd2v-5.17-core'
 
 import {
   AgentEventTypes,
@@ -28,7 +28,7 @@ import {
   V2CredentialProtocol,
   V2ProofProtocol,
   DidsModule,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { randomUUID } from 'crypto'
 
 import { sleep } from '../../core/src/utils/sleep'

@@ -12,7 +12,7 @@
  * to the mediator, request mediation and set the mediator as default.
  */
 
-import type { InitConfig } from '@credo-ts/core'
+import type { InitConfig } from 'credo-hmd2v-5.17-core'
 import type { Socket } from 'net'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
@@ -21,7 +21,7 @@ import { Server } from 'ws'
 
 import { TestLogger } from '../packages/core/tests/logger'
 
-import { AskarModule } from '@credo-ts/askar'
+import { AskarModule } from 'credo-hmd2v-5.17-askar'
 import {
   ConnectionsModule,
   MediatorModule,
@@ -30,8 +30,8 @@ import {
   ConnectionInvitationMessage,
   LogLevel,
   WsOutboundTransport,
-} from '@credo-ts/core'
-import { HttpInboundTransport, agentDependencies, WsInboundTransport } from '@credo-ts/node'
+} from 'credo-hmd2v-5.17-core'
+import { HttpInboundTransport, agentDependencies, WsInboundTransport } from 'credo-hmd2v-5.17-node'
 
 const port = process.env.AGENT_PORT ? Number(process.env.AGENT_PORT) : 3001
 

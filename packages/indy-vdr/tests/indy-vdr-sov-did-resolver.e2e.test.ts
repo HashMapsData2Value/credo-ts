@@ -1,5 +1,5 @@
-import { parseIndyDid } from '@credo-ts/anoncreds'
-import { DidsModule, Agent, TypedArrayEncoder, JsonTransformer } from '@credo-ts/core'
+import { parseIndyDid } from 'credo-hmd2v-5.17-anoncreds'
+import { DidsModule, Agent, TypedArrayEncoder, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 
 import { getInMemoryAgentOptions, importExistingIndyDidFromPrivateKey } from '../../core/tests/helpers'

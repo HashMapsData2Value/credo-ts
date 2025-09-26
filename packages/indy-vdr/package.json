@@ -1,5 +1,5 @@
 {
-  "name": "@credo-ts/indy-vdr",
+  "name": "credo-hmd2v-5.17-indy-vdr",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -12,10 +12,10 @@
     "types": "build/index",
     "access": "public"
   },
-  "homepage": "https://github.com/openwallet-foundation/credo-ts/tree/main/packages/indy-vdr",
+  "homepage": "https://github.com/HashMapsData2Value/credo-ts/tree/main/packages/indy-vdr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openwallet-foundation/credo-ts",
+    "url": "https://github.com/HashMapsData2Value/credo-ts",
     "directory": "packages/indy-vdr"
   },
   "scripts": {
@@ -26,8 +26,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@credo-ts/anoncreds": "workspace:*",
-    "@credo-ts/core": "workspace:*"
+    "credo-hmd2v-5.17-core": "workspace:*",
+    "credo-hmd2v-5.17-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "@hyperledger/indy-vdr-nodejs": "^0.2.2",

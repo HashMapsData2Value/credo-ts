@@ -16,7 +16,7 @@ import type {
   QueryOptions,
   RecordSavedEvent,
   RecordUpdatedEvent,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { ClientIdScheme, JarmClientMetadata, PresentationVerificationCallback } from '@sphereon/did-auth-siop'
 
 import {
@@ -43,7 +43,7 @@ import {
   MdocDeviceResponse,
   TypedArrayEncoder,
   Jwt,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import {
   AuthorizationRequest,
   AuthorizationResponse,

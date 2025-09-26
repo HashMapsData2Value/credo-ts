@@ -1,6 +1,6 @@
-import type { DidResolutionResult, DidResolver, AgentContext } from '@credo-ts/core'
+import type { DidResolutionResult, DidResolver, AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { DidsApi } from '@credo-ts/core'
+import { DidsApi } from 'credo-hmd2v-5.17-core'
 
 export class LocalDidResolver implements DidResolver {
   public readonly supportedMethods = ['sov', 'indy']

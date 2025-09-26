@@ -1,6 +1,6 @@
-import type { AnonCredsRevocationStatusList, AnonCredsRevocationRegistryDefinition } from '@credo-ts/anoncreds'
+import type { AnonCredsRevocationStatusList, AnonCredsRevocationRegistryDefinition } from 'credo-hmd2v-5.17-anoncreds'
 
-import { CredoError } from '@credo-ts/core'
+import { CredoError } from 'credo-hmd2v-5.17-core'
 
 export type RevocationRegistryDelta = {
   accum: string

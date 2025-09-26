@@ -1,12 +1,12 @@
-import type { ConnectionRecord } from '@credo-ts/core'
+import type { ConnectionRecord } from 'credo-hmd2v-5.17-core'
 
-import { Agent } from '@credo-ts/core'
+import { Agent } from 'credo-hmd2v-5.17-core'
 
 import { setupSubjectTransports, testLogger, makeConnection, getInMemoryAgentOptions } from '../../core/tests'
 
 import { waitForQuestionAnswerRecord } from './helpers'
 
-import { QuestionAnswerModule, QuestionAnswerRole, QuestionAnswerState } from '@credo-ts/question-answer'
+import { QuestionAnswerModule, QuestionAnswerRole, QuestionAnswerState } from 'credo-hmd2v-5.17-question-answer'
 
 const modules = {
   questionAnswer: new QuestionAnswerModule(),

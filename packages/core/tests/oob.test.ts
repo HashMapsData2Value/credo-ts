@@ -2,7 +2,7 @@
 import type { SubjectMessage } from '../../../tests/transport/SubjectInboundTransport'
 import type { AnonCredsCredentialFormatService } from '../../anoncreds/src'
 import type { CreateCredentialOfferOptions, V2CredentialProtocol } from '../src/modules/credentials'
-import type { AgentMessage, AgentMessageReceivedEvent } from '@credo-ts/core'
+import type { AgentMessage, AgentMessageReceivedEvent } from 'credo-hmd2v-5.17-core'
 
 import { Subject } from 'rxjs'
 
@@ -26,7 +26,7 @@ import { JsonEncoder, JsonTransformer } from '../src/utils'
 import { TestMessage } from './TestMessage'
 import { getInMemoryAgentOptions, waitForCredentialRecord } from './helpers'
 
-import { AgentEventTypes, CredoError, AutoAcceptCredential, CredentialState } from '@credo-ts/core'
+import { AgentEventTypes, CredoError, AutoAcceptCredential, CredentialState } from 'credo-hmd2v-5.17-core'
 
 const faberAgentOptions = getInMemoryAgentOptions(
   'Faber Agent OOB',

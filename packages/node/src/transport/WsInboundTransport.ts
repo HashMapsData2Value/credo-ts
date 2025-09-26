@@ -6,9 +6,9 @@ import type {
   EncryptedMessage,
   AgentContext,
   AgentMessageReceivedEvent,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
-import { CredoError, TransportService, utils, AgentEventTypes } from '@credo-ts/core'
+import { CredoError, TransportService, utils, AgentEventTypes } from 'credo-hmd2v-5.17-core'
 // eslint-disable-next-line import/no-named-as-default
 import WebSocket, { Server } from 'ws'
 

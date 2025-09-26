@@ -32,7 +32,7 @@ import type {
   W3cToLegacyCredentialOptions,
 } from '../services/AnonCredsHolderServiceOptions'
 import type { AnonCredsCredentialRequestMetadata, W3cAnonCredsCredentialMetadata } from '../utils/metadata'
-import type { AgentContext, Query, SimpleQuery } from '@credo-ts/core'
+import type { AgentContext, Query, SimpleQuery } from 'credo-hmd2v-5.17-core'
 import type {
   CredentialEntry,
   CredentialProve,
@@ -52,7 +52,7 @@ import {
   injectable,
   utils,
   W3cJsonLdVerifiablePresentation,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import {
   Credential,
   W3cPresentation as W3cAnonCredsPresentation,

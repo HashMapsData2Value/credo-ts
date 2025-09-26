@@ -10,7 +10,7 @@ import {
   WalletDuplicateError,
   WalletInvalidKeyError,
   WalletNotFoundError,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { Store } from '@hyperledger/aries-askar-shared'
 import { tmpdir } from 'os'
 import path from 'path'

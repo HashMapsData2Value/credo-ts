@@ -19,10 +19,10 @@ import type {
   CreateCredentialReturn,
   CreateCredentialOfferOptions,
 } from '../services'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { CredentialDefinitionPrivate, JsonObject, KeyCorrectnessProof } from '@hyperledger/anoncreds-shared'
 
-import { injectable, CredoError } from '@credo-ts/core'
+import { injectable, CredoError } from 'credo-hmd2v-5.17-core'
 import {
   RevocationStatusList,
   RevocationRegistryDefinitionPrivate,

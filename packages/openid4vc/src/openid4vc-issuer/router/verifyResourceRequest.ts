@@ -1,9 +1,9 @@
 import type { OpenId4VcIssuanceRequest } from './requestContext'
 import type { OpenId4VcIssuerRecord } from '../repository'
-import type { AgentContext } from '@credo-ts/core'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { SigningAlgo } from '@sphereon/oid4vc-common'
 
-import { CredoError, joinUriParts, JwsService, Jwt } from '@credo-ts/core'
+import { CredoError, joinUriParts, JwsService, Jwt } from 'credo-hmd2v-5.17-core'
 import { verifyResourceDPoP } from '@sphereon/oid4vc-common'
 
 import { getVerifyJwtCallback } from '../../shared/utils'

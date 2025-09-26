@@ -1,7 +1,7 @@
 import type { OpenId4VciCredentialOfferPayload } from '../../shared'
-import type { RecordTags, TagsBase } from '@credo-ts/core'
+import type { RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, BaseRecord, utils, DateTransformer } from '@credo-ts/core'
+import { CredoError, BaseRecord, utils, DateTransformer } from 'credo-hmd2v-5.17-core'
 import { Transform } from 'class-transformer'
 
 import { OpenId4VcIssuanceSessionState } from '../OpenId4VcIssuanceSessionState'

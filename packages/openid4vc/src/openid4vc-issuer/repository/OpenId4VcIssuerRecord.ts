@@ -3,9 +3,9 @@ import type {
   OpenId4VciCredentialConfigurationsSupported,
   OpenId4VciIssuerMetadataDisplay,
 } from '../../shared'
-import type { JwaSignatureAlgorithm, RecordTags, TagsBase } from '@credo-ts/core'
+import type { JwaSignatureAlgorithm, RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { BaseRecord, utils } from '@credo-ts/core'
+import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 import { credentialsSupportedV13ToV11 } from '../../shared/issuerMetadataUtils'
 

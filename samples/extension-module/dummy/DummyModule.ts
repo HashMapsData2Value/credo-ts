@@ -1,7 +1,7 @@
 import type { DummyModuleConfigOptions } from './DummyModuleConfig'
-import type { DependencyManager, FeatureRegistry, Module } from '@credo-ts/core'
+import type { DependencyManager, FeatureRegistry, Module } from 'credo-hmd2v-5.17-core'
 
-import { Protocol } from '@credo-ts/core'
+import { Protocol } from 'credo-hmd2v-5.17-core'
 
 import { DummyApi } from './DummyApi'
 import { DummyModuleConfig } from './DummyModuleConfig'

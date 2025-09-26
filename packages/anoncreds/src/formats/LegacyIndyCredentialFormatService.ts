@@ -22,7 +22,7 @@ import type {
   CredentialExchangeRecord,
   CredentialPreviewAttributeOptions,
   LinkedAttachment,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import {
   ProblemReportError,
@@ -33,7 +33,7 @@ import {
   JsonEncoder,
   CredentialProblemReportReason,
   JsonTransformer,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { AnonCredsCredentialProposal } from '../models/AnonCredsCredentialProposal'
 import { AnonCredsIssuerServiceSymbol, AnonCredsHolderServiceSymbol } from '../services'

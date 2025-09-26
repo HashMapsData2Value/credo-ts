@@ -6,7 +6,7 @@ import {
   CacheModule,
   InMemoryLruCache,
   W3cCredentialRecord,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { readFileSync } from 'fs'
 import path from 'path'
 

@@ -12,7 +12,7 @@ import type {
   Logger,
   SigningProviderRegistry,
   WalletDirectEncryptCompactJwtEcdhEsOptions,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { Session } from '@hyperledger/aries-askar-shared'
 
 import {
@@ -28,7 +28,7 @@ import {
   KeyBackend,
   KeyType,
   utils,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import {
   CryptoBox,
   Store,

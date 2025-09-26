@@ -10,7 +10,7 @@ import type {
   VerificationMethod,
   W3cVerifiableCredential,
   W3cVerifyCredentialResult,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { OriginalVerifiableCredential as SphereonW3cVerifiableCredential } from '@sphereon/ssi-types'
 
 import {
@@ -34,7 +34,7 @@ import {
   getJwkFromKey,
   getKeyFromVerificationMethod,
   w3cDate,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { AskarModule } from '../../../../askar/src'
 import { askarModuleConfig } from '../../../../askar/tests/helpers'

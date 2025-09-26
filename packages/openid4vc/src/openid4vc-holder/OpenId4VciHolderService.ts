@@ -16,7 +16,7 @@ import type {
   OpenId4VciCredentialSupported,
   OpenId4VciIssuerMetadata,
 } from '../shared'
-import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from '@credo-ts/core'
+import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'credo-hmd2v-5.17-core'
 import type {
   AccessTokenResponse,
   AuthorizationDetails,
@@ -54,7 +54,7 @@ import {
   inject,
   injectable,
   parseDid,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import { CreateDPoPClientOpts, CreateDPoPJwtPayloadProps, SigningAlgo } from '@sphereon/oid4vc-common'
 import {
   AccessTokenClient,

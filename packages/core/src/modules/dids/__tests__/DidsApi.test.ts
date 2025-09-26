@@ -9,7 +9,7 @@ import {
   PeerDidNumAlgo,
   TypedArrayEncoder,
   createPeerDidDocumentFromServices,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 const agentOptions = getInMemoryAgentOptions('DidsApi')
 

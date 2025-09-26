@@ -10,7 +10,7 @@ import type {
   ProblemReportMessage,
   GetProofFormatDataReturn,
   ProofFormat,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import {
   ProofRole,
@@ -32,7 +32,7 @@ import {
   AutoAcceptProof,
   JsonEncoder,
   utils,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 import { composeProofAutoAccept, createRequestFromPreview } from '../../../utils'
 

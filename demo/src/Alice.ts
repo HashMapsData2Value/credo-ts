@@ -1,4 +1,4 @@
-import type { ConnectionRecord, CredentialExchangeRecord, ProofExchangeRecord } from '@credo-ts/core'
+import type { ConnectionRecord, CredentialExchangeRecord, ProofExchangeRecord } from 'credo-hmd2v-5.17-core'
 
 import { BaseAgent } from './BaseAgent'
 import { greenText, Output, redText } from './OutputClass'

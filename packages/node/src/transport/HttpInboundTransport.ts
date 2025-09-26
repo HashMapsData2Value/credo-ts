@@ -6,11 +6,11 @@ import type {
   AgentContext,
   AgentMessageReceivedEvent,
   AgentMessageProcessedEvent,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 import type { Express, Request, Response } from 'express'
 import type { Server } from 'http'
 
-import { DidCommMimeType, CredoError, TransportService, utils, AgentEventTypes } from '@credo-ts/core'
+import { DidCommMimeType, CredoError, TransportService, utils, AgentEventTypes } from 'credo-hmd2v-5.17-core'
 import express, { text } from 'express'
 import { filter, firstValueFrom, ReplaySubject, take, timeout } from 'rxjs'
 

@@ -1,5 +1,5 @@
 import type { AnonCredsTestsAgent } from '../packages/anoncreds/tests/anoncredsSetup'
-import type { AgentMessageProcessedEvent, AgentMessageSentEvent } from '@credo-ts/core'
+import type { AgentMessageProcessedEvent, AgentMessageSentEvent } from 'credo-hmd2v-5.17-core'
 
 import { filter, firstValueFrom, map } from 'rxjs'
 
@@ -23,7 +23,7 @@ import {
   CredentialEventTypes,
   ProofEventTypes,
   AgentEventTypes,
-} from '@credo-ts/core'
+} from 'credo-hmd2v-5.17-core'
 
 export async function e2eTest({
   mediatorAgent,
