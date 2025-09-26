@@ -1,4 +1,5 @@
 import type { RevocationRegistryDelta } from './utils/transform'
+import type { SchemaResponse } from '@hyperledger/indy-vdr-shared'
 import type {
   AnonCredsRegistry,
   GetCredentialDefinitionReturn,
@@ -31,19 +32,7 @@ import type {
   RegisterRevocationStatusListOptions,
 } from 'credo-hmd2v-5.17-anoncreds'
 import type { AgentContext } from 'credo-hmd2v-5.17-core'
-import type { SchemaResponse } from '@hyperledger/indy-vdr-shared'
 
-import {
-  getUnqualifiedCredentialDefinitionId,
-  getUnqualifiedRevocationRegistryDefinitionId,
-  getUnqualifiedSchemaId,
-  parseIndyCredentialDefinitionId,
-  parseIndyDid,
-  parseIndyRevocationRegistryId,
-  parseIndySchemaId,
-  dateToTimestamp,
-} from 'credo-hmd2v-5.17-anoncreds'
-import { CredoError } from 'credo-hmd2v-5.17-core'
 import {
   RevocationRegistryEntryRequest,
   RevocationRegistryDefinitionRequest,
@@ -56,6 +45,17 @@ import {
   GetRevocationRegistryDefinitionRequest,
   CustomRequest,
 } from '@hyperledger/indy-vdr-shared'
+import {
+  getUnqualifiedCredentialDefinitionId,
+  getUnqualifiedRevocationRegistryDefinitionId,
+  getUnqualifiedSchemaId,
+  parseIndyCredentialDefinitionId,
+  parseIndyDid,
+  parseIndyRevocationRegistryId,
+  parseIndySchemaId,
+  dateToTimestamp,
+} from 'credo-hmd2v-5.17-anoncreds'
+import { CredoError } from 'credo-hmd2v-5.17-core'
 
 import { verificationKeyForIndyDid } from '../dids/didIndyUtil'
 import { IndyVdrPoolService } from '../pool'

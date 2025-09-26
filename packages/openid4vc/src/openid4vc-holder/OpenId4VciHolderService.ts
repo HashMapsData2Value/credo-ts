@@ -16,7 +16,6 @@ import type {
   OpenId4VciCredentialSupported,
   OpenId4VciIssuerMetadata,
 } from '../shared'
-import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'credo-hmd2v-5.17-core'
 import type {
   AccessTokenResponse,
   AuthorizationDetails,
@@ -28,7 +27,26 @@ import type {
   Jwt,
   OpenIDResponse,
 } from '@sphereon/oid4vci-common'
+import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'credo-hmd2v-5.17-core'
 
+import { CreateDPoPClientOpts, CreateDPoPJwtPayloadProps, SigningAlgo } from '@sphereon/oid4vc-common'
+import {
+  AccessTokenClient,
+  CredentialRequestClientBuilder,
+  OpenID4VCIClient,
+  OpenID4VCIClientStateV1_0_13,
+  OpenID4VCIClientV1_0_11,
+  OpenID4VCIClientV1_0_13,
+  ProofOfPossessionBuilder,
+} from '@sphereon/oid4vci-client'
+import {
+  CodeChallengeMethod,
+  DPoPResponseParams,
+  EndpointMetadataResult,
+  OpenId4VCIVersion,
+  PARMode,
+  post,
+} from '@sphereon/oid4vci-common'
 import {
   CredoError,
   DidsApi,
@@ -55,24 +73,6 @@ import {
   injectable,
   parseDid,
 } from 'credo-hmd2v-5.17-core'
-import { CreateDPoPClientOpts, CreateDPoPJwtPayloadProps, SigningAlgo } from '@sphereon/oid4vc-common'
-import {
-  AccessTokenClient,
-  CredentialRequestClientBuilder,
-  OpenID4VCIClient,
-  OpenID4VCIClientStateV1_0_13,
-  OpenID4VCIClientV1_0_11,
-  OpenID4VCIClientV1_0_13,
-  ProofOfPossessionBuilder,
-} from '@sphereon/oid4vci-client'
-import {
-  CodeChallengeMethod,
-  DPoPResponseParams,
-  EndpointMetadataResult,
-  OpenId4VCIVersion,
-  PARMode,
-  post,
-} from '@sphereon/oid4vci-common'
 
 import { OpenId4VciCredentialFormatProfile } from '../shared'
 import { getOfferedCredentials, getTypesFromCredentialSupported } from '../shared/issuerMetadataUtils'

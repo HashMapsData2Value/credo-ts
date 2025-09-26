@@ -1,6 +1,6 @@
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 import { Expose, Type } from 'class-transformer'
 import { IsInstance, IsOptional, IsString, ValidateNested } from 'class-validator'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 
 import { V1PresentationPreview } from '../models/V1PresentationPreview'
 

@@ -1,6 +1,7 @@
 import type { IndyVdrDidCreateOptions } from '../src/dids/IndyVdrIndyDidRegistrar'
 import type { Agent } from 'credo-hmd2v-5.17-core'
 
+import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 import {
   DidCommV1Service,
   NewDidCommV2Service,
@@ -8,7 +9,6 @@ import {
   KeyType,
   NewDidCommV2ServiceEndpoint,
 } from 'credo-hmd2v-5.17-core'
-import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 
 import { sleep } from '../../core/src/utils/sleep'
 import { genesisTransactions } from '../../core/tests/helpers'

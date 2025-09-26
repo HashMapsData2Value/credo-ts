@@ -1,7 +1,3 @@
-import { getInMemoryAgentOptions } from '../../../../tests/helpers'
-import { Agent } from '../../../agent/Agent'
-import { isLongFormDidPeer4, isShortFormDidPeer4 } from '../methods/peer/peerDidNumAlgo4'
-
 import {
   DidDocument,
   DidDocumentService,
@@ -10,6 +6,10 @@ import {
   TypedArrayEncoder,
   createPeerDidDocumentFromServices,
 } from 'credo-hmd2v-5.17-core'
+
+import { getInMemoryAgentOptions } from '../../../../tests/helpers'
+import { Agent } from '../../../agent/Agent'
+import { isLongFormDidPeer4, isShortFormDidPeer4 } from '../methods/peer/peerDidNumAlgo4'
 
 const agentOptions = getInMemoryAgentOptions('DidsApi')
 

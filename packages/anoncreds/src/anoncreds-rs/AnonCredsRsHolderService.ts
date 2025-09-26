@@ -32,7 +32,6 @@ import type {
   W3cToLegacyCredentialOptions,
 } from '../services/AnonCredsHolderServiceOptions'
 import type { AnonCredsCredentialRequestMetadata, W3cAnonCredsCredentialMetadata } from '../utils/metadata'
-import type { AgentContext, Query, SimpleQuery } from 'credo-hmd2v-5.17-core'
 import type {
   CredentialEntry,
   CredentialProve,
@@ -40,19 +39,8 @@ import type {
   JsonObject,
   W3cCredentialEntry,
 } from '@hyperledger/anoncreds-shared'
+import type { AgentContext, Query, SimpleQuery } from 'credo-hmd2v-5.17-core'
 
-import {
-  CredoError,
-  JsonTransformer,
-  W3cCredentialRecord,
-  TypedArrayEncoder,
-  W3cCredentialRepository,
-  W3cCredentialService,
-  W3cJsonLdVerifiableCredential,
-  injectable,
-  utils,
-  W3cJsonLdVerifiablePresentation,
-} from 'credo-hmd2v-5.17-core'
 import {
   Credential,
   W3cPresentation as W3cAnonCredsPresentation,
@@ -65,6 +53,18 @@ import {
   RevocationStatusList,
   anoncreds,
 } from '@hyperledger/anoncreds-shared'
+import {
+  CredoError,
+  JsonTransformer,
+  W3cCredentialRecord,
+  TypedArrayEncoder,
+  W3cCredentialRepository,
+  W3cCredentialService,
+  W3cJsonLdVerifiableCredential,
+  injectable,
+  utils,
+  W3cJsonLdVerifiablePresentation,
+} from 'credo-hmd2v-5.17-core'
 
 import { AnonCredsModuleConfig } from '../AnonCredsModuleConfig'
 import { AnonCredsRsError } from '../error'

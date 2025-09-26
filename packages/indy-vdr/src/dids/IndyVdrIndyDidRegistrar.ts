@@ -1,5 +1,6 @@
 import type { IndyEndpointAttrib } from './didSovUtil'
 import type { IndyVdrPool } from '../pool'
+import type { IndyVdrRequest } from '@hyperledger/indy-vdr-shared'
 import type {
   AgentContext,
   Buffer,
@@ -12,8 +13,8 @@ import type {
   DidRegistrar,
   DidUpdateResult,
 } from 'credo-hmd2v-5.17-core'
-import type { IndyVdrRequest } from '@hyperledger/indy-vdr-shared'
 
+import { AttribRequest, CustomRequest, NymRequest } from '@hyperledger/indy-vdr-shared'
 import { parseIndyDid } from 'credo-hmd2v-5.17-anoncreds'
 import {
   DidCommV1Service,
@@ -28,7 +29,6 @@ import {
   DidCommV2Service,
   TypedArrayEncoder,
 } from 'credo-hmd2v-5.17-core'
-import { AttribRequest, CustomRequest, NymRequest } from '@hyperledger/indy-vdr-shared'
 
 import { IndyVdrError } from '../error'
 import { IndyVdrPoolService } from '../pool/IndyVdrPoolService'

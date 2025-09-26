@@ -19,8 +19,8 @@ import type {
 } from '../src'
 import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { Hasher, utils } from 'credo-hmd2v-5.17-core'
 import BigNumber from 'bn.js'
+import { Hasher, utils } from 'credo-hmd2v-5.17-core'
 
 import {
   getDidIndyCredentialDefinitionId,

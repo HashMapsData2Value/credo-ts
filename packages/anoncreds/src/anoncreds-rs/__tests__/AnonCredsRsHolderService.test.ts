@@ -1,5 +1,6 @@
 import type { W3cAnonCredsCredentialMetadata } from '../../utils/metadata'
 import type { AnonCredsCredentialTags } from '../../utils/w3cAnonCredsUtils'
+import type { JsonObject } from '@hyperledger/anoncreds-shared'
 import type {
   AnonCredsCredentialDefinition,
   AnonCredsProofRequest,
@@ -8,8 +9,14 @@ import type {
   AnonCredsSelectedCredentials,
 } from 'credo-hmd2v-5.17-anoncreds'
 import type { DidRepository } from 'credo-hmd2v-5.17-core'
-import type { JsonObject } from '@hyperledger/anoncreds-shared'
 
+import { anoncreds } from '@hyperledger/anoncreds-nodejs'
+import {
+  AnonCredsCredentialRepository,
+  AnonCredsModuleConfig,
+  AnonCredsHolderServiceSymbol,
+  AnonCredsLinkSecretRecord,
+} from 'credo-hmd2v-5.17-anoncreds'
 import {
   DidResolverService,
   DidsModuleConfig,
@@ -21,7 +28,6 @@ import {
   W3cCredentialsModuleConfig,
   W3cJsonLdVerifiableCredential,
 } from 'credo-hmd2v-5.17-core'
-import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'
@@ -41,13 +47,6 @@ import {
   createLinkSecret,
   storeCredential,
 } from './helpers'
-
-import {
-  AnonCredsCredentialRepository,
-  AnonCredsModuleConfig,
-  AnonCredsHolderServiceSymbol,
-  AnonCredsLinkSecretRecord,
-} from 'credo-hmd2v-5.17-anoncreds'
 
 const agentConfig = getAgentConfig('AnonCredsRsHolderServiceTest')
 const anonCredsHolderService = new AnonCredsRsHolderService()

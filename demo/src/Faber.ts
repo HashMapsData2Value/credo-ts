@@ -1,6 +1,9 @@
 import type { RegisterCredentialDefinitionReturnStateFinished } from 'credo-hmd2v-5.17-anoncreds'
 import type { ConnectionRecord, ConnectionStateChangedEvent } from 'credo-hmd2v-5.17-core'
-import type { IndyVdrRegisterSchemaOptions, IndyVdrRegisterCredentialDefinitionOptions } from 'credo-hmd2v-5.17-indy-vdr'
+import type {
+  IndyVdrRegisterSchemaOptions,
+  IndyVdrRegisterCredentialDefinitionOptions,
+} from 'credo-hmd2v-5.17-indy-vdr'
 import type BottomBar from 'inquirer/lib/ui/bottom-bar'
 
 import { ConnectionEventTypes, KeyType, TypedArrayEncoder, utils } from 'credo-hmd2v-5.17-core'

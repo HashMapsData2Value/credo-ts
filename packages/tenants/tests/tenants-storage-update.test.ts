@@ -9,14 +9,13 @@ import {
   InMemoryLruCache,
 } from 'credo-hmd2v-5.17-core'
 import { agentDependencies } from 'credo-hmd2v-5.17-node'
+import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
 import path from 'path'
 
 import { AskarModule, AskarMultiWalletDatabaseScheme } from '../../askar/src'
 import { ariesAskar } from '../../askar/tests/helpers'
 import { testLogger } from '../../core/tests'
 import { TenantSessionCoordinator } from '../src/context/TenantSessionCoordinator'
-
-import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
 
 const agentConfig = {
   label: 'Tenant Agent',

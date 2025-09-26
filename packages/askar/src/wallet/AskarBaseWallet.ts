@@ -1,3 +1,4 @@
+import type { Session } from '@hyperledger/aries-askar-shared'
 import type {
   EncryptedMessage,
   WalletConfig,
@@ -13,8 +14,17 @@ import type {
   SigningProviderRegistry,
   WalletDirectEncryptCompactJwtEcdhEsOptions,
 } from 'credo-hmd2v-5.17-core'
-import type { Session } from '@hyperledger/aries-askar-shared'
 
+import {
+  CryptoBox,
+  Store,
+  Key as AskarKey,
+  keyAlgFromString,
+  EcdhEs,
+  KeyAlgs,
+  Jwk,
+} from '@hyperledger/aries-askar-shared'
+import BigNumber from 'bn.js'
 import {
   WalletKeyExistsError,
   isValidSeed,
@@ -29,16 +39,6 @@ import {
   KeyType,
   utils,
 } from 'credo-hmd2v-5.17-core'
-import {
-  CryptoBox,
-  Store,
-  Key as AskarKey,
-  keyAlgFromString,
-  EcdhEs,
-  KeyAlgs,
-  Jwk,
-} from '@hyperledger/aries-askar-shared'
-import BigNumber from 'bn.js'
 
 import { importSecureEnvironment } from '../secureEnvironment'
 import {

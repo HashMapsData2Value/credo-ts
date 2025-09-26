@@ -8,6 +8,7 @@ import type {
   OpenId4VcIssuerRecord,
 } from 'credo-hmd2v-5.17-openid4vc'
 
+import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
 import { AskarModule } from 'credo-hmd2v-5.17-askar'
 import {
   ClaimFormat,
@@ -22,7 +23,6 @@ import {
   X509ModuleConfig,
 } from 'credo-hmd2v-5.17-core'
 import { OpenId4VcIssuerModule, OpenId4VciCredentialFormatProfile } from 'credo-hmd2v-5.17-openid4vc'
-import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
 import { Router } from 'express'
 
 import { BaseAgent } from './BaseAgent'

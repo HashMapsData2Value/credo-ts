@@ -16,11 +16,6 @@ import type { InitConfig } from 'credo-hmd2v-5.17-core'
 import type { Socket } from 'net'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import express from 'express'
-import { Server } from 'ws'
-
-import { TestLogger } from '../packages/core/tests/logger'
-
 import { AskarModule } from 'credo-hmd2v-5.17-askar'
 import {
   ConnectionsModule,
@@ -32,6 +27,10 @@ import {
   WsOutboundTransport,
 } from 'credo-hmd2v-5.17-core'
 import { HttpInboundTransport, agentDependencies, WsInboundTransport } from 'credo-hmd2v-5.17-node'
+import express from 'express'
+import { Server } from 'ws'
+
+import { TestLogger } from '../packages/core/tests/logger'
 
 const port = process.env.AGENT_PORT ? Number(process.env.AGENT_PORT) : 3001
 

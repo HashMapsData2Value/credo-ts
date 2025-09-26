@@ -10,10 +10,6 @@ import type {
 
 import { CryptoBox, Store, Key as AskarKey, keyAlgFromString } from '@hyperledger/aries-askar-nodejs'
 import BigNumber from 'bn.js'
-
-import { convertToAskarKeyBackend } from '../packages/askar/src/utils/askarKeyBackend'
-import { didcommV1Pack, didcommV1Unpack } from '../packages/askar/src/wallet/didcommV1'
-
 import {
   JsonEncoder,
   WalletNotFoundError,
@@ -28,6 +24,9 @@ import {
   TypedArrayEncoder,
   KeyBackend,
 } from 'credo-hmd2v-5.17-core'
+
+import { convertToAskarKeyBackend } from '../packages/askar/src/utils/askarKeyBackend'
+import { didcommV1Pack, didcommV1Unpack } from '../packages/askar/src/wallet/didcommV1'
 
 const inMemoryWallets: InMemoryWallets = {}
 

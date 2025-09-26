@@ -3,7 +3,11 @@
   "changelog": "@changesets/cli/changelog",
   "commit": "./commit",
   "privatePackages": false,
-  "fixed": [["credo-hmd2v-5.17-*"]],
+  "fixed": [
+    [
+      "credo-hmd2v-5.17-*"
+    ]
+  ],
   "access": "public",
   "baseBranch": "feat/bip39-mnemonics-v0.5.17",
   "updateInternalDependencies": "patch",

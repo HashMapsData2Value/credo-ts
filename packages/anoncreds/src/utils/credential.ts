@@ -1,8 +1,8 @@
 import type { AnonCredsSchema, AnonCredsCredentialValues } from '../models'
 import type { CredentialPreviewAttributeOptions, LinkedAttachment } from 'credo-hmd2v-5.17-core'
 
-import { Buffer, CredoError, Hasher, TypedArrayEncoder, encodeAttachment } from 'credo-hmd2v-5.17-core'
 import bigInt from 'big-integer'
+import { Buffer, CredoError, Hasher, TypedArrayEncoder, encodeAttachment } from 'credo-hmd2v-5.17-core'
 
 export type AnonCredsClaimRecord = Record<string, string | number>
 

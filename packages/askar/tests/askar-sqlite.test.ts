@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
+import { Store } from '@hyperledger/aries-askar-shared'
 import {
   Agent,
   BasicMessageRecord,
@@ -11,7 +12,6 @@ import {
   WalletInvalidKeyError,
   WalletNotFoundError,
 } from 'credo-hmd2v-5.17-core'
-import { Store } from '@hyperledger/aries-askar-shared'
 import { tmpdir } from 'os'
 import path from 'path'
 

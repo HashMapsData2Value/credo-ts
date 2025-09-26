@@ -1,4 +1,3 @@
-import { IsStringOrStringArray, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { Type, Expose, Transform } from 'class-transformer'
 import {
   IsOptional,
@@ -10,6 +9,7 @@ import {
   Validate,
   IsNumber,
 } from 'class-validator'
+import { IsStringOrStringArray, JsonTransformer } from 'credo-hmd2v-5.17-core'
 
 export class WebVhSchemaContent {
   @IsArray()

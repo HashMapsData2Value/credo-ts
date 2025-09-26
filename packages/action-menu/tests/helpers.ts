@@ -2,9 +2,8 @@ import type { ActionMenuStateChangedEvent, ActionMenuRole, ActionMenuState } fro
 import type { Agent } from 'credo-hmd2v-5.17-core'
 import type { Observable } from 'rxjs'
 
-import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
-
 import { ActionMenuEventTypes } from 'credo-hmd2v-5.17-action-menu'
+import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
 
 export async function waitForActionMenuRecord(
   agent: Agent,

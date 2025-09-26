@@ -2,6 +2,28 @@ import type { AnonCredsCredentialRequest } from 'credo-hmd2v-5.17-anoncreds'
 import type { DidRepository, Wallet } from 'credo-hmd2v-5.17-core'
 
 import {
+  getUnqualifiedSchemaId,
+  parseIndySchemaId,
+  getUnqualifiedCredentialDefinitionId,
+  parseIndyCredentialDefinitionId,
+  AnonCredsModuleConfig,
+  LegacyIndyCredentialFormatService,
+  AnonCredsHolderServiceSymbol,
+  AnonCredsIssuerServiceSymbol,
+  AnonCredsVerifierServiceSymbol,
+  AnonCredsSchemaRecord,
+  AnonCredsSchemaRepository,
+  AnonCredsCredentialDefinitionRepository,
+  AnonCredsCredentialDefinitionRecord,
+  AnonCredsCredentialDefinitionPrivateRepository,
+  AnonCredsCredentialDefinitionPrivateRecord,
+  AnonCredsKeyCorrectnessProofRepository,
+  AnonCredsKeyCorrectnessProofRecord,
+  AnonCredsLinkSecretRepository,
+  AnonCredsLinkSecretRecord,
+  LegacyIndyProofFormatService,
+} from 'credo-hmd2v-5.17-anoncreds'
+import {
   CredentialRole,
   ProofRole,
   CredentialState,
@@ -24,29 +46,6 @@ import { agentDependencies, getAgentConfig, getAgentContext, testLogger } from '
 import { AnonCredsRsVerifierService, AnonCredsRsIssuerService, AnonCredsRsHolderService } from '../src/anoncreds-rs'
 
 import { anoncreds } from './helpers'
-
-import {
-  getUnqualifiedSchemaId,
-  parseIndySchemaId,
-  getUnqualifiedCredentialDefinitionId,
-  parseIndyCredentialDefinitionId,
-  AnonCredsModuleConfig,
-  LegacyIndyCredentialFormatService,
-  AnonCredsHolderServiceSymbol,
-  AnonCredsIssuerServiceSymbol,
-  AnonCredsVerifierServiceSymbol,
-  AnonCredsSchemaRecord,
-  AnonCredsSchemaRepository,
-  AnonCredsCredentialDefinitionRepository,
-  AnonCredsCredentialDefinitionRecord,
-  AnonCredsCredentialDefinitionPrivateRepository,
-  AnonCredsCredentialDefinitionPrivateRecord,
-  AnonCredsKeyCorrectnessProofRepository,
-  AnonCredsKeyCorrectnessProofRecord,
-  AnonCredsLinkSecretRepository,
-  AnonCredsLinkSecretRecord,
-  LegacyIndyProofFormatService,
-} from 'credo-hmd2v-5.17-anoncreds'
 
 const registry = new InMemoryAnonCredsRegistry()
 const anonCredsModuleConfig = new AnonCredsModuleConfig({

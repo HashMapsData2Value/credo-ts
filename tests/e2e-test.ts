@@ -1,16 +1,6 @@
 import type { AnonCredsTestsAgent } from '../packages/anoncreds/tests/anoncredsSetup'
 import type { AgentMessageProcessedEvent, AgentMessageSentEvent } from 'credo-hmd2v-5.17-core'
 
-import { filter, firstValueFrom, map } from 'rxjs'
-
-import { presentAnonCredsProof, issueAnonCredsCredential } from '../packages/anoncreds/tests/anoncredsSetup'
-import {
-  anoncredsDefinitionFourAttributesNoRevocation,
-  storePreCreatedAnonCredsDefinition,
-} from '../packages/anoncreds/tests/preCreatedAnonCredsDefinition'
-import { setupEventReplaySubjects } from '../packages/core/tests'
-import { makeConnection } from '../packages/core/tests/helpers'
-
 import {
   V2CredentialPreview,
   V1BatchMessage,
@@ -24,6 +14,15 @@ import {
   ProofEventTypes,
   AgentEventTypes,
 } from 'credo-hmd2v-5.17-core'
+import { filter, firstValueFrom, map } from 'rxjs'
+
+import { presentAnonCredsProof, issueAnonCredsCredential } from '../packages/anoncreds/tests/anoncredsSetup'
+import {
+  anoncredsDefinitionFourAttributesNoRevocation,
+  storePreCreatedAnonCredsDefinition,
+} from '../packages/anoncreds/tests/preCreatedAnonCredsDefinition'
+import { setupEventReplaySubjects } from '../packages/core/tests'
+import { makeConnection } from '../packages/core/tests/helpers'
 
 export async function e2eTest({
   mediatorAgent,

@@ -7,8 +7,14 @@ import type {
   StorageService,
 } from 'credo-hmd2v-5.17-core'
 
-import { RecordDuplicateError, WalletError, RecordNotFoundError, injectable, JsonTransformer } from 'credo-hmd2v-5.17-core'
 import { Scan } from '@hyperledger/aries-askar-shared'
+import {
+  RecordDuplicateError,
+  WalletError,
+  RecordNotFoundError,
+  injectable,
+  JsonTransformer,
+} from 'credo-hmd2v-5.17-core'
 
 import { AskarErrorCode, isAskarError } from '../utils/askarError'
 import { assertAskarWallet } from '../utils/assertAskarWallet'

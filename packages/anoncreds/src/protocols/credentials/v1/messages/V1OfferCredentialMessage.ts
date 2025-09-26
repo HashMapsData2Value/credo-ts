@@ -1,8 +1,8 @@
 import type { AnonCredsCredentialOffer } from '../../../../models'
 
-import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 import { Expose, Type } from 'class-transformer'
 import { IsString, IsOptional, ValidateNested, IsInstance, IsArray } from 'class-validator'
+import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 
 import { V1CredentialPreview } from './V1CredentialPreview'
 

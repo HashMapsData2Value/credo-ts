@@ -1,5 +1,5 @@
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 import { IsOptional, IsString } from 'class-validator'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 
 /**
  * @internal

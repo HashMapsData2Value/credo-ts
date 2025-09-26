@@ -3,11 +3,6 @@ import type { QuestionAnswerStateChangedEvent, ValidResponse } from 'credo-hmd2v
 
 import { EventEmitter, InboundMessageContext, DidExchangeState } from 'credo-hmd2v-5.17-core'
 import { agentDependencies } from 'credo-hmd2v-5.17-node'
-import { Subject } from 'rxjs'
-
-import { InMemoryWallet } from '../../../../tests/InMemoryWallet'
-import { getAgentConfig, getAgentContext, getMockConnection, mockFunction } from '../../../core/tests/helpers'
-
 import {
   QuestionAnswerRecord,
   QuestionAnswerRepository,
@@ -18,6 +13,10 @@ import {
   QuestionMessage,
   AnswerMessage,
 } from 'credo-hmd2v-5.17-question-answer'
+import { Subject } from 'rxjs'
+
+import { InMemoryWallet } from '../../../../tests/InMemoryWallet'
+import { getAgentConfig, getAgentContext, getMockConnection, mockFunction } from '../../../core/tests/helpers'
 
 jest.mock('../repository/QuestionAnswerRepository')
 const QuestionAnswerRepositoryMock = QuestionAnswerRepository as jest.Mock<QuestionAnswerRepository>

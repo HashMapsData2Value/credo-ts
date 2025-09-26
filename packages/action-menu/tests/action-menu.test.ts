@@ -1,12 +1,17 @@
 import type { ConnectionRecord } from 'credo-hmd2v-5.17-core'
 
+import {
+  ActionMenu,
+  ActionMenuModule,
+  ActionMenuRecord,
+  ActionMenuRole,
+  ActionMenuState,
+} from 'credo-hmd2v-5.17-action-menu'
 import { Agent } from 'credo-hmd2v-5.17-core'
 
 import { makeConnection, testLogger, setupSubjectTransports, getInMemoryAgentOptions } from '../../core/tests'
 
 import { waitForActionMenuRecord } from './helpers'
-
-import { ActionMenu, ActionMenuModule, ActionMenuRecord, ActionMenuRole, ActionMenuState } from 'credo-hmd2v-5.17-action-menu'
 
 const modules = {
   actionMenu: new ActionMenuModule(),

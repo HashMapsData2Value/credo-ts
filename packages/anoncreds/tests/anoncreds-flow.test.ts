@@ -2,6 +2,29 @@ import type { AnonCredsCredentialRequest } from 'credo-hmd2v-5.17-anoncreds'
 import type { DidRepository, Wallet } from 'credo-hmd2v-5.17-core'
 
 import {
+  AnonCredsCredentialDefinitionPrivateRecord,
+  AnonCredsCredentialDefinitionPrivateRepository,
+  AnonCredsCredentialDefinitionRecord,
+  AnonCredsCredentialDefinitionRepository,
+  AnonCredsCredentialFormatService,
+  AnonCredsHolderServiceSymbol,
+  AnonCredsIssuerServiceSymbol,
+  AnonCredsKeyCorrectnessProofRecord,
+  AnonCredsKeyCorrectnessProofRepository,
+  AnonCredsLinkSecretRecord,
+  AnonCredsLinkSecretRepository,
+  AnonCredsModuleConfig,
+  AnonCredsProofFormatService,
+  AnonCredsRevocationRegistryDefinitionPrivateRecord,
+  AnonCredsRevocationRegistryDefinitionPrivateRepository,
+  AnonCredsRevocationRegistryDefinitionRecord,
+  AnonCredsRevocationRegistryDefinitionRepository,
+  AnonCredsRevocationRegistryState,
+  AnonCredsSchemaRecord,
+  AnonCredsSchemaRepository,
+  AnonCredsVerifierServiceSymbol,
+} from 'credo-hmd2v-5.17-anoncreds'
+import {
   CredentialRole,
   ProofRole,
   InjectionSymbols,
@@ -26,30 +49,6 @@ import { AnonCredsRsHolderService, AnonCredsRsIssuerService, AnonCredsRsVerifier
 
 import { InMemoryTailsFileService } from './InMemoryTailsFileService'
 import { anoncreds } from './helpers'
-
-import {
-  AnonCredsCredentialDefinitionPrivateRecord,
-  AnonCredsCredentialDefinitionPrivateRepository,
-  AnonCredsCredentialDefinitionRecord,
-  AnonCredsCredentialDefinitionRepository,
-  AnonCredsCredentialFormatService,
-  AnonCredsHolderServiceSymbol,
-  AnonCredsIssuerServiceSymbol,
-  AnonCredsKeyCorrectnessProofRecord,
-  AnonCredsKeyCorrectnessProofRepository,
-  AnonCredsLinkSecretRecord,
-  AnonCredsLinkSecretRepository,
-  AnonCredsModuleConfig,
-  AnonCredsProofFormatService,
-  AnonCredsRevocationRegistryDefinitionPrivateRecord,
-  AnonCredsRevocationRegistryDefinitionPrivateRepository,
-  AnonCredsRevocationRegistryDefinitionRecord,
-  AnonCredsRevocationRegistryDefinitionRepository,
-  AnonCredsRevocationRegistryState,
-  AnonCredsSchemaRecord,
-  AnonCredsSchemaRepository,
-  AnonCredsVerifierServiceSymbol,
-} from 'credo-hmd2v-5.17-anoncreds'
 
 const registry = new InMemoryAnonCredsRegistry()
 const tailsFileService = new InMemoryTailsFileService()

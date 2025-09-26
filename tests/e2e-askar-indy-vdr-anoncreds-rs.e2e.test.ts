@@ -1,6 +1,13 @@
 import type { SubjectMessage } from './transport/SubjectInboundTransport'
 import type { AnonCredsTestsAgent } from '../packages/anoncreds/tests/anoncredsSetup'
 
+import {
+  Agent,
+  AutoAcceptCredential,
+  MediatorModule,
+  MediatorPickupStrategy,
+  MediationRecipientModule,
+} from 'credo-hmd2v-5.17-core'
 import { Subject } from 'rxjs'
 
 import { getAnonCredsModules } from '../packages/anoncreds/tests/anoncredsSetup'
@@ -10,14 +17,6 @@ import { getAgentOptions } from '../packages/core/tests/helpers'
 import { e2eTest } from './e2e-test'
 import { SubjectInboundTransport } from './transport/SubjectInboundTransport'
 import { SubjectOutboundTransport } from './transport/SubjectOutboundTransport'
-
-import {
-  Agent,
-  AutoAcceptCredential,
-  MediatorModule,
-  MediatorPickupStrategy,
-  MediationRecipientModule,
-} from 'credo-hmd2v-5.17-core'
 
 const recipientAgentOptions = getAgentOptions(
   'E2E Askar Subject Recipient',

@@ -1,5 +1,6 @@
 import type { W3cAnonCredsCredentialMetadata } from '../../utils/metadata'
 import type { AnonCredsCredentialTags } from '../../utils/w3cAnonCredsUtils'
+import type { JsonObject } from '@hyperledger/anoncreds-shared'
 import type {
   AnonCredsCredentialDefinition,
   AnonCredsCredentialInfo,
@@ -7,14 +8,7 @@ import type {
   AnonCredsSchema,
 } from 'credo-hmd2v-5.17-anoncreds'
 import type { AgentContext } from 'credo-hmd2v-5.17-core'
-import type { JsonObject } from '@hyperledger/anoncreds-shared'
 
-import {
-  JsonTransformer,
-  W3cCredentialRepository,
-  W3cCredentialService,
-  W3cJsonLdVerifiableCredential,
-} from 'credo-hmd2v-5.17-core'
 import {
   CredentialDefinition,
   CredentialOffer,
@@ -28,6 +22,12 @@ import {
   W3cCredential,
   anoncreds,
 } from '@hyperledger/anoncreds-shared'
+import {
+  JsonTransformer,
+  W3cCredentialRepository,
+  W3cCredentialService,
+  W3cJsonLdVerifiableCredential,
+} from 'credo-hmd2v-5.17-core'
 
 import { W3cAnonCredsCredentialMetadataKey } from '../../utils/metadata'
 

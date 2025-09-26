@@ -2,8 +2,8 @@ import type { ActionMenuRole } from '../ActionMenuRole'
 import type { ActionMenuState } from '../ActionMenuState'
 import type { TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 import { Type } from 'class-transformer'
+import { CredoError, BaseRecord, utils } from 'credo-hmd2v-5.17-core'
 
 import { ActionMenuSelection, ActionMenu } from '../models'
 

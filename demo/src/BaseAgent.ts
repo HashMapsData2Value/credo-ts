@@ -1,6 +1,9 @@
 import type { InitConfig } from 'credo-hmd2v-5.17-core'
 import type { IndyVdrPoolConfig } from 'credo-hmd2v-5.17-indy-vdr'
 
+import { anoncreds } from '@hyperledger/anoncreds-nodejs'
+import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
+import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 import {
   AnonCredsCredentialFormatService,
   AnonCredsModule,
@@ -32,9 +35,6 @@ import {
 } from 'credo-hmd2v-5.17-core'
 import { IndyVdrIndyDidResolver, IndyVdrAnonCredsRegistry, IndyVdrModule } from 'credo-hmd2v-5.17-indy-vdr'
 import { agentDependencies, HttpInboundTransport } from 'credo-hmd2v-5.17-node'
-import { anoncreds } from '@hyperledger/anoncreds-nodejs'
-import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 
 import { greenText } from './OutputClass'
 

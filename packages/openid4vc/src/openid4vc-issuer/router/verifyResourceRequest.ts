@@ -1,10 +1,10 @@
 import type { OpenId4VcIssuanceRequest } from './requestContext'
 import type { OpenId4VcIssuerRecord } from '../repository'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { SigningAlgo } from '@sphereon/oid4vc-common'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { CredoError, joinUriParts, JwsService, Jwt } from 'credo-hmd2v-5.17-core'
 import { verifyResourceDPoP } from '@sphereon/oid4vc-common'
+import { CredoError, joinUriParts, JwsService, Jwt } from 'credo-hmd2v-5.17-core'
 
 import { getVerifyJwtCallback } from '../../shared/utils'
 import { OpenId4VcIssuerModuleConfig } from '../OpenId4VcIssuerModuleConfig'

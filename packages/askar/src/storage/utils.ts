@@ -1,5 +1,5 @@
-import type { BaseRecord, BaseRecordConstructor, Query, TagsBase } from 'credo-hmd2v-5.17-core'
 import type { EntryObject } from '@hyperledger/aries-askar-shared'
+import type { BaseRecord, BaseRecordConstructor, Query, TagsBase } from 'credo-hmd2v-5.17-core'
 
 import { JsonTransformer } from 'credo-hmd2v-5.17-core'
 

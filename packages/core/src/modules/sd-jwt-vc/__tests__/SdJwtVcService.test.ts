@@ -3,6 +3,22 @@ import type { AgentContext, Jwk, Key } from 'credo-hmd2v-5.17-core'
 
 import { createHeaderAndPayload, StatusList } from '@sd-jwt/jwt-status-list'
 import { SDJWTException } from '@sd-jwt/utils'
+import {
+  Agent,
+  CredoError,
+  DidKey,
+  DidsModule,
+  getDomainFromUrl,
+  getJwkFromKey,
+  JwsService,
+  JwtPayload,
+  KeyDidRegistrar,
+  KeyDidResolver,
+  KeyType,
+  parseDid,
+  TypedArrayEncoder,
+  X509ModuleConfig,
+} from 'credo-hmd2v-5.17-core'
 import { randomUUID } from 'crypto'
 
 import { agentDependencies, getInMemoryAgentOptions } from '../../../../tests'
@@ -26,23 +42,6 @@ import {
   simpleSdJwtVcWithStatus,
   simpleX509,
 } from './sdjwtvc.fixtures'
-
-import {
-  Agent,
-  CredoError,
-  DidKey,
-  DidsModule,
-  getDomainFromUrl,
-  getJwkFromKey,
-  JwsService,
-  JwtPayload,
-  KeyDidRegistrar,
-  KeyDidResolver,
-  KeyType,
-  parseDid,
-  TypedArrayEncoder,
-  X509ModuleConfig,
-} from 'credo-hmd2v-5.17-core'
 
 const jwkJsonWithoutUse = (jwk: Jwk) => {
   const jwkJson = jwk.toJson()

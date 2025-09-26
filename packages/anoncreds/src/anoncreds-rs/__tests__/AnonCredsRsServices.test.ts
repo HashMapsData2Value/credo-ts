@@ -1,26 +1,7 @@
 import type { AnonCredsProofRequest } from 'credo-hmd2v-5.17-anoncreds'
 import type { DidRepository } from 'credo-hmd2v-5.17-core'
 
-import {
-  DidResolverService,
-  DidsModuleConfig,
-  InjectionSymbols,
-  SignatureSuiteToken,
-  W3cCredentialsModuleConfig,
-} from 'credo-hmd2v-5.17-core'
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
-import { Subject } from 'rxjs'
-
-import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'
-import { InMemoryWallet } from '../../../../../tests/InMemoryWallet'
-import { InMemoryAnonCredsRegistry } from '../../../../anoncreds/tests/InMemoryAnonCredsRegistry'
-import { testLogger } from '../../../../core/tests'
-import { agentDependencies, getAgentConfig, getAgentContext } from '../../../../core/tests/helpers'
-import { encodeCredentialValue } from '../../utils/credential'
-import { AnonCredsRsHolderService } from '../AnonCredsRsHolderService'
-import { AnonCredsRsIssuerService } from '../AnonCredsRsIssuerService'
-import { AnonCredsRsVerifierService } from '../AnonCredsRsVerifierService'
-
 import {
   AnonCredsCredentialDefinitionPrivateRecord,
   AnonCredsCredentialDefinitionPrivateRepository,
@@ -41,6 +22,24 @@ import {
   parseIndyCredentialDefinitionId,
   parseIndySchemaId,
 } from 'credo-hmd2v-5.17-anoncreds'
+import {
+  DidResolverService,
+  DidsModuleConfig,
+  InjectionSymbols,
+  SignatureSuiteToken,
+  W3cCredentialsModuleConfig,
+} from 'credo-hmd2v-5.17-core'
+import { Subject } from 'rxjs'
+
+import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'
+import { InMemoryWallet } from '../../../../../tests/InMemoryWallet'
+import { InMemoryAnonCredsRegistry } from '../../../../anoncreds/tests/InMemoryAnonCredsRegistry'
+import { testLogger } from '../../../../core/tests'
+import { agentDependencies, getAgentConfig, getAgentContext } from '../../../../core/tests/helpers'
+import { encodeCredentialValue } from '../../utils/credential'
+import { AnonCredsRsHolderService } from '../AnonCredsRsHolderService'
+import { AnonCredsRsIssuerService } from '../AnonCredsRsIssuerService'
+import { AnonCredsRsVerifierService } from '../AnonCredsRsVerifierService'
 
 const agentConfig = getAgentConfig('AnonCredsCredentialFormatServiceTest')
 const anonCredsVerifierService = new AnonCredsRsVerifierService()

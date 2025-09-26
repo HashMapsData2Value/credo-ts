@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import type { SubjectMessage } from '../../../../../../tests/transport/SubjectInboundTransport'
 
+import { Agent } from 'credo-hmd2v-5.17-core'
 import { Subject } from 'rxjs'
 
 import { SubjectInboundTransport } from '../../../../../../tests/transport/SubjectInboundTransport'
@@ -8,8 +9,6 @@ import { SubjectOutboundTransport } from '../../../../../../tests/transport/Subj
 import { getInMemoryAgentOptions } from '../../../../tests/helpers'
 import { HandshakeProtocol, DidExchangeState } from '../../connections'
 import { OutOfBandState } from '../domain/OutOfBandState'
-
-import { Agent } from 'credo-hmd2v-5.17-core'
 
 const faberAgentOptions = getInMemoryAgentOptions('Faber Agent OOB Connect to Self', {
   endpoints: ['rxjs:faber'],

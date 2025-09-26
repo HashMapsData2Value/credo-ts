@@ -7,9 +7,9 @@ import type {
   QueryOptions,
 } from '../packages/core/src/storage/StorageService'
 
-import { InMemoryWallet } from './InMemoryWallet'
-
 import { RecordNotFoundError, RecordDuplicateError, JsonTransformer, injectable } from 'credo-hmd2v-5.17-core'
+
+import { InMemoryWallet } from './InMemoryWallet'
 
 interface StorageRecord {
   value: Record<string, unknown>

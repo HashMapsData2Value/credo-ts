@@ -1,10 +1,10 @@
-import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from 'credo-hmd2v-5.17-core'
 import type {
   W3CVerifiableCredential as SphereonW3cVerifiableCredential,
   W3CVerifiablePresentation as SphereonW3cVerifiablePresentation,
   CompactSdJwtVc as SphereonCompactSdJwtVc,
   WrappedVerifiablePresentation,
 } from '@sphereon/ssi-types'
+import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from 'credo-hmd2v-5.17-core'
 
 import {
   JsonTransformer,

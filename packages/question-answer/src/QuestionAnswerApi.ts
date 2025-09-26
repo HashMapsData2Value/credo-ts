@@ -1,7 +1,13 @@
 import type { QuestionAnswerRecord } from './repository'
 import type { Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 
-import { getOutboundMessageContext, AgentContext, ConnectionService, injectable, MessageSender } from 'credo-hmd2v-5.17-core'
+import {
+  getOutboundMessageContext,
+  AgentContext,
+  ConnectionService,
+  injectable,
+  MessageSender,
+} from 'credo-hmd2v-5.17-core'
 
 import { AnswerMessageHandler, QuestionMessageHandler } from './handlers'
 import { ValidResponse } from './models'

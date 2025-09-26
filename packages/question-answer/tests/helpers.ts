@@ -6,9 +6,8 @@ import type {
 } from 'credo-hmd2v-5.17-question-answer'
 import type { Observable } from 'rxjs'
 
-import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
-
 import { QuestionAnswerEventTypes } from 'credo-hmd2v-5.17-question-answer'
+import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
 
 export async function waitForQuestionAnswerRecord(
   agent: Agent,

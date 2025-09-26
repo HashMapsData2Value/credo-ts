@@ -2,12 +2,11 @@ import type { InitConfig } from 'credo-hmd2v-5.17-core'
 
 import { ConnectionsModule, Agent } from 'credo-hmd2v-5.17-core'
 import { agentDependencies } from 'credo-hmd2v-5.17-node'
+import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
 
 import { InMemoryWalletModule } from '../../../tests/InMemoryWalletModule'
 import { uuid } from '../../core/src/utils/uuid'
 import { testLogger } from '../../core/tests'
-
-import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
 
 const agentConfig: InitConfig = {
   label: 'Tenant Agent 1',

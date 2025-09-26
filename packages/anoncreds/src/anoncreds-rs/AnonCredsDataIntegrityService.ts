@@ -2,6 +2,7 @@ import type { AnonCredsRsVerifierService } from './AnonCredsRsVerifierService'
 import type { AnonCredsProofRequest, AnonCredsRequestedPredicate } from '../models'
 import type { CredentialWithRevocationMetadata } from '../models/utils'
 import type { AnonCredsCredentialProve, CreateW3cPresentationOptions, AnonCredsHolderService } from '../services'
+import type { Descriptor, FieldV2, InputDescriptorV1, InputDescriptorV2 } from '@sphereon/pex-models'
 import type {
   AgentContext,
   IAnonCredsDataIntegrityService,
@@ -11,9 +12,9 @@ import type {
   W3cCredentialRecord,
   W3cJsonLdVerifiableCredential,
 } from 'credo-hmd2v-5.17-core'
-import type { Descriptor, FieldV2, InputDescriptorV1, InputDescriptorV2 } from '@sphereon/pex-models'
 
 import { JSONPath } from '@astronautlabs/jsonpath'
+import BigNumber from 'bn.js'
 import {
   CredoError,
   Hasher,
@@ -24,7 +25,6 @@ import {
   injectable,
   ClaimFormat,
 } from 'credo-hmd2v-5.17-core'
-import BigNumber from 'bn.js'
 
 import { AnonCredsHolderServiceSymbol, AnonCredsVerifierServiceSymbol } from '../services'
 import { fetchCredentialDefinitions, fetchSchemas } from '../utils/anonCredsObjects'

@@ -1,6 +1,6 @@
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 import { Expose } from 'class-transformer'
 import { IsString } from 'class-validator'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 
 export class AnswerMessage extends AgentMessage {
   /**

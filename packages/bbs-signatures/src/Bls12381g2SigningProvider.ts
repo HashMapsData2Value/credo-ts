@@ -1,7 +1,7 @@
 import type { SigningProvider, CreateKeyPairOptions, KeyPair, SignOptions, VerifyOptions } from 'credo-hmd2v-5.17-core'
 
-import { KeyType, injectable, TypedArrayEncoder, SigningProviderError, Buffer } from 'credo-hmd2v-5.17-core'
 import { bls12381toBbs, verify, sign, generateBls12381G2KeyPair } from '@mattrglobal/bbs-signatures'
+import { KeyType, injectable, TypedArrayEncoder, SigningProviderError, Buffer } from 'credo-hmd2v-5.17-core'
 
 /**
  * This will be extracted to the bbs package.

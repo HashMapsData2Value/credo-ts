@@ -1,14 +1,14 @@
 import type { OpenId4VcVerificationSessionRecord } from './OpenId4VcVerificationSessionRecord'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { AuthorizationRequestState, AuthorizationResponseState, IRPSessionManager } from '@sphereon/did-auth-siop'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
-import { CredoError } from 'credo-hmd2v-5.17-core'
 import {
   AuthorizationRequest,
   AuthorizationRequestStateStatus,
   AuthorizationResponse,
   AuthorizationResponseStateStatus,
 } from '@sphereon/did-auth-siop'
+import { CredoError } from 'credo-hmd2v-5.17-core'
 
 import { OpenId4VcVerificationSessionState } from '../OpenId4VcVerificationSessionState'
 

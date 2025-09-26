@@ -1,6 +1,7 @@
 import type { CheqdDidCreateOptions } from '../src'
 import type { DidDocument } from 'credo-hmd2v-5.17-core'
 
+import { generateKeyPairFromSeed } from '@stablelib/ed25519'
 import {
   DidDocumentBuilder,
   getEd25519VerificationKey2018,
@@ -10,7 +11,6 @@ import {
   Agent,
   TypedArrayEncoder,
 } from 'credo-hmd2v-5.17-core'
-import { generateKeyPairFromSeed } from '@stablelib/ed25519'
 
 import { getInMemoryAgentOptions } from '../../core/tests/helpers'
 

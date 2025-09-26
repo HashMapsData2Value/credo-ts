@@ -1,6 +1,7 @@
 import type { TenantRecord } from '../repository'
 import type { MutexInterface } from 'async-mutex'
 
+import { Mutex, withTimeout } from 'async-mutex'
 import {
   AgentConfig,
   AgentContext,
@@ -12,7 +13,6 @@ import {
   WalletApi,
   WalletError,
 } from 'credo-hmd2v-5.17-core'
-import { Mutex, withTimeout } from 'async-mutex'
 
 import { TenantsModuleConfig } from '../TenantsModuleConfig'
 

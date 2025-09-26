@@ -1,9 +1,8 @@
 import type { SubjectMessage } from './SubjectInboundTransport'
 import type { OutboundPackage, OutboundTransport, Agent, Logger } from 'credo-hmd2v-5.17-core'
 
-import { takeUntil, Subject, take } from 'rxjs'
-
 import { MessageReceiver, InjectionSymbols, CredoError } from 'credo-hmd2v-5.17-core'
+import { takeUntil, Subject, take } from 'rxjs'
 
 export class SubjectOutboundTransport implements OutboundTransport {
   private logger!: Logger

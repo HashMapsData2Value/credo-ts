@@ -1,3 +1,4 @@
+import type { JwkProps } from '@hyperledger/aries-askar-shared'
 import type {
   SigningProvider,
   WalletConfig,
@@ -6,8 +7,9 @@ import type {
   SignOptions,
   VerifyOptions,
 } from 'credo-hmd2v-5.17-core'
-import type { JwkProps } from '@hyperledger/aries-askar-shared'
 
+import { Key as AskarKey } from '@hyperledger/aries-askar-nodejs'
+import { Jwk, Store } from '@hyperledger/aries-askar-shared'
 import {
   WalletKeyExistsError,
   Key,
@@ -22,8 +24,6 @@ import {
   Buffer,
   JsonEncoder,
 } from 'credo-hmd2v-5.17-core'
-import { Key as AskarKey } from '@hyperledger/aries-askar-nodejs'
-import { Jwk, Store } from '@hyperledger/aries-askar-shared'
 import { readFileSync } from 'fs'
 import path from 'path'
 

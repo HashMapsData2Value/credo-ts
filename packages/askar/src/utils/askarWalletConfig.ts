@@ -1,7 +1,7 @@
 import type { WalletConfig } from 'credo-hmd2v-5.17-core'
 
-import { KeyDerivationMethod, WalletError } from 'credo-hmd2v-5.17-core'
 import { KdfMethod, StoreKeyMethod } from '@hyperledger/aries-askar-shared'
+import { KeyDerivationMethod, WalletError } from 'credo-hmd2v-5.17-core'
 
 import {
   isAskarWalletPostgresStorageConfig,

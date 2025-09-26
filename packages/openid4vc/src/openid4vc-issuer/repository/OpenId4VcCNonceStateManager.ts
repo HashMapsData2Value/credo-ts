@@ -1,5 +1,5 @@
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
 import type { CNonceState, IStateManager } from '@sphereon/oid4vci-common'
+import type { AgentContext } from 'credo-hmd2v-5.17-core'
 
 import { CredoError } from 'credo-hmd2v-5.17-core'
 

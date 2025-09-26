@@ -1,8 +1,8 @@
 import type { LegacyIndyProofRequest } from '../../../../formats'
 
-import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 import { Expose, Type } from 'class-transformer'
 import { IsArray, IsString, ValidateNested, IsOptional, IsInstance } from 'class-validator'
+import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
 
 export interface V1RequestPresentationMessageOptions {
   id?: string

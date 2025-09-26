@@ -1,8 +1,8 @@
 import type { OpenId4VcIssuerX5c, OpenId4VcJwtIssuer } from './models'
-import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'credo-hmd2v-5.17-core'
 import type { JwtIssuerWithContext as VpJwtIssuerWithContext, VerifyJwtCallback } from '@sphereon/did-auth-siop'
 import type { DPoPJwtIssuerWithContext, CreateJwtCallback, JwtIssuer } from '@sphereon/oid4vc-common'
 import type { CredentialOfferPayloadV1_0_11, CredentialOfferPayloadV1_0_13 } from '@sphereon/oid4vci-common'
+import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'credo-hmd2v-5.17-core'
 
 import {
   CredoError,

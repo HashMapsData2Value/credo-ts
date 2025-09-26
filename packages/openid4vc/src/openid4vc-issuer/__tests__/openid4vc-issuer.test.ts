@@ -4,6 +4,7 @@ import type {
   OpenId4VciCredentialRequestToCredentialMapper,
 } from '../OpenId4VcIssuerServiceOptions'
 import type { OpenId4VcIssuerRecord } from '../repository'
+import type { OriginalVerifiableCredential as SphereonW3cVerifiableCredential } from '@sphereon/ssi-types'
 import type {
   AgentContext,
   KeyDidCreateOptions,
@@ -11,7 +12,6 @@ import type {
   W3cVerifiableCredential,
   W3cVerifyCredentialResult,
 } from 'credo-hmd2v-5.17-core'
-import type { OriginalVerifiableCredential as SphereonW3cVerifiableCredential } from '@sphereon/ssi-types'
 
 import {
   SdJwtVcApi,

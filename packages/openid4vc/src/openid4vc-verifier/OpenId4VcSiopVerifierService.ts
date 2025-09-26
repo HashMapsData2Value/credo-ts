@@ -8,6 +8,7 @@ import type {
 } from './OpenId4VcSiopVerifierServiceOptions'
 import type { OpenId4VcVerificationSessionRecord } from './repository'
 import type { OpenId4VcSiopAuthorizationResponsePayload } from '../shared'
+import type { ClientIdScheme, JarmClientMetadata, PresentationVerificationCallback } from '@sphereon/did-auth-siop'
 import type {
   AgentContext,
   DifPresentationExchangeDefinition,
@@ -17,8 +18,21 @@ import type {
   RecordSavedEvent,
   RecordUpdatedEvent,
 } from 'credo-hmd2v-5.17-core'
-import type { ClientIdScheme, JarmClientMetadata, PresentationVerificationCallback } from '@sphereon/did-auth-siop'
 
+import {
+  AuthorizationRequest,
+  AuthorizationResponse,
+  PassBy,
+  PropertyTarget,
+  RequestAud,
+  ResponseIss,
+  ResponseMode as SphereonResponseMode,
+  ResponseType,
+  RevocationVerification,
+  RP,
+  SupportedVersion,
+} from '@sphereon/did-auth-siop'
+import { extractPresentationsFromVpToken } from '@sphereon/did-auth-siop/dist/authorization-response/OpenID4VP'
 import {
   EventEmitter,
   RepositoryEventTypes,
@@ -44,20 +58,6 @@ import {
   TypedArrayEncoder,
   Jwt,
 } from 'credo-hmd2v-5.17-core'
-import {
-  AuthorizationRequest,
-  AuthorizationResponse,
-  PassBy,
-  PropertyTarget,
-  RequestAud,
-  ResponseIss,
-  ResponseMode as SphereonResponseMode,
-  ResponseType,
-  RevocationVerification,
-  RP,
-  SupportedVersion,
-} from '@sphereon/did-auth-siop'
-import { extractPresentationsFromVpToken } from '@sphereon/did-auth-siop/dist/authorization-response/OpenID4VP'
 import { filter, first, firstValueFrom, map, timeout } from 'rxjs'
 
 import { storeActorIdForContextCorrelationId } from '../shared/router'

@@ -15,7 +15,11 @@ import type {
 } from './AnonCredsHolderServiceOptions'
 import type { AnonCredsCredentialInfo } from '../models'
 import type { AnonCredsCredential, AnonCredsProof } from '../models/exchange'
-import type { AgentContext, W3cJsonLdVerifiableCredential, W3cJsonLdVerifiablePresentation } from 'credo-hmd2v-5.17-core'
+import type {
+  AgentContext,
+  W3cJsonLdVerifiableCredential,
+  W3cJsonLdVerifiablePresentation,
+} from 'credo-hmd2v-5.17-core'
 
 export const AnonCredsHolderServiceSymbol = Symbol('AnonCredsHolderService')
 

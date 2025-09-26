@@ -15,7 +15,6 @@ import type {
   OpenId4VciCredentialOfferPayload,
   OpenId4VciCredentialRequest,
 } from '../shared'
-import type { AgentContext, DidDocument, Key, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 import type {
   CredentialOfferPayloadV1_0_11,
   CredentialOfferPayloadV1_0_13,
@@ -29,7 +28,9 @@ import type {
   CredentialSignerCallback,
 } from '@sphereon/oid4vci-issuer'
 import type { ICredential } from '@sphereon/ssi-types'
+import type { AgentContext, DidDocument, Key, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
 
+import { VcIssuerBuilder } from '@sphereon/oid4vci-issuer'
 import {
   SdJwtVcApi,
   CredoError,
@@ -52,7 +53,6 @@ import {
   parseDid,
   DidResolverService,
 } from 'credo-hmd2v-5.17-core'
-import { VcIssuerBuilder } from '@sphereon/oid4vci-issuer'
 
 import { credentialsSupportedV11ToV13, OpenId4VciCredentialFormatProfile } from '../shared'
 import { credentialsSupportedV13ToV11, getOfferedCredentials } from '../shared/issuerMetadataUtils'

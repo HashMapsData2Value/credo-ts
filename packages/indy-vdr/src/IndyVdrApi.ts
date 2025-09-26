@@ -1,9 +1,9 @@
-import type { Key } from 'credo-hmd2v-5.17-core'
 import type { IndyVdrRequest } from '@hyperledger/indy-vdr-shared'
+import type { Key } from 'credo-hmd2v-5.17-core'
 
+import { CustomRequest } from '@hyperledger/indy-vdr-shared'
 import { parseIndyDid } from 'credo-hmd2v-5.17-anoncreds'
 import { AgentContext, injectable } from 'credo-hmd2v-5.17-core'
-import { CustomRequest } from '@hyperledger/indy-vdr-shared'
 
 import { verificationKeyForIndyDid } from './dids/didIndyUtil'
 import { IndyVdrError } from './error'

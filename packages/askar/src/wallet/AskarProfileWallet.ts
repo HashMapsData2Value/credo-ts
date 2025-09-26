@@ -1,5 +1,6 @@
 import type { WalletConfig } from 'credo-hmd2v-5.17-core'
 
+import { Store } from '@hyperledger/aries-askar-shared'
 import {
   WalletExportUnsupportedError,
   WalletDuplicateError,
@@ -9,7 +10,6 @@ import {
   SigningProviderRegistry,
   WalletError,
 } from 'credo-hmd2v-5.17-core'
-import { Store } from '@hyperledger/aries-askar-shared'
 import { inject, injectable } from 'tsyringe'
 
 import { AskarErrorCode, isAskarError } from '../utils'

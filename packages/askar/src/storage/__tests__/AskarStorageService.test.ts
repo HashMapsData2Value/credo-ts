@@ -1,7 +1,12 @@
 import type { AgentContext, TagsBase } from 'credo-hmd2v-5.17-core'
 
-import { TypedArrayEncoder, SigningProviderRegistry, RecordDuplicateError, RecordNotFoundError } from 'credo-hmd2v-5.17-core'
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
+import {
+  TypedArrayEncoder,
+  SigningProviderRegistry,
+  RecordDuplicateError,
+  RecordNotFoundError,
+} from 'credo-hmd2v-5.17-core'
 
 import { TestRecord } from '../../../../core/src/storage/__tests__/TestRecord'
 import { agentDependencies, getAgentConfig, getAgentContext } from '../../../../core/tests/helpers'

@@ -1,12 +1,5 @@
 import type { AnonCredsTestsAgent } from '../packages/anoncreds/tests/anoncredsSetup'
 
-import { getAnonCredsModules } from '../packages/anoncreds/tests/anoncredsSetup'
-import { askarModule } from '../packages/askar/tests/helpers'
-import { MessageForwardingStrategy } from '../packages/core/src/modules/routing/MessageForwardingStrategy'
-import { getAgentOptions } from '../packages/core/tests/helpers'
-
-import { e2eTest } from './e2e-test'
-
 import {
   Agent,
   WsOutboundTransport,
@@ -16,6 +9,13 @@ import {
   MediatorModule,
 } from 'credo-hmd2v-5.17-core'
 import { WsInboundTransport } from 'credo-hmd2v-5.17-node'
+
+import { getAnonCredsModules } from '../packages/anoncreds/tests/anoncredsSetup'
+import { askarModule } from '../packages/askar/tests/helpers'
+import { MessageForwardingStrategy } from '../packages/core/src/modules/routing/MessageForwardingStrategy'
+import { getAgentOptions } from '../packages/core/tests/helpers'
+
+import { e2eTest } from './e2e-test'
 
 // FIXME: somehow if we use the in memory wallet and storage service in the WS test it will fail,
 // but it succeeds with Askar. We should look into this at some point
