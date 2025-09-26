@@ -1,8 +1,8 @@
 import type { AnonCredsTestsAgent } from './anoncredsSetup'
 import type { EventReplaySubject } from '../../core/tests'
-import type { AnonCredsHolderService, AnonCredsProposeCredentialFormat } from 'credo-hmd2v-5.17-anoncreds'
+import type { AnonCredsHolderService, AnonCredsProposeCredentialFormat } from 'hmd2v-credo-anoncreds'
 
-import { AnonCredsHolderServiceSymbol } from 'credo-hmd2v-5.17-anoncreds'
+import { AnonCredsHolderServiceSymbol } from 'hmd2v-credo-anoncreds'
 import {
   DidCommMessageRepository,
   JsonTransformer,
@@ -14,7 +14,7 @@ import {
   V2ProposeCredentialMessage,
   V2RequestCredentialMessage,
   CredentialRole,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { waitForCredentialRecord, waitForCredentialRecordSubject } from '../../core/tests'
 import testLogger from '../../core/tests/logger'

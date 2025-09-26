@@ -9,7 +9,7 @@ import {
   Validate,
   IsNumber,
 } from 'class-validator'
-import { IsStringOrStringArray, JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { IsStringOrStringArray, JsonTransformer } from 'hmd2v-credo-core'
 
 export class WebVhSchemaContent {
   @IsArray()

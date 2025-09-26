@@ -1,7 +1,7 @@
 import type { CNonceState, IStateManager } from '@sphereon/oid4vci-common'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
+import type { AgentContext } from 'hmd2v-credo-core'
 
-import { CredoError } from 'credo-hmd2v-5.17-core'
+import { CredoError } from 'hmd2v-credo-core'
 
 import { OpenId4VcIssuerModuleConfig } from '../OpenId4VcIssuerModuleConfig'
 

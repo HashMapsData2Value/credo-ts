@@ -1,17 +1,17 @@
 import type {
   OpenId4VciResolvedCredentialOffer,
   OpenId4VcSiopResolvedAuthorizationRequest,
-} from 'credo-hmd2v-5.17-openid4vc'
+} from 'hmd2v-credo-openid4vc'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import { AskarModule } from 'credo-hmd2v-5.17-askar'
+import { AskarModule } from 'hmd2v-credo-askar'
 import {
   W3cJwtVerifiableCredential,
   W3cJsonLdVerifiableCredential,
   DifPresentationExchangeService,
   Mdoc,
-} from 'credo-hmd2v-5.17-core'
-import { OpenId4VcHolderModule } from 'credo-hmd2v-5.17-openid4vc'
+} from 'hmd2v-credo-core'
+import { OpenId4VcHolderModule } from 'hmd2v-credo-openid4vc'
 
 import { BaseAgent } from './BaseAgent'
 import { Output } from './OutputClass'

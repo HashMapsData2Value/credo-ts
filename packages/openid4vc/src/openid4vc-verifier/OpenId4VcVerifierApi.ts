@@ -6,9 +6,9 @@ import type {
 } from './OpenId4VcSiopVerifierServiceOptions'
 import type { OpenId4VcVerificationSessionRecord } from './repository'
 import type { OpenId4VcSiopAuthorizationResponsePayload } from '../shared'
-import type { Query, QueryOptions } from 'credo-hmd2v-5.17-core'
+import type { Query, QueryOptions } from 'hmd2v-credo-core'
 
-import { injectable, AgentContext } from 'credo-hmd2v-5.17-core'
+import { injectable, AgentContext } from 'hmd2v-credo-core'
 
 import { OpenId4VcSiopVerifierService } from './OpenId4VcSiopVerifierService'
 import { OpenId4VcVerifierModuleConfig } from './OpenId4VcVerifierModuleConfig'

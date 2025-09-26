@@ -10,7 +10,7 @@ import {
   ValidateIf,
   ValidateNested,
 } from 'class-validator'
-import { JsonTransformer, IsValidMessageType, replaceLegacyDidSovPrefix, parseMessageType } from 'credo-hmd2v-5.17-core'
+import { JsonTransformer, IsValidMessageType, replaceLegacyDidSovPrefix, parseMessageType } from 'hmd2v-credo-core'
 
 import { anonCredsPredicateType, AnonCredsPredicateType } from '../../../../models'
 import { unqualifiedCredentialDefinitionIdRegex } from '../../../../utils'

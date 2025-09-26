@@ -3,7 +3,7 @@ import type {
   OpenId4VciCredentialEndpointConfig,
   OpenId4VciCredentialOfferEndpointConfig,
 } from './router'
-import type { Optional } from 'credo-hmd2v-5.17-core'
+import type { Optional } from 'hmd2v-credo-core'
 import type { Router } from 'express'
 
 import { importExpress } from '../shared/router'

@@ -1,4 +1,4 @@
-import type { InitConfig, FileSystem } from 'credo-hmd2v-5.17-core'
+import type { InitConfig, FileSystem } from 'hmd2v-credo-core'
 
 import {
   UpdateAssistant,
@@ -7,9 +7,9 @@ import {
   Agent,
   CacheModule,
   InMemoryLruCache,
-} from 'credo-hmd2v-5.17-core'
-import { agentDependencies } from 'credo-hmd2v-5.17-node'
-import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
+} from 'hmd2v-credo-core'
+import { agentDependencies } from 'hmd2v-credo-node'
+import { TenantsModule } from 'hmd2v-credo-tenants'
 import path from 'path'
 
 import { AskarModule, AskarMultiWalletDatabaseScheme } from '../../askar/src'

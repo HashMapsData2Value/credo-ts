@@ -1,4 +1,4 @@
-import type { WalletConfig } from 'credo-hmd2v-5.17-core'
+import type { WalletConfig } from 'hmd2v-credo-core'
 
 import { Store } from '@hyperledger/aries-askar-shared'
 import {
@@ -9,7 +9,7 @@ import {
   Logger,
   SigningProviderRegistry,
   WalletError,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { inject, injectable } from 'tsyringe'
 
 import { AskarErrorCode, isAskarError } from '../utils'

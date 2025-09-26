@@ -1,4 +1,4 @@
-import type { DataIntegrityCredentialRequest, DidRepository } from 'credo-hmd2v-5.17-core'
+import type { DataIntegrityCredentialRequest, DidRepository } from 'hmd2v-credo-core'
 
 import {
   AnonCredsCredentialDefinitionPrivateRecord,
@@ -21,7 +21,7 @@ import {
   AnonCredsSchemaRecord,
   AnonCredsSchemaRepository,
   AnonCredsVerifierServiceSymbol,
-} from 'credo-hmd2v-5.17-anoncreds'
+} from 'hmd2v-credo-anoncreds'
 import {
   ProofRole,
   CredentialRole,
@@ -41,7 +41,7 @@ import {
   W3cCredentialService,
   W3cCredentialSubject,
   W3cCredentialsModuleConfig,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../tests/InMemoryStorageService'

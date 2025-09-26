@@ -10,7 +10,7 @@ import {
   W3cCredential,
   W3cCredentialService,
   W3cCredentialSubject,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import {
   createDidKidVerificationMethod,

@@ -1,8 +1,8 @@
-import type { ActionMenuStateChangedEvent, ActionMenuRole, ActionMenuState } from 'credo-hmd2v-5.17-action-menu'
-import type { Agent } from 'credo-hmd2v-5.17-core'
+import type { ActionMenuStateChangedEvent, ActionMenuRole, ActionMenuState } from 'hmd2v-credo-action-menu'
+import type { Agent } from 'hmd2v-credo-core'
 import type { Observable } from 'rxjs'
 
-import { ActionMenuEventTypes } from 'credo-hmd2v-5.17-action-menu'
+import { ActionMenuEventTypes } from 'hmd2v-credo-action-menu'
 import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'
 
 export async function waitForActionMenuRecord(

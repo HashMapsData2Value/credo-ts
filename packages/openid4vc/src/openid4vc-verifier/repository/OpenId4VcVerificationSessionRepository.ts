@@ -1,4 +1,4 @@
-import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from 'credo-hmd2v-5.17-core'
+import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from 'hmd2v-credo-core'
 
 import { OpenId4VcVerificationSessionRecord } from './OpenId4VcVerificationSessionRecord'
 

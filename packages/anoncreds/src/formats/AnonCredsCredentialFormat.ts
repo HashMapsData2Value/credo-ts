@@ -1,5 +1,5 @@
 import type { AnonCredsCredential, AnonCredsCredentialOffer, AnonCredsCredentialRequest } from '../models'
-import type { CredentialPreviewAttributeOptions, CredentialFormat, LinkedAttachment } from 'credo-hmd2v-5.17-core'
+import type { CredentialPreviewAttributeOptions, CredentialFormat, LinkedAttachment } from 'hmd2v-credo-core'
 
 export interface AnonCredsCredentialProposalFormat {
   schema_issuer_id?: string

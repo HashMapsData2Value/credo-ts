@@ -1,5 +1,5 @@
 import type { V1CredentialProtocol } from '../V1CredentialProtocol'
-import type { MessageHandler, MessageHandlerInboundMessage } from 'credo-hmd2v-5.17-core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
 
 import { V1CredentialAckMessage } from '../messages'
 

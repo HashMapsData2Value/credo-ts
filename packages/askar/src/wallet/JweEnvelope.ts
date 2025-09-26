@@ -1,5 +1,5 @@
 import { Expose, Type } from 'class-transformer'
-import { JsonTransformer, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
+import { JsonTransformer, TypedArrayEncoder } from 'hmd2v-credo-core'
 
 export class JweRecipient {
   @Expose({ name: 'encrypted_key' })

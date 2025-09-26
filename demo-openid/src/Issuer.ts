@@ -1,4 +1,4 @@
-import type { DidKey } from 'credo-hmd2v-5.17-core'
+import type { DidKey } from 'hmd2v-credo-core'
 import type {
   OpenId4VcCredentialHolderBinding,
   OpenId4VcCredentialHolderDidBinding,
@@ -6,10 +6,10 @@ import type {
   OpenId4VciCredentialSupportedWithId,
   OpenId4VciSignMdocCredential,
   OpenId4VcIssuerRecord,
-} from 'credo-hmd2v-5.17-openid4vc'
+} from 'hmd2v-credo-openid4vc'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import { AskarModule } from 'credo-hmd2v-5.17-askar'
+import { AskarModule } from 'hmd2v-credo-askar'
 import {
   ClaimFormat,
   parseDid,
@@ -21,8 +21,8 @@ import {
   X509Service,
   KeyType,
   X509ModuleConfig,
-} from 'credo-hmd2v-5.17-core'
-import { OpenId4VcIssuerModule, OpenId4VciCredentialFormatProfile } from 'credo-hmd2v-5.17-openid4vc'
+} from 'hmd2v-credo-core'
+import { OpenId4VcIssuerModule, OpenId4VciCredentialFormatProfile } from 'hmd2v-credo-openid4vc'
 import { Router } from 'express'
 
 import { BaseAgent } from './BaseAgent'

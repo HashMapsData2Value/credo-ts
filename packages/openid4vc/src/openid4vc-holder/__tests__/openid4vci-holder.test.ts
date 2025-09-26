@@ -1,4 +1,4 @@
-import type { Key, SdJwtVc } from 'credo-hmd2v-5.17-core'
+import type { Key, SdJwtVc } from 'hmd2v-credo-core'
 
 import {
   getJwkFromKey,
@@ -9,7 +9,7 @@ import {
   TypedArrayEncoder,
   W3cJwtVerifiableCredential,
   W3cCredentialService,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import nock, { cleanAll, enableNetConnect } from 'nock'
 
 import { AskarModule } from '../../../../askar/src'

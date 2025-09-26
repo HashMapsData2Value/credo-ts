@@ -27,9 +27,9 @@
     "clear": "^0.1.0",
     "figlet": "^1.5.2",
     "ts-node": "^10.9.2",
-    "credo-hmd2v-5.17-core": "workspace:*",
-    "credo-hmd2v-5.17-askar": "workspace:*",
-    "credo-hmd2v-5.17-node": "workspace:*",
-    "credo-hmd2v-5.17-openid4vc": "workspace:*"
+    "hmd2v-credo-core": "workspace:*",
+    "hmd2v-credo-askar": "workspace:*",
+    "hmd2v-credo-node": "workspace:*",
+    "hmd2v-credo-openid4vc": "workspace:*"
   }
 }

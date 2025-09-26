@@ -1,4 +1,4 @@
-import type { AgentContext, DifPresentationExchangeDefinitionV2, VerificationMethod } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, DifPresentationExchangeDefinitionV2, VerificationMethod } from 'hmd2v-credo-core'
 
 import {
   getKeyFromVerificationMethod,
@@ -8,7 +8,7 @@ import {
   W3cCredentialService,
   ClaimFormat,
   CREDENTIALS_CONTEXT_V1_URL,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { getProofTypeFromKey } from '../src/shared/utils'
 

@@ -1,8 +1,8 @@
-import type { InitConfig } from 'credo-hmd2v-5.17-core'
+import type { InitConfig } from 'hmd2v-credo-core'
 
-import { Agent } from 'credo-hmd2v-5.17-core'
-import { agentDependencies } from 'credo-hmd2v-5.17-node'
-import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
+import { Agent } from 'hmd2v-credo-core'
+import { agentDependencies } from 'hmd2v-credo-node'
+import { TenantsModule } from 'hmd2v-credo-tenants'
 
 import { AskarModule, AskarMultiWalletDatabaseScheme, AskarProfileWallet, AskarWallet } from '../../askar/src'
 import { askarModuleConfig } from '../../askar/tests/helpers'

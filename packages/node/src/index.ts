@@ -1,4 +1,4 @@
-import type { AgentDependencies } from 'credo-hmd2v-5.17-core'
+import type { AgentDependencies } from 'hmd2v-credo-core'
 
 import { EventEmitter } from 'events'
 import { WebSocket } from 'ws'

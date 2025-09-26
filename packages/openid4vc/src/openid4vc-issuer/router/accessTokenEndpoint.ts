@@ -1,7 +1,7 @@
 import type { OpenId4VcIssuanceRequest } from './requestContext'
 import type { JWK, SigningAlgo } from '@sphereon/oid4vc-common'
 import type { AccessTokenRequest, JWTSignerCallback } from '@sphereon/oid4vci-common'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
+import type { AgentContext } from 'hmd2v-credo-core'
 import type { NextFunction, Response, Router } from 'express'
 
 import { verifyDPoP } from '@sphereon/oid4vc-common'
@@ -22,7 +22,7 @@ import {
   getJwkClassFromKeyType,
   Key,
   joinUriParts,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { getRequestContext, sendErrorResponse } from '../../shared/router'
 import { getVerifyJwtCallback } from '../../shared/utils'

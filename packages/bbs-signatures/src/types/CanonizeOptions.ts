@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import type { DocumentLoader } from 'credo-hmd2v-5.17-core'
+import type { DocumentLoader } from 'hmd2v-credo-core'
 
 /**
  * Options for canonizing a document

@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-tenants",
+  "name": "hmd2v-credo-tenants",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -27,12 +27,12 @@
   },
   "dependencies": {
     "async-mutex": "^0.4.0",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.4.0",
     "typescript": "~5.5.2",
-    "credo-hmd2v-5.17-node": "workspace:*"
+    "hmd2v-credo-node": "workspace:*"
   }
 }

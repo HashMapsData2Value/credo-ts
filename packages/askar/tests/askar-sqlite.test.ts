@@ -11,7 +11,7 @@ import {
   WalletDuplicateError,
   WalletInvalidKeyError,
   WalletNotFoundError,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { tmpdir } from 'os'
 import path from 'path'
 

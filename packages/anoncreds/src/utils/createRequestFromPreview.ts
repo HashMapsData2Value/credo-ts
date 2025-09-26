@@ -4,7 +4,7 @@ import type {
 } from '../formats/AnonCredsProofFormat'
 import type { AnonCredsNonRevokedInterval, AnonCredsProofRequest } from '../models'
 
-import { utils } from 'credo-hmd2v-5.17-core'
+import { utils } from 'hmd2v-credo-core'
 
 export function createRequestFromPreview({
   name,

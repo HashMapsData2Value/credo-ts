@@ -1,8 +1,8 @@
-import type { Attachment } from 'credo-hmd2v-5.17-core'
+import type { Attachment } from 'hmd2v-credo-core'
 
 import { Expose, Type } from 'class-transformer'
 import { IsInstance, IsOptional, IsString, Matches, ValidateNested } from 'class-validator'
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
 
 import {
   unqualifiedCredentialDefinitionIdRegex,

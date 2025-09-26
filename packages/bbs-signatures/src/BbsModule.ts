@@ -1,4 +1,4 @@
-import type { DependencyManager, Module } from 'credo-hmd2v-5.17-core'
+import type { DependencyManager, Module } from 'hmd2v-credo-core'
 
 import {
   AgentConfig,
@@ -6,7 +6,7 @@ import {
   SigningProviderToken,
   VERIFICATION_METHOD_TYPE_BLS12381G2_KEY_2020,
   SignatureSuiteToken,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { Bls12381g2SigningProvider } from './Bls12381g2SigningProvider'
 import { BbsBlsSignature2020, BbsBlsSignatureProof2020 } from './signature-suites'

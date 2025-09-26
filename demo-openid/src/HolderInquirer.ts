@@ -1,11 +1,11 @@
-import type { MdocRecord, SdJwtVcRecord, W3cCredentialRecord } from 'credo-hmd2v-5.17-core'
+import type { MdocRecord, SdJwtVcRecord, W3cCredentialRecord } from 'hmd2v-credo-core'
 import type {
   OpenId4VcSiopResolvedAuthorizationRequest,
   OpenId4VciResolvedCredentialOffer,
-} from 'credo-hmd2v-5.17-openid4vc'
+} from 'hmd2v-credo-openid4vc'
 
 import console, { clear } from 'console'
-import { DifPresentationExchangeService, Mdoc } from 'credo-hmd2v-5.17-core'
+import { DifPresentationExchangeService, Mdoc } from 'hmd2v-credo-core'
 import { textSync } from 'figlet'
 import { prompt } from 'inquirer'
 

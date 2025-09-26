@@ -1,5 +1,5 @@
 import type { QuestionAnswerService } from '../services'
-import type { MessageHandler, MessageHandlerInboundMessage } from 'credo-hmd2v-5.17-core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
 
 import { QuestionMessage } from '../messages'
 

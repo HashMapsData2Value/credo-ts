@@ -1,5 +1,5 @@
-import type { AnonCredsProofRequest } from 'credo-hmd2v-5.17-anoncreds'
-import type { DidRepository } from 'credo-hmd2v-5.17-core'
+import type { AnonCredsProofRequest } from 'hmd2v-credo-anoncreds'
+import type { DidRepository } from 'hmd2v-credo-core'
 
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import {
@@ -21,14 +21,14 @@ import {
   getUnqualifiedSchemaId,
   parseIndyCredentialDefinitionId,
   parseIndySchemaId,
-} from 'credo-hmd2v-5.17-anoncreds'
+} from 'hmd2v-credo-anoncreds'
 import {
   DidResolverService,
   DidsModuleConfig,
   InjectionSymbols,
   SignatureSuiteToken,
   W3cCredentialsModuleConfig,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'

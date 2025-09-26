@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-action-menu",
+  "name": "hmd2v-credo-action-menu",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -29,7 +29,7 @@
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13",

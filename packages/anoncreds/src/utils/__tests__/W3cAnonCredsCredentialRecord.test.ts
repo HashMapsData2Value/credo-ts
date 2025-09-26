@@ -1,4 +1,4 @@
-import { JsonTransformer, W3cCredentialRecord, W3cJsonLdVerifiableCredential } from 'credo-hmd2v-5.17-core'
+import { JsonTransformer, W3cCredentialRecord, W3cJsonLdVerifiableCredential } from 'hmd2v-credo-core'
 
 import { Ed25519Signature2018Fixtures } from '../../../../core/src/modules/vc/data-integrity/__tests__/fixtures'
 import { W3cAnonCredsCredentialMetadataKey } from '../metadata'

@@ -20,7 +20,7 @@ import type {
   SuiteSignOptions,
   VerifySignatureOptions,
 } from '../types'
-import type { VerificationMethod, JsonObject, DocumentLoader, Proof } from 'credo-hmd2v-5.17-core'
+import type { VerificationMethod, JsonObject, DocumentLoader, Proof } from 'hmd2v-credo-core'
 
 import {
   CredoError,
@@ -29,7 +29,7 @@ import {
   SECURITY_CONTEXT_URL,
   w3cDate,
   vcLibraries,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 const { jsonld, jsonldSignatures } = vcLibraries
 const LinkedDataProof = jsonldSignatures.suites.LinkedDataProof

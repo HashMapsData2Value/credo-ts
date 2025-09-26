@@ -30,8 +30,8 @@ import type {
   RegisterRevocationStatusListReturnStateWait,
   RegisterRevocationStatusListReturnStateAction,
   RegisterRevocationStatusListOptions,
-} from 'credo-hmd2v-5.17-anoncreds'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-anoncreds'
+import type { AgentContext } from 'hmd2v-credo-core'
 
 import {
   RevocationRegistryEntryRequest,
@@ -54,8 +54,8 @@ import {
   parseIndyRevocationRegistryId,
   parseIndySchemaId,
   dateToTimestamp,
-} from 'credo-hmd2v-5.17-anoncreds'
-import { CredoError } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-anoncreds'
+import { CredoError } from 'hmd2v-credo-core'
 
 import { verificationKeyForIndyDid } from '../dids/didIndyUtil'
 import { IndyVdrPoolService } from '../pool'

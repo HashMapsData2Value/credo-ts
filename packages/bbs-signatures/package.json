@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-bbs-signatures",
+  "name": "hmd2v-credo-bbs-signatures",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -29,7 +29,7 @@
     "@mattrglobal/bbs-signatures": "^1.0.0",
     "@mattrglobal/bls12381-key-pair": "^1.0.0",
     "@stablelib/random": "^1.0.2",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "peerDependencies": {
     "@animo-id/react-native-bbs-signatures": "^0.1.0"
@@ -38,7 +38,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.4.0",
     "typescript": "~5.5.2",
-    "credo-hmd2v-5.17-node": "workspace:*"
+    "hmd2v-credo-node": "workspace:*"
   },
   "peerDependenciesMeta": {
     "@animo-id/react-native-bbs-signatures": {

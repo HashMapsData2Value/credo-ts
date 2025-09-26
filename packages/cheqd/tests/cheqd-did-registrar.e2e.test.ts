@@ -1,5 +1,5 @@
 import type { CheqdDidCreateOptions } from '../src'
-import type { DidDocument } from 'credo-hmd2v-5.17-core'
+import type { DidDocument } from 'hmd2v-credo-core'
 
 import { generateKeyPairFromSeed } from '@stablelib/ed25519'
 import {
@@ -10,7 +10,7 @@ import {
   utils,
   Agent,
   TypedArrayEncoder,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests/helpers'
 

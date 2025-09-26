@@ -1,5 +1,5 @@
 import type { W3cCredentialRepository } from '../../core/src/modules/vc/repository/W3cCredentialRepository'
-import type { AgentContext, W3cJwtCredentialService, Wallet } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, W3cJwtCredentialService, Wallet } from 'hmd2v-credo-core'
 
 import {
   ClaimFormat,
@@ -18,7 +18,7 @@ import {
   Ed25519Signature2018,
   TypedArrayEncoder,
   W3cJsonLdVerifiableCredential,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { RegisteredAskarTestWallet } from '../../askar/tests/helpers'
 import { W3cCredentialsModuleConfig } from '../../core/src/modules/vc/W3cCredentialsModuleConfig'

@@ -1,4 +1,4 @@
-import type { AnonCredsCredential } from 'credo-hmd2v-5.17-anoncreds'
+import type { AnonCredsCredential } from 'hmd2v-credo-anoncreds'
 
 import { AnonCredsCredentialRecord } from '../AnonCredsCredentialRecord'
 

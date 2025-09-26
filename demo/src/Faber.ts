@@ -1,12 +1,12 @@
-import type { RegisterCredentialDefinitionReturnStateFinished } from 'credo-hmd2v-5.17-anoncreds'
-import type { ConnectionRecord, ConnectionStateChangedEvent } from 'credo-hmd2v-5.17-core'
+import type { RegisterCredentialDefinitionReturnStateFinished } from 'hmd2v-credo-anoncreds'
+import type { ConnectionRecord, ConnectionStateChangedEvent } from 'hmd2v-credo-core'
 import type {
   IndyVdrRegisterSchemaOptions,
   IndyVdrRegisterCredentialDefinitionOptions,
-} from 'credo-hmd2v-5.17-indy-vdr'
+} from 'hmd2v-credo-indy-vdr'
 import type BottomBar from 'inquirer/lib/ui/bottom-bar'
 
-import { ConnectionEventTypes, KeyType, TypedArrayEncoder, utils } from 'credo-hmd2v-5.17-core'
+import { ConnectionEventTypes, KeyType, TypedArrayEncoder, utils } from 'hmd2v-credo-core'
 import { ui } from 'inquirer'
 
 import { BaseAgent, indyNetworkConfig } from './BaseAgent'

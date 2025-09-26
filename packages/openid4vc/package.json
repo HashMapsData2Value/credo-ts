@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-openid4vc",
+  "name": "hmd2v-credo-openid4vc",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -34,7 +34,7 @@
     "@sphereon/ssi-types": "0.30.2-next.135",
     "class-transformer": "^0.5.1",
     "rxjs": "^7.8.0",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
@@ -42,6 +42,6 @@
     "nock": "^13.3.0",
     "rimraf": "^4.4.0",
     "typescript": "~5.5.2",
-    "credo-hmd2v-5.17-tenants": "workspace:*"
+    "hmd2v-credo-tenants": "workspace:*"
   }
 }

@@ -1,8 +1,8 @@
-import type { InitConfig } from 'credo-hmd2v-5.17-core'
+import type { InitConfig } from 'hmd2v-credo-core'
 
-import { ConnectionsModule, Agent } from 'credo-hmd2v-5.17-core'
-import { agentDependencies } from 'credo-hmd2v-5.17-node'
-import { TenantsModule } from 'credo-hmd2v-5.17-tenants'
+import { ConnectionsModule, Agent } from 'hmd2v-credo-core'
+import { agentDependencies } from 'hmd2v-credo-node'
+import { TenantsModule } from 'hmd2v-credo-tenants'
 
 import { InMemoryWalletModule } from '../../../tests/InMemoryWalletModule'
 import { uuid } from '../../core/src/utils/uuid'

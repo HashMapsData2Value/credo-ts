@@ -1,8 +1,8 @@
 import type { AnonCredsCredentialDefinitionRecordMetadata } from './anonCredsCredentialDefinitionRecordMetadataTypes'
 import type { AnonCredsCredentialDefinition } from '../models'
-import type { TagsBase } from 'credo-hmd2v-5.17-core'
+import type { TagsBase } from 'hmd2v-credo-core'
 
-import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
+import { BaseRecord, utils } from 'hmd2v-credo-core'
 
 import {
   getUnqualifiedCredentialDefinitionId,

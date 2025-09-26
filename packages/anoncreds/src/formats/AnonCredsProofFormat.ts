@@ -9,7 +9,7 @@ import type {
   AnonCredsRequestedPredicateMatch,
   AnonCredsSelectedCredentials,
 } from '../models'
-import type { ProofFormat } from 'credo-hmd2v-5.17-core'
+import type { ProofFormat } from 'hmd2v-credo-core'
 
 export interface AnonCredsPresentationPreviewAttribute {
   name: string

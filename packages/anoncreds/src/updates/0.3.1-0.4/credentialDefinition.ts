@@ -1,7 +1,7 @@
 import type { AnonCredsCredentialDefinition } from '../../models'
-import type { BaseAgent } from 'credo-hmd2v-5.17-core'
+import type { BaseAgent } from 'hmd2v-credo-core'
 
-import { CredoError } from 'credo-hmd2v-5.17-core'
+import { CredoError } from 'hmd2v-credo-core'
 
 import { AnonCredsCredentialDefinitionRepository } from '../../repository'
 import { AnonCredsRegistryService } from '../../services/registry/AnonCredsRegistryService'

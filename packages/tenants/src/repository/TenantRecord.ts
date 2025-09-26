@@ -1,7 +1,7 @@
 import type { TenantConfig } from '../models/TenantConfig'
-import type { RecordTags, TagsBase, VersionString } from 'credo-hmd2v-5.17-core'
+import type { RecordTags, TagsBase, VersionString } from 'hmd2v-credo-core'
 
-import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
+import { BaseRecord, utils } from 'hmd2v-credo-core'
 
 export type TenantRecordTags = RecordTags<TenantRecord>
 

@@ -1,8 +1,8 @@
 import type { CheqdNetwork } from '@cheqd/sdk'
-import type { ParsedDid } from 'credo-hmd2v-5.17-core'
+import type { ParsedDid } from 'hmd2v-credo-core'
 
 import { isBase58 } from 'class-validator'
-import { TypedArrayEncoder, utils } from 'credo-hmd2v-5.17-core'
+import { TypedArrayEncoder, utils } from 'hmd2v-credo-core'
 
 const ID_CHAR = '([a-z,A-Z,0-9,-])'
 const NETWORK = '(testnet|mainnet)'

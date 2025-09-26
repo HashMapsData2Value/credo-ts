@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-node",
+  "name": "hmd2v-credo-node",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -32,7 +32,7 @@
     "express": "^4.17.1",
     "rxjs": "^7.8.0",
     "ws": "^8.13.0",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^18.18.8",

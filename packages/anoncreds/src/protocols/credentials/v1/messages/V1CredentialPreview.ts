@@ -1,4 +1,4 @@
-import type { CredentialPreviewOptions } from 'credo-hmd2v-5.17-core'
+import type { CredentialPreviewOptions } from 'hmd2v-credo-core'
 
 import { Expose, Transform, Type } from 'class-transformer'
 import { ValidateNested, IsInstance } from 'class-validator'
@@ -8,7 +8,7 @@ import {
   parseMessageType,
   JsonTransformer,
   replaceLegacyDidSovPrefix,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 /**
  * Credential preview inner message class.

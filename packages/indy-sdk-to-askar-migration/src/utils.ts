@@ -1,7 +1,7 @@
-import type { TagsBase } from 'credo-hmd2v-5.17-core'
+import type { TagsBase } from 'hmd2v-credo-core'
 
 import { KdfMethod, StoreKeyMethod } from '@hyperledger/aries-askar-shared'
-import { KeyDerivationMethod } from 'credo-hmd2v-5.17-core'
+import { KeyDerivationMethod } from 'hmd2v-credo-core'
 
 /**
  * Adopted from `AskarStorageService` implementation and should be kept in sync.

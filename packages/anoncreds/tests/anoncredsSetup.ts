@@ -13,8 +13,8 @@ import type {
   AnonCredsRequestedAttribute,
   AnonCredsRequestedPredicate,
 } from '../src'
-import type { CheqdDidCreateOptions } from 'credo-hmd2v-5.17-cheqd'
-import type { AutoAcceptProof, ConnectionRecord } from 'credo-hmd2v-5.17-core'
+import type { CheqdDidCreateOptions } from 'hmd2v-credo-cheqd'
+import type { AutoAcceptProof, ConnectionRecord } from 'hmd2v-credo-core'
 
 import {
   DidDocumentBuilder,
@@ -34,7 +34,7 @@ import {
   DifPresentationExchangeProofFormatService,
   TypedArrayEncoder,
   ProofState,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { randomUUID } from 'crypto'
 
 import { CheqdDidRegistrar, CheqdDidResolver, CheqdModule } from '../../cheqd/src/index'

@@ -13,10 +13,10 @@ import type {
   RegisterRevocationStatusListReturn,
   RegisterRevocationRegistryDefinitionOptions,
   RegisterRevocationStatusListOptions,
-} from 'credo-hmd2v-5.17-anoncreds'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-anoncreds'
+import type { AgentContext } from 'hmd2v-credo-core'
 
-import { CredoError, Hasher, JsonTransformer, TypedArrayEncoder, utils } from 'credo-hmd2v-5.17-core'
+import { CredoError, Hasher, JsonTransformer, TypedArrayEncoder, utils } from 'hmd2v-credo-core'
 
 import { CheqdDidResolver, CheqdDidRegistrar } from '../../dids'
 import {

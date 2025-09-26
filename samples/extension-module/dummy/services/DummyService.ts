@@ -1,7 +1,7 @@
 import type { DummyStateChangedEvent } from './DummyEvents'
-import type { Query, QueryOptions, AgentContext, ConnectionRecord, InboundMessageContext } from 'credo-hmd2v-5.17-core'
+import type { Query, QueryOptions, AgentContext, ConnectionRecord, InboundMessageContext } from 'hmd2v-credo-core'
 
-import { injectable, EventEmitter } from 'credo-hmd2v-5.17-core'
+import { injectable, EventEmitter } from 'hmd2v-credo-core'
 
 import { DummyModuleConfig } from '../DummyModuleConfig'
 import { DummyRequestMessage, DummyResponseMessage } from '../messages'

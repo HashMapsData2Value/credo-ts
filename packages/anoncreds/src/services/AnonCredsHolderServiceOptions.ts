@@ -18,7 +18,7 @@ import type {
   CredentialWithRevocationMetadata,
 } from '../models/utils'
 import type { AnonCredsCredentialRequestMetadata } from '../utils/metadata'
-import type { W3cJsonLdVerifiableCredential } from 'credo-hmd2v-5.17-core'
+import type { W3cJsonLdVerifiableCredential } from 'hmd2v-credo-core'
 
 export interface AnonCredsAttributeInfo {
   name?: string

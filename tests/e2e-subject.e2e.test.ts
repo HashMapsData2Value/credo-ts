@@ -7,7 +7,7 @@ import {
   MediatorModule,
   MediatorPickupStrategy,
   MediationRecipientModule,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { getAnonCredsModules } from '../packages/anoncreds/tests/anoncredsSetup'

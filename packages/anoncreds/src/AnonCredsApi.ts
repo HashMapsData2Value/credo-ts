@@ -19,9 +19,9 @@ import type {
   RegisterRevocationStatusListReturn,
 } from './services'
 import type { Extensible } from './services/registry/base'
-import type { SimpleQuery } from 'credo-hmd2v-5.17-core'
+import type { SimpleQuery } from 'hmd2v-credo-core'
 
-import { AgentContext, inject, injectable } from 'credo-hmd2v-5.17-core'
+import { AgentContext, inject, injectable } from 'hmd2v-credo-core'
 
 import { AnonCredsModuleConfig } from './AnonCredsModuleConfig'
 import { AnonCredsStoreRecordError } from './error'

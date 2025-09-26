@@ -1,6 +1,6 @@
-import type { AgentContext, DidDocumentService, VerificationMethod } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, DidDocumentService, VerificationMethod } from 'hmd2v-credo-core'
 
-import { DidDocument, DidsApi, MultiBaseEncoder, MultiHashEncoder, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
+import { DidDocument, DidsApi, MultiBaseEncoder, MultiHashEncoder, TypedArrayEncoder } from 'hmd2v-credo-core'
 import { createHash } from 'crypto'
 import { canonicalize } from 'json-canonicalize'
 

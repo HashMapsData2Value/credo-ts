@@ -1,4 +1,4 @@
-import { Agent, KeyType, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
+import { Agent, KeyType, TypedArrayEncoder } from 'hmd2v-credo-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests'
 import { AnonCredsModule } from '../src'

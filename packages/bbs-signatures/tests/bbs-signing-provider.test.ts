@@ -1,7 +1,7 @@
-import type { Wallet, WalletConfig } from 'credo-hmd2v-5.17-core'
+import type { Wallet, WalletConfig } from 'hmd2v-credo-core'
 
 import { BBS_SIGNATURE_LENGTH } from '@mattrglobal/bbs-signatures'
-import { KeyDerivationMethod, KeyType, TypedArrayEncoder, SigningProviderRegistry } from 'credo-hmd2v-5.17-core'
+import { KeyDerivationMethod, KeyType, TypedArrayEncoder, SigningProviderRegistry } from 'hmd2v-credo-core'
 
 import { RegisteredAskarTestWallet } from '../../askar/tests/helpers'
 import { testLogger, agentDependencies } from '../../core/tests'

@@ -1,6 +1,6 @@
 import type { AnonCredsHolderService } from '../../services'
 import type { W3cAnonCredsCredentialMetadata } from '../../utils/metadata'
-import type { AgentContext, BaseAgent } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, BaseAgent } from 'hmd2v-credo-core'
 
 import {
   CacheModuleConfig,
@@ -8,7 +8,7 @@ import {
   CredoError,
   W3cCredentialRepository,
   W3cCredentialService,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { AnonCredsCredentialRepository, type AnonCredsCredentialRecord } from '../../repository'
 import { AnonCredsHolderServiceSymbol } from '../../services'

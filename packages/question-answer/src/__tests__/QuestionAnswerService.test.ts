@@ -1,8 +1,8 @@
-import type { AgentConfig, AgentContext, Repository, Wallet } from 'credo-hmd2v-5.17-core'
-import type { QuestionAnswerStateChangedEvent, ValidResponse } from 'credo-hmd2v-5.17-question-answer'
+import type { AgentConfig, AgentContext, Repository, Wallet } from 'hmd2v-credo-core'
+import type { QuestionAnswerStateChangedEvent, ValidResponse } from 'hmd2v-credo-question-answer'
 
-import { EventEmitter, InboundMessageContext, DidExchangeState } from 'credo-hmd2v-5.17-core'
-import { agentDependencies } from 'credo-hmd2v-5.17-node'
+import { EventEmitter, InboundMessageContext, DidExchangeState } from 'hmd2v-credo-core'
+import { agentDependencies } from 'hmd2v-credo-node'
 import {
   QuestionAnswerRecord,
   QuestionAnswerRepository,
@@ -12,7 +12,7 @@ import {
   QuestionAnswerState,
   QuestionMessage,
   AnswerMessage,
-} from 'credo-hmd2v-5.17-question-answer'
+} from 'hmd2v-credo-question-answer'
 import { Subject } from 'rxjs'
 
 import { InMemoryWallet } from '../../../../tests/InMemoryWallet'

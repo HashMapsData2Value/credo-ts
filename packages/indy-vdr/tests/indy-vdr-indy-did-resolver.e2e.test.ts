@@ -1,5 +1,5 @@
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
-import { DidsModule, Agent, TypedArrayEncoder, JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { DidsModule, Agent, TypedArrayEncoder, JsonTransformer } from 'hmd2v-credo-core'
 
 import { getInMemoryAgentOptions, importExistingIndyDidFromPrivateKey } from '../../core/tests/helpers'
 import { IndyVdrModule } from '../src'

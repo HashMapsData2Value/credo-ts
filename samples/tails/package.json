@@ -21,7 +21,7 @@
     "@types/ws": "^8.5.4",
     "form-data": "^4.0.0",
     "multer": "^1.4.5-lts.1",
-    "credo-hmd2v-5.17-core": "workspace:*",
-    "credo-hmd2v-5.17-anoncreds": "workspace:*"
+    "hmd2v-credo-core": "workspace:*",
+    "hmd2v-credo-anoncreds": "workspace:*"
   }
 }

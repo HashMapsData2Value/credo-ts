@@ -1,8 +1,8 @@
 import type { ParsedCheqdDid } from '../anoncreds/utils/identifiers'
 import type { Metadata } from '@cheqd/ts-proto/cheqd/resource/v2'
-import type { AgentContext, DidResolutionResult, DidResolver, ParsedDid } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, DidResolutionResult, DidResolver, ParsedDid } from 'hmd2v-credo-core'
 
-import { DidDocument, CredoError, utils, JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { DidDocument, CredoError, utils, JsonTransformer } from 'hmd2v-credo-core'
 
 import {
   cheqdDidMetadataRegex,

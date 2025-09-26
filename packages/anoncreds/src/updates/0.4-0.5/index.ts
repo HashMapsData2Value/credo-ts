@@ -1,4 +1,4 @@
-import type { BaseAgent } from 'credo-hmd2v-5.17-core'
+import type { BaseAgent } from 'hmd2v-credo-core'
 
 import { storeAnonCredsInW3cFormatV0_5 } from './anonCredsCredentialRecord'
 

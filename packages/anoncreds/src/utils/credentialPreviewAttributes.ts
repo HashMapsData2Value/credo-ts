@@ -1,4 +1,4 @@
-import type { CredentialPreviewAttributeOptions } from 'credo-hmd2v-5.17-core'
+import type { CredentialPreviewAttributeOptions } from 'hmd2v-credo-core'
 
 export function areCredentialPreviewAttributesEqual(
   firstAttributes: CredentialPreviewAttributeOptions[],

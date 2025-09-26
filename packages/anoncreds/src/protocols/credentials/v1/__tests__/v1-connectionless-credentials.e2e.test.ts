@@ -1,8 +1,8 @@
 import type { EventReplaySubject } from '../../../../../../core/tests'
 import type { AnonCredsTestsAgent } from '../../../../../tests/legacyAnonCredsSetup'
-import type { AcceptCredentialOfferOptions, AcceptCredentialRequestOptions } from 'credo-hmd2v-5.17-core'
+import type { AcceptCredentialOfferOptions, AcceptCredentialRequestOptions } from 'hmd2v-credo-core'
 
-import { AutoAcceptCredential, CredentialExchangeRecord, CredentialState } from 'credo-hmd2v-5.17-core'
+import { AutoAcceptCredential, CredentialExchangeRecord, CredentialState } from 'hmd2v-credo-core'
 
 import { waitForCredentialRecordSubject, testLogger } from '../../../../../../core/tests'
 import { setupAnonCredsTests } from '../../../../../tests/legacyAnonCredsSetup'

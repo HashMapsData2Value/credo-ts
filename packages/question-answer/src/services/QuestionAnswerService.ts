@@ -1,8 +1,8 @@
 import type { QuestionAnswerStateChangedEvent } from '../QuestionAnswerEvents'
 import type { ValidResponse } from '../models'
-import type { AgentContext, InboundMessageContext, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, InboundMessageContext, Query, QueryOptions } from 'hmd2v-credo-core'
 
-import { CredoError, EventEmitter, inject, injectable, InjectionSymbols, Logger } from 'credo-hmd2v-5.17-core'
+import { CredoError, EventEmitter, inject, injectable, InjectionSymbols, Logger } from 'hmd2v-credo-core'
 
 import { QuestionAnswerEventTypes } from '../QuestionAnswerEvents'
 import { QuestionAnswerRole } from '../QuestionAnswerRole'

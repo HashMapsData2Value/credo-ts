@@ -1,4 +1,4 @@
-import { InjectionSymbols } from 'credo-hmd2v-5.17-core'
+import { InjectionSymbols } from 'hmd2v-credo-core'
 
 import { DependencyManager } from '../../../core/src/plugins/DependencyManager'
 import { mockFunction } from '../../../core/tests'

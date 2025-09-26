@@ -22,8 +22,8 @@
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
     "@hyperledger/aries-askar-nodejs": "^0.2.3",
-    "credo-hmd2v-5.17-core": "workspace:*",
-    "credo-hmd2v-5.17-askar": "workspace:*",
-    "credo-hmd2v-5.17-node": "workspace:*"
+    "hmd2v-credo-core": "workspace:*",
+    "hmd2v-credo-askar": "workspace:*",
+    "hmd2v-credo-node": "workspace:*"
   }
 }

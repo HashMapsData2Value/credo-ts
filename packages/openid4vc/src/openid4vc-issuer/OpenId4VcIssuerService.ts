@@ -28,7 +28,7 @@ import type {
   CredentialSignerCallback,
 } from '@sphereon/oid4vci-issuer'
 import type { ICredential } from '@sphereon/ssi-types'
-import type { AgentContext, DidDocument, Key, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, DidDocument, Key, Query, QueryOptions } from 'hmd2v-credo-core'
 
 import { VcIssuerBuilder } from '@sphereon/oid4vci-issuer'
 import {
@@ -52,7 +52,7 @@ import {
   MdocApi,
   parseDid,
   DidResolverService,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { credentialsSupportedV11ToV13, OpenId4VciCredentialFormatProfile } from '../shared'
 import { credentialsSupportedV13ToV11, getOfferedCredentials } from '../shared/issuerMetadataUtils'

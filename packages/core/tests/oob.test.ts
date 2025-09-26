@@ -2,9 +2,9 @@
 import type { SubjectMessage } from '../../../tests/transport/SubjectInboundTransport'
 import type { AnonCredsCredentialFormatService } from '../../anoncreds/src'
 import type { CreateCredentialOfferOptions, V2CredentialProtocol } from '../src/modules/credentials'
-import type { AgentMessage, AgentMessageReceivedEvent } from 'credo-hmd2v-5.17-core'
+import type { AgentMessage, AgentMessageReceivedEvent } from 'hmd2v-credo-core'
 
-import { AgentEventTypes, CredoError, AutoAcceptCredential, CredentialState } from 'credo-hmd2v-5.17-core'
+import { AgentEventTypes, CredoError, AutoAcceptCredential, CredentialState } from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { SubjectInboundTransport } from '../../../tests/transport/SubjectInboundTransport'

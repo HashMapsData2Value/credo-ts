@@ -39,7 +39,7 @@ import type {
   JsonObject,
   W3cCredentialEntry,
 } from '@hyperledger/anoncreds-shared'
-import type { AgentContext, Query, SimpleQuery } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, Query, SimpleQuery } from 'hmd2v-credo-core'
 
 import {
   Credential,
@@ -64,7 +64,7 @@ import {
   injectable,
   utils,
   W3cJsonLdVerifiablePresentation,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { AnonCredsModuleConfig } from '../AnonCredsModuleConfig'
 import { AnonCredsRsError } from '../error'

@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-askar",
+  "name": "hmd2v-credo-askar",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -31,7 +31,7 @@
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
     "tsyringe": "^4.8.0",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "@animo-id/expo-secure-environment": "^0.0.1-alpha.0",

@@ -1,5 +1,5 @@
 import type { V1ProofProtocol } from '../V1ProofProtocol'
-import type { MessageHandler, MessageHandlerInboundMessage } from 'credo-hmd2v-5.17-core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
 
 import { V1PresentationProblemReportMessage } from '../messages/V1PresentationProblemReportMessage'
 

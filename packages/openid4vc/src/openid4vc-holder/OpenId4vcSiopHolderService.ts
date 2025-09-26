@@ -9,7 +9,7 @@ import type {
   RequestObjectPayload,
   VerifiedAuthorizationRequest,
 } from '@sphereon/did-auth-siop'
-import type { AgentContext, JwkJson, VerifiablePresentation } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, JwkJson, VerifiablePresentation } from 'hmd2v-credo-core'
 
 import { OP, ResponseIss, ResponseMode, ResponseType, SupportedVersion, VPTokenLocation } from '@sphereon/did-auth-siop'
 import {
@@ -27,7 +27,7 @@ import {
   injectable,
   parseDid,
   MdocDeviceResponse,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { getSphereonVerifiablePresentation } from '../shared/transform'
 import { getCreateJwtCallback, getVerifyJwtCallback, openIdTokenIssuerToJwtIssuer } from '../shared/utils'

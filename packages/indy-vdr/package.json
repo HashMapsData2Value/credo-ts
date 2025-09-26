@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-indy-vdr",
+  "name": "hmd2v-credo-indy-vdr",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -26,8 +26,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "credo-hmd2v-5.17-core": "workspace:*",
-    "credo-hmd2v-5.17-anoncreds": "workspace:*"
+    "hmd2v-credo-core": "workspace:*",
+    "hmd2v-credo-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "@hyperledger/indy-vdr-nodejs": "^0.2.2",

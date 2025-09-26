@@ -1,5 +1,5 @@
 import type { AnonCredsCredentialRequest } from '../../models'
-import type { DidRepository } from 'credo-hmd2v-5.17-core'
+import type { DidRepository } from 'hmd2v-credo-core'
 
 import {
   DidResolverService,
@@ -16,7 +16,7 @@ import {
   ProofExchangeRecord,
   ProofRole,
   ProofState,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'

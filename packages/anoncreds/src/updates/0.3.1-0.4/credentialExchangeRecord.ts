@@ -1,6 +1,6 @@
-import type { BaseAgent, CredentialExchangeRecord } from 'credo-hmd2v-5.17-core'
+import type { BaseAgent, CredentialExchangeRecord } from 'hmd2v-credo-core'
 
-import { CredentialRepository } from 'credo-hmd2v-5.17-core'
+import { CredentialRepository } from 'hmd2v-credo-core'
 
 /**
  * Migrates the {@link CredentialExchangeRecord} to 0.4 compatible format. It fetches all credential exchange records from

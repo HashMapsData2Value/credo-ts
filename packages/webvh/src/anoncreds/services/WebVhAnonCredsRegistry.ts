@@ -10,8 +10,8 @@ import type {
   RegisterRevocationRegistryDefinitionReturn,
   RegisterRevocationStatusListReturn,
   RegisterSchemaReturn,
-} from 'credo-hmd2v-5.17-anoncreds'
-import type { AgentContext } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-anoncreds'
+import type { AgentContext } from 'hmd2v-credo-core'
 
 import {
   CredoError,
@@ -19,7 +19,7 @@ import {
   MultiBaseEncoder,
   MultiHashEncoder,
   TypedArrayEncoder,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { canonicalize } from 'json-canonicalize'
 
 import { EddsaJcs2022Cryptosuite } from '../../cryptosuites/eddsa-jcs-2022'

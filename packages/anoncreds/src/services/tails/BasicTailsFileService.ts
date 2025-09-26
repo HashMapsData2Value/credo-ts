@@ -1,8 +1,8 @@
 import type { TailsFileService } from './TailsFileService'
 import type { AnonCredsRevocationRegistryDefinition } from '../../models'
-import type { AgentContext, FileSystem } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, FileSystem } from 'hmd2v-credo-core'
 
-import { CredoError, InjectionSymbols, TypedArrayEncoder } from 'credo-hmd2v-5.17-core'
+import { CredoError, InjectionSymbols, TypedArrayEncoder } from 'hmd2v-credo-core'
 
 export class BasicTailsFileService implements TailsFileService {
   private tailsDirectoryPath?: string

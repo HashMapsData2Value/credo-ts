@@ -24,7 +24,7 @@ import type {
   ProofFormatAutoRespondProposalOptions,
   ProofFormatAutoRespondRequestOptions,
   ProofFormatAutoRespondPresentationOptions,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import {
   CredoError,
@@ -33,7 +33,7 @@ import {
   JsonEncoder,
   ProofFormatSpec,
   JsonTransformer,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { AnonCredsProofRequest as AnonCredsProofRequestClass } from '../models/AnonCredsProofRequest'
 import { AnonCredsVerifierServiceSymbol, AnonCredsHolderServiceSymbol } from '../services'

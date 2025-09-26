@@ -1,6 +1,6 @@
 import { Type } from 'class-transformer'
 import { IsArray } from 'class-validator'
-import { JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { JsonTransformer } from 'hmd2v-credo-core'
 
 import { AnonCredsRestriction, AnonCredsRestrictionTransformer } from '../AnonCredsRestriction'
 

@@ -1,5 +1,5 @@
 import type { AgentContext } from '../../agent'
-import type { Key, Wallet } from 'credo-hmd2v-5.17-core'
+import type { Key, Wallet } from 'hmd2v-credo-core'
 
 import { InMemoryWallet } from '../../../../../tests/InMemoryWallet'
 import { getAgentConfig, getAgentContext } from '../../../tests/helpers'

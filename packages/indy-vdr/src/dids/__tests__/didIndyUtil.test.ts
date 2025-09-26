@@ -1,4 +1,4 @@
-import { DidDocument, JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { DidDocument, JsonTransformer } from 'hmd2v-credo-core'
 
 import { combineDidDocumentWithJson, didDocDiff } from '../didIndyUtil'
 

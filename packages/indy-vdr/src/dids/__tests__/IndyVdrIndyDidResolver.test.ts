@@ -1,4 +1,4 @@
-import { JsonTransformer } from 'credo-hmd2v-5.17-core'
+import { JsonTransformer } from 'hmd2v-credo-core'
 
 import { getAgentConfig, getAgentContext, mockProperty } from '../../../../core/tests/helpers'
 import { IndyVdrPool, IndyVdrPoolService } from '../../pool'

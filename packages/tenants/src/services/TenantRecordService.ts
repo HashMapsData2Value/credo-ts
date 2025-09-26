@@ -1,7 +1,7 @@
 import type { TenantConfig } from '../models/TenantConfig'
-import type { AgentContext, Key, Query, QueryOptions } from 'credo-hmd2v-5.17-core'
+import type { AgentContext, Key, Query, QueryOptions } from 'hmd2v-credo-core'
 
-import { UpdateAssistant, injectable, utils, KeyDerivationMethod } from 'credo-hmd2v-5.17-core'
+import { UpdateAssistant, injectable, utils, KeyDerivationMethod } from 'hmd2v-credo-core'
 
 import { TenantRepository, TenantRecord, TenantRoutingRepository, TenantRoutingRecord } from '../repository'
 

@@ -1,4 +1,4 @@
-import type { ConnectionRecord } from 'credo-hmd2v-5.17-core'
+import type { ConnectionRecord } from 'hmd2v-credo-core'
 
 import {
   ActionMenu,
@@ -6,8 +6,8 @@ import {
   ActionMenuRecord,
   ActionMenuRole,
   ActionMenuState,
-} from 'credo-hmd2v-5.17-action-menu'
-import { Agent } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-action-menu'
+import { Agent } from 'hmd2v-credo-core'
 
 import { makeConnection, testLogger, setupSubjectTransports, getInMemoryAgentOptions } from '../../core/tests'
 

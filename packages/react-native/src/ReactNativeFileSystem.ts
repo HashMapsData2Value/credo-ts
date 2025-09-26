@@ -1,6 +1,6 @@
-import type { FileSystem, DownloadToFileOptions } from 'credo-hmd2v-5.17-core'
+import type { FileSystem, DownloadToFileOptions } from 'hmd2v-credo-core'
 
-import { TypedArrayEncoder, CredoError, getDirFromFilePath, Buffer } from 'credo-hmd2v-5.17-core'
+import { TypedArrayEncoder, CredoError, getDirFromFilePath, Buffer } from 'hmd2v-credo-core'
 import { Platform } from 'react-native'
 import * as RNFS from 'react-native-fs'
 

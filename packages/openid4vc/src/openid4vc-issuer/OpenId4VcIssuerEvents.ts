@@ -1,6 +1,6 @@
 import type { OpenId4VcIssuanceSessionState } from './OpenId4VcIssuanceSessionState'
 import type { OpenId4VcIssuanceSessionRecord } from './repository'
-import type { BaseEvent } from 'credo-hmd2v-5.17-core'
+import type { BaseEvent } from 'hmd2v-credo-core'
 
 export enum OpenId4VcIssuerEvents {
   IssuanceSessionStateChanged = 'OpenId4VcIssuer.IssuanceSessionStateChanged',

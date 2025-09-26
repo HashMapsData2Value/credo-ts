@@ -1,4 +1,4 @@
-import { AutoAcceptCredential, AutoAcceptProof } from 'credo-hmd2v-5.17-core'
+import { AutoAcceptCredential, AutoAcceptProof } from 'hmd2v-credo-core'
 
 /**
  * Returns the credential auto accept config based on priority:

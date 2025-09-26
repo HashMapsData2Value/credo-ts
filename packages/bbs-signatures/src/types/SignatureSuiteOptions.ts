@@ -13,7 +13,7 @@
 
 import type { KeyPairSigner } from './KeyPairSigner'
 import type { Bls12381G2KeyPair } from '@mattrglobal/bls12381-key-pair'
-import type { JsonArray, LdKeyPair } from 'credo-hmd2v-5.17-core'
+import type { JsonArray, LdKeyPair } from 'hmd2v-credo-core'
 
 /**
  * Options for constructing a signature suite

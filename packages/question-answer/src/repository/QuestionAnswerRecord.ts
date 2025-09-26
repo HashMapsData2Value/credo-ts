@@ -1,8 +1,8 @@
 import type { QuestionAnswerRole } from '../QuestionAnswerRole'
 import type { QuestionAnswerState, ValidResponse } from '../models'
-import type { RecordTags, TagsBase } from 'credo-hmd2v-5.17-core'
+import type { RecordTags, TagsBase } from 'hmd2v-credo-core'
 
-import { CredoError, utils, BaseRecord } from 'credo-hmd2v-5.17-core'
+import { CredoError, utils, BaseRecord } from 'hmd2v-credo-core'
 
 export type CustomQuestionAnswerTags = TagsBase
 export type DefaultQuestionAnswerTags = {

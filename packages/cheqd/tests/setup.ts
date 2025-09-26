@@ -1,6 +1,6 @@
 jest.setTimeout(60000)
 
-import { DidDocument, DidDocumentService, VerificationMethod } from 'credo-hmd2v-5.17-core'
+import { DidDocument, DidDocumentService, VerificationMethod } from 'hmd2v-credo-core'
 
 export const validDid = 'did:cheqd:testnet:SiVQgrFZ7jFZFrTGstT4ZD'
 

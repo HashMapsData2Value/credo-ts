@@ -1,7 +1,7 @@
 import type { AnonCredsCredential } from '../models'
-import type { Tags } from 'credo-hmd2v-5.17-core'
+import type { Tags } from 'hmd2v-credo-core'
 
-import { BaseRecord, utils } from 'credo-hmd2v-5.17-core'
+import { BaseRecord, utils } from 'hmd2v-credo-core'
 
 export interface AnonCredsCredentialRecordProps {
   id?: string

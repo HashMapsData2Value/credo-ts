@@ -4,11 +4,11 @@ import type {
   OpenId4VcVerificationSessionState,
   OpenId4VcVerificationSessionStateChangedEvent,
 } from '../src'
-import type { BaseEvent, ModulesMap, X509Module } from 'credo-hmd2v-5.17-core'
-import type { TenantsModule } from 'credo-hmd2v-5.17-tenants'
+import type { BaseEvent, ModulesMap, X509Module } from 'hmd2v-credo-core'
+import type { TenantsModule } from 'hmd2v-credo-tenants'
 import type { Observable } from 'rxjs'
 
-import { Agent, LogLevel, utils } from 'credo-hmd2v-5.17-core'
+import { Agent, LogLevel, utils } from 'hmd2v-credo-core'
 import { ReplaySubject, lastValueFrom, filter, timeout, catchError, take, map } from 'rxjs'
 
 import {

@@ -1,6 +1,6 @@
 import type { ActionMenuState } from './ActionMenuState'
 import type { ActionMenuRecord } from './repository'
-import type { BaseEvent } from 'credo-hmd2v-5.17-core'
+import type { BaseEvent } from 'hmd2v-credo-core'
 
 /**
  * @public

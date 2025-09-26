@@ -11,7 +11,7 @@ import type {
   DifPresentationExchangeSubmission,
   W3cCredentialRecord,
   W3cJsonLdVerifiableCredential,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { JSONPath } from '@astronautlabs/jsonpath'
 import BigNumber from 'bn.js'
@@ -24,7 +24,7 @@ import {
   deepEquality,
   injectable,
   ClaimFormat,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { AnonCredsHolderServiceSymbol, AnonCredsVerifierServiceSymbol } from '../services'
 import { fetchCredentialDefinitions, fetchSchemas } from '../utils/anonCredsObjects'

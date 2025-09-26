@@ -1,9 +1,9 @@
 import type { AskarWalletPostgresStorageConfig } from '../src/wallet'
-import type { Agent, InitConfig } from 'credo-hmd2v-5.17-core'
+import type { Agent, InitConfig } from 'hmd2v-credo-core'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
 import { registerAriesAskar } from '@hyperledger/aries-askar-shared'
-import { ConnectionsModule, HandshakeProtocol, LogLevel, utils } from 'credo-hmd2v-5.17-core'
+import { ConnectionsModule, HandshakeProtocol, LogLevel, utils } from 'hmd2v-credo-core'
 import path from 'path'
 
 import { waitForBasicMessage } from '../../core/tests/helpers'

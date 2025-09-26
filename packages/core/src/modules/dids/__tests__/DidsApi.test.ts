@@ -5,7 +5,7 @@ import {
   PeerDidNumAlgo,
   TypedArrayEncoder,
   createPeerDidDocumentFromServices,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { getInMemoryAgentOptions } from '../../../../tests/helpers'
 import { Agent } from '../../../agent/Agent'

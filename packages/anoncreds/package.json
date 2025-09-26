@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-anoncreds",
+  "name": "hmd2v-credo-anoncreds",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -33,7 +33,7 @@
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "reflect-metadata": "^0.1.13",
-    "credo-hmd2v-5.17-core": "workspace:*"
+    "hmd2v-credo-core": "workspace:*"
   },
   "devDependencies": {
     "@hyperledger/anoncreds-nodejs": "^0.2.2",
@@ -41,7 +41,7 @@
     "rimraf": "^4.4.0",
     "rxjs": "^7.8.0",
     "typescript": "~5.5.2",
-    "credo-hmd2v-5.17-node": "workspace:*"
+    "hmd2v-credo-node": "workspace:*"
   },
   "peerDependencies": {
     "@hyperledger/anoncreds-shared": "^0.2.2"

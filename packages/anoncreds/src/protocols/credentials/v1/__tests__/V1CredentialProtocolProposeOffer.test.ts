@@ -1,4 +1,4 @@
-import type { CredentialProtocolOptions, CredentialStateChangedEvent } from 'credo-hmd2v-5.17-core'
+import type { CredentialProtocolOptions, CredentialStateChangedEvent } from 'hmd2v-credo-core'
 
 import {
   EventEmitter,
@@ -11,7 +11,7 @@ import {
   CredentialEventTypes,
   JsonTransformer,
   InboundMessageContext,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { ConnectionService } from '../../../../../../core/src/modules/connections/services/ConnectionService'

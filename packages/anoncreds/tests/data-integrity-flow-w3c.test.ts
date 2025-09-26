@@ -1,5 +1,5 @@
 import type { CreateDidKidVerificationMethodReturn } from '../../core/tests'
-import type { DidRepository } from 'credo-hmd2v-5.17-core'
+import type { DidRepository } from 'hmd2v-credo-core'
 
 import {
   AgentContext,
@@ -21,7 +21,7 @@ import {
   W3cCredentialSubject,
   W3cCredentialsModuleConfig,
   CredentialRole,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../tests/InMemoryStorageService'

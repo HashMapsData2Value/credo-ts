@@ -1,6 +1,6 @@
-import type { AckMessageOptions } from 'credo-hmd2v-5.17-core'
+import type { AckMessageOptions } from 'hmd2v-credo-core'
 
-import { AckMessage, IsValidMessageType, parseMessageType } from 'credo-hmd2v-5.17-core'
+import { AckMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
 
 export class V1PresentationAckMessage extends AckMessage {
   public readonly allowDidSovPrefix = true

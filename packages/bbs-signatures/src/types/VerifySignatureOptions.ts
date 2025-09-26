@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import type { VerificationMethod, JsonObject, Proof, DocumentLoader } from 'credo-hmd2v-5.17-core'
+import type { VerificationMethod, JsonObject, Proof, DocumentLoader } from 'hmd2v-credo-core'
 
 /**
  * Options for verifying a signature

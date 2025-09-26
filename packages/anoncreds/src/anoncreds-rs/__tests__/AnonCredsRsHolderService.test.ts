@@ -7,8 +7,8 @@ import type {
   AnonCredsRevocationStatusList,
   AnonCredsSchema,
   AnonCredsSelectedCredentials,
-} from 'credo-hmd2v-5.17-anoncreds'
-import type { DidRepository } from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-anoncreds'
+import type { DidRepository } from 'hmd2v-credo-core'
 
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import {
@@ -16,7 +16,7 @@ import {
   AnonCredsModuleConfig,
   AnonCredsHolderServiceSymbol,
   AnonCredsLinkSecretRecord,
-} from 'credo-hmd2v-5.17-anoncreds'
+} from 'hmd2v-credo-anoncreds'
 import {
   DidResolverService,
   DidsModuleConfig,
@@ -27,7 +27,7 @@ import {
   W3cCredentialSubject,
   W3cCredentialsModuleConfig,
   W3cJsonLdVerifiableCredential,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../tests/InMemoryStorageService'

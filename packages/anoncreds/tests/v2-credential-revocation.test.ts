@@ -9,7 +9,7 @@ import {
   V2CredentialPreview,
   V2OfferCredentialMessage,
   CredentialRole,
-} from 'credo-hmd2v-5.17-core'
+} from 'hmd2v-credo-core'
 
 import { waitForCredentialRecordSubject } from '../../core/tests'
 import { waitForRevocationNotification } from '../../core/tests/helpers'

@@ -1,5 +1,5 @@
 {
-  "name": "credo-hmd2v-5.17-webvh",
+  "name": "hmd2v-credo-webvh",
   "version": "0.5.17",
   "description": "Credo WebVH DID method implementation",
   "main": "build/index.js",
@@ -27,8 +27,8 @@
     "didwebvh-ts": "^2.5.3",
     "json-canonicalize": "^1.2.0",
     "tsyringe": "^4.8.0",
-    "credo-hmd2v-5.17-core": "workspace:*",
-    "credo-hmd2v-5.17-anoncreds": "workspace:*"
+    "hmd2v-credo-core": "workspace:*",
+    "hmd2v-credo-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "^4.4.0",

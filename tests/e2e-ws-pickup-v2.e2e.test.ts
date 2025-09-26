@@ -7,8 +7,8 @@ import {
   MediatorPickupStrategy,
   MediationRecipientModule,
   MediatorModule,
-} from 'credo-hmd2v-5.17-core'
-import { WsInboundTransport } from 'credo-hmd2v-5.17-node'
+} from 'hmd2v-credo-core'
+import { WsInboundTransport } from 'hmd2v-credo-node'
 
 import { getAnonCredsModules } from '../packages/anoncreds/tests/anoncredsSetup'
 import { askarModule } from '../packages/askar/tests/helpers'
