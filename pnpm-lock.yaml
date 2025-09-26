@@ -132,22 +132,22 @@ importers:
       figlet:
         specifier: ^1.5.2
         version: 1.8.2
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../packages/anoncreds
-      hmd2v-credo-askar:
+      hashmap-credo-askar:
         specifier: workspace:*
         version: link:../packages/askar
-      hmd2v-credo-cheqd:
+      hashmap-credo-cheqd:
         specifier: workspace:*
         version: link:../packages/cheqd
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../packages/core
-      hmd2v-credo-indy-vdr:
+      hashmap-credo-indy-vdr:
         specifier: workspace:*
         version: link:../packages/indy-vdr
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../packages/node
       ts-node:
@@ -187,16 +187,16 @@ importers:
       figlet:
         specifier: ^1.5.2
         version: 1.8.2
-      hmd2v-credo-askar:
+      hashmap-credo-askar:
         specifier: workspace:*
         version: link:../packages/askar
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../packages/core
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../packages/node
-      hmd2v-credo-openid4vc:
+      hashmap-credo-openid4vc:
         specifier: workspace:*
         version: link:../packages/openid4vc
       ts-node:
@@ -211,7 +211,7 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
@@ -248,7 +248,7 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       reflect-metadata:
@@ -261,7 +261,7 @@ importers:
       '@hyperledger/anoncreds-shared':
         specifier: ^0.2.2
         version: 0.2.4
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
       rimraf:
@@ -285,7 +285,7 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
@@ -337,11 +337,11 @@ importers:
       '@stablelib/random':
         specifier: ^1.0.2
         version: 1.0.2
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -380,10 +380,10 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
@@ -568,11 +568,11 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -587,16 +587,16 @@ importers:
 
   packages/indy-sdk-to-askar-migration:
     dependencies:
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      hmd2v-credo-askar:
+      hashmap-credo-askar:
         specifier: workspace:*
         version: link:../askar
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
     devDependencies:
@@ -615,10 +615,10 @@ importers:
 
   packages/indy-vdr:
     dependencies:
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -661,7 +661,7 @@ importers:
       express:
         specifier: ^4.17.1
         version: 4.21.2
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
@@ -710,7 +710,7 @@ importers:
       class-transformer:
         specifier: ^0.5.1
         version: 0.5.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
@@ -723,7 +723,7 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.21.2
-      hmd2v-credo-tenants:
+      hashmap-credo-tenants:
         specifier: workspace:*
         version: link:../tenants
       nock:
@@ -744,14 +744,14 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
     devDependencies:
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -772,7 +772,7 @@ importers:
       events:
         specifier: ^3.3.0
         version: 3.3.0
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -797,11 +797,11 @@ importers:
       async-mutex:
         specifier: ^0.4.0
         version: 0.4.1
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
     devDependencies:
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../node
       reflect-metadata:
@@ -825,10 +825,10 @@ importers:
       didwebvh-ts:
         specifier: ^2.5.3
         version: 2.5.3
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../anoncreds
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../core
       json-canonicalize:
@@ -853,13 +853,13 @@ importers:
       class-validator:
         specifier: 0.14.1
         version: 0.14.1
-      hmd2v-credo-askar:
+      hashmap-credo-askar:
         specifier: workspace:*
         version: link:../../packages/askar
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../../packages/core
-      hmd2v-credo-node:
+      hashmap-credo-node:
         specifier: workspace:*
         version: link:../../packages/node
       rxjs:
@@ -896,10 +896,10 @@ importers:
       form-data:
         specifier: ^4.0.0
         version: 4.0.4
-      hmd2v-credo-anoncreds:
+      hashmap-credo-anoncreds:
         specifier: workspace:*
         version: link:../../packages/anoncreds
-      hmd2v-credo-core:
+      hashmap-credo-core:
         specifier: workspace:*
         version: link:../../packages/core
       multer:
