@@ -1,5 +1,5 @@
 import type { IndyVdrRequest, RequestResponseType, IndyVdrPool as indyVdrPool } from '@hyperledger/indy-vdr-shared'
-import type { AgentContext, Key } from 'hmd2v-credo-core'
+import type { AgentContext, Key } from 'hashmap-credo-core'
 
 import {
   GetTransactionAuthorAgreementRequest,
@@ -7,8 +7,8 @@ import {
   PoolCreate,
   indyVdr,
 } from '@hyperledger/indy-vdr-shared'
-import { parseIndyDid } from 'hmd2v-credo-anoncreds'
-import { TypedArrayEncoder } from 'hmd2v-credo-core'
+import { parseIndyDid } from 'hashmap-credo-anoncreds'
+import { TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { IndyVdrError } from '../error'
 

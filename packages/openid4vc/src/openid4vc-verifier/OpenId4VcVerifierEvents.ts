@@ -1,6 +1,6 @@
 import type { OpenId4VcVerificationSessionState } from './OpenId4VcVerificationSessionState'
 import type { OpenId4VcVerificationSessionRecord } from './repository'
-import type { BaseEvent } from 'hmd2v-credo-core'
+import type { BaseEvent } from 'hashmap-credo-core'
 
 export enum OpenId4VcVerifierEvents {
   VerificationSessionStateChanged = 'OpenId4VcVerifier.VerificationSessionStateChanged',

@@ -1,8 +1,8 @@
-import type { InitConfig } from 'hmd2v-credo-core'
+import type { InitConfig } from 'hashmap-credo-core'
 
-import { ConnectionsModule, Agent } from 'hmd2v-credo-core'
-import { agentDependencies } from 'hmd2v-credo-node'
-import { TenantsModule } from 'hmd2v-credo-tenants'
+import { ConnectionsModule, Agent } from 'hashmap-credo-core'
+import { agentDependencies } from 'hashmap-credo-node'
+import { TenantsModule } from 'hashmap-credo-tenants'
 
 import { InMemoryWalletModule } from '../../../tests/InMemoryWalletModule'
 import { uuid } from '../../core/src/utils/uuid'

@@ -1,6 +1,6 @@
-import type { Key } from 'hmd2v-credo-core'
+import type { Key } from 'hashmap-credo-core'
 
-import { Agent, DidKey, getJwkFromKey, KeyType, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { Agent, DidKey, getJwkFromKey, KeyType, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { getInMemoryAgentOptions } from '../../../../tests'
 

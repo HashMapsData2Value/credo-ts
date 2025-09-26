@@ -1,6 +1,6 @@
-import type { ProblemReportErrorOptions, CredentialProblemReportReason } from 'hmd2v-credo-core'
+import type { ProblemReportErrorOptions, CredentialProblemReportReason } from 'hashmap-credo-core'
 
-import { ProblemReportError } from 'hmd2v-credo-core'
+import { ProblemReportError } from 'hashmap-credo-core'
 
 import { V1CredentialProblemReportMessage } from '../messages'
 

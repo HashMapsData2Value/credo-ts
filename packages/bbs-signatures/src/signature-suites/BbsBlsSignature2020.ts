@@ -5,7 +5,7 @@
  * You may obtain a copy of the License at
  *     http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
+ * distributed under the License is distributed on an "AS IS"hashmap-credo- BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
@@ -20,7 +20,7 @@ import type {
   SuiteSignOptions,
   VerifySignatureOptions,
 } from '../types'
-import type { VerificationMethod, JsonObject, DocumentLoader, Proof } from 'hmd2v-credo-core'
+import type { VerificationMethod, JsonObject, DocumentLoader, Proof } from 'hashmap-credo-core'
 
 import {
   CredoError,
@@ -29,7 +29,7 @@ import {
   SECURITY_CONTEXT_URL,
   w3cDate,
   vcLibraries,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 const { jsonld, jsonldSignatures } = vcLibraries
 const LinkedDataProof = jsonldSignatures.suites.LinkedDataProof

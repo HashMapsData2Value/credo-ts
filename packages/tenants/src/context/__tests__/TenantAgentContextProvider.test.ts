@@ -1,6 +1,6 @@
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { Key } from 'hmd2v-credo-core'
+import { Key } from 'hashmap-credo-core'
 
 import { EventEmitter } from '../../../../core/src/agent/EventEmitter'
 import { getAgentConfig, getAgentContext, mockFunction } from '../../../../core/tests/helpers'

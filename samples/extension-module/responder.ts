@@ -1,8 +1,8 @@
 import type { DummyStateChangedEvent } from './dummy'
 import type { Socket } from 'net'
 
-import { Agent, ConnectionsModule, ConsoleLogger, LogLevel } from 'hmd2v-credo-core'
-import { agentDependencies, HttpInboundTransport, WsInboundTransport } from 'hmd2v-credo-node'
+import { Agent, ConnectionsModule, ConsoleLogger, LogLevel } from 'hashmap-credo-core'
+import { agentDependencies, HttpInboundTransport, WsInboundTransport } from 'hashmap-credo-node'
 import express from 'express'
 import { Server } from 'ws'
 

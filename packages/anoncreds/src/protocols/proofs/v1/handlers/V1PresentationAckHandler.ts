@@ -1,5 +1,5 @@
 import type { V1ProofProtocol } from '../V1ProofProtocol'
-import type { MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'hashmap-credo-core'
 
 import { V1PresentationAckMessage } from '../messages'
 

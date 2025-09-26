@@ -1,11 +1,11 @@
 import type { OpenId4VcVerificationRequest } from './requestContext'
 import type { OpenId4VcVerificationSessionRecord } from '../repository'
 import type { AuthorizationResponsePayload, DecryptCompact } from '@sphereon/did-auth-siop'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 import type { Response, Router } from 'express'
 
 import { AuthorizationRequest, RP } from '@sphereon/did-auth-siop'
-import { CredoError, Hasher, JsonEncoder, Key, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { CredoError, Hasher, JsonEncoder, Key, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { getRequestContext, sendErrorResponse } from '../../shared/router'
 import { OpenId4VcSiopVerifierService } from '../OpenId4VcSiopVerifierService'

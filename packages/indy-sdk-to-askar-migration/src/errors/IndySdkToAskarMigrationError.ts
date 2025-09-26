@@ -1,4 +1,4 @@
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 /**
  * @internal

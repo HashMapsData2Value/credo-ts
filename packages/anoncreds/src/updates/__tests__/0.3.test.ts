@@ -1,4 +1,4 @@
-import { DependencyManager, InjectionSymbols, Agent, UpdateAssistant, utils } from 'hmd2v-credo-core'
+import { DependencyManager, InjectionSymbols, Agent, UpdateAssistant, utils } from 'hashmap-credo-core'
 import { readFileSync } from 'fs'
 import path from 'path'
 

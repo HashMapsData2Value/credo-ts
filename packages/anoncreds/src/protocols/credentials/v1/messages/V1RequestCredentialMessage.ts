@@ -2,7 +2,7 @@ import type { LegacyIndyCredentialRequest } from '../../../../formats'
 
 import { Expose, Type } from 'class-transformer'
 import { IsArray, IsInstance, IsOptional, IsString, ValidateNested } from 'class-validator'
-import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 export const INDY_CREDENTIAL_REQUEST_ATTACHMENT_ID = 'libindy-cred-request-0'
 

@@ -1,4 +1,4 @@
-import { EventEmitter, InjectionSymbols, inject, injectable, Repository, StorageService } from 'hmd2v-credo-core'
+import { EventEmitter, InjectionSymbols, inject, injectable, Repository, StorageService } from 'hashmap-credo-core'
 
 import { DrpcRecord } from './DrpcRecord'
 

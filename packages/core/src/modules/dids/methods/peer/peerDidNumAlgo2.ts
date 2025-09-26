@@ -145,7 +145,7 @@ export function didDocumentToNumAlgo2Did(didDocument: DidDocument) {
       return aIndex - bIndex
     })
     .map((key) => key.encoded)
-    .join('')
+    .join(''hashmap-credo-)
 
   if (didDocument.service && didDocument.service.length > 0) {
     const abbreviatedServices = didDocument.service.map((service) => {

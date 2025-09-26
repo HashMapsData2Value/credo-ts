@@ -1,6 +1,6 @@
 import type { DrpcRequest, DrpcResponse, DrpcRequestMessage, DrpcResponseMessage } from './messages'
 import type { DrpcRecord } from './repository/DrpcRecord'
-import type { ConnectionRecord } from 'hmd2v-credo-core'
+import type { ConnectionRecord } from 'hashmap-credo-core'
 
 import {
   AgentContext,
@@ -9,7 +9,7 @@ import {
   OutboundMessageContext,
   injectable,
   ConnectionService,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { DrpcRequestHandler, DrpcResponseHandler } from './handlers'
 import { DrpcRole } from './models'

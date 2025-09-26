@@ -7,7 +7,7 @@ import type {
   QueryOptions,
 } from '../packages/core/src/storage/StorageService'
 
-import { RecordNotFoundError, RecordDuplicateError, JsonTransformer, injectable } from 'hmd2v-credo-core'
+import { RecordNotFoundError, RecordDuplicateError, JsonTransformer, injectable } from 'hashmap-credo-core'
 
 import { InMemoryWallet } from './InMemoryWallet'
 

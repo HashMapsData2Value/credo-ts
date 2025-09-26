@@ -1,4 +1,4 @@
-import { StorageUpdateService } from 'hmd2v-credo-core'
+import { StorageUpdateService } from 'hashmap-credo-core'
 
 import { Agent } from '../../../core/src/agent/Agent'
 import { CURRENT_FRAMEWORK_STORAGE_VERSION } from '../../../core/src/storage/migration/updates'

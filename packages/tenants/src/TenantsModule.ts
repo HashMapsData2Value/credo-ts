@@ -1,7 +1,7 @@
 import type { TenantsModuleConfigOptions } from './TenantsModuleConfig'
-import type { Constructor, ModulesMap, DependencyManager, Module, EmptyModuleMap, Update } from 'hmd2v-credo-core'
+import type { Constructor, ModulesMap, DependencyManager, Module, EmptyModuleMap, Update } from 'hashmap-credo-core'
 
-import { AgentConfig, InjectionSymbols } from 'hmd2v-credo-core'
+import { AgentConfig, InjectionSymbols } from 'hashmap-credo-core'
 
 import { TenantsApi } from './TenantsApi'
 import { TenantsModuleConfig } from './TenantsModuleConfig'
@@ -28,7 +28,7 @@ export class TenantsModule<AgentModules extends ModulesMap = EmptyModuleMap> imp
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The '@credo-ts/tenants' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'hashmap-credo-@credo-ts/tenants' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Api

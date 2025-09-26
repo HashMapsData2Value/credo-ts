@@ -1,7 +1,7 @@
 import type { AnonCredsModuleConfigOptions } from './AnonCredsModuleConfig'
-import type { DependencyManager, Module, Update } from 'hmd2v-credo-core'
+import type { DependencyManager, Module, Update } from 'hashmap-credo-core'
 
-import { AnonCredsDataIntegrityServiceSymbol } from 'hmd2v-credo-core'
+import { AnonCredsDataIntegrityServiceSymbol } from 'hashmap-credo-core'
 
 import { AnonCredsApi } from './AnonCredsApi'
 import { AnonCredsModuleConfig } from './AnonCredsModuleConfig'

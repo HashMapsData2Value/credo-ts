@@ -39,7 +39,7 @@ import type {
   JsonObject,
   W3cCredentialEntry,
 } from '@hyperledger/anoncreds-shared'
-import type { AgentContext, Query, SimpleQuery } from 'hmd2v-credo-core'
+import type { AgentContext, Query, SimpleQuery } from 'hashmap-credo-core'
 
 import {
   Credential,
@@ -64,7 +64,7 @@ import {
   injectable,
   utils,
   W3cJsonLdVerifiablePresentation,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { AnonCredsModuleConfig } from '../AnonCredsModuleConfig'
 import { AnonCredsRsError } from '../error'
@@ -82,7 +82,7 @@ import { W3cAnonCredsCredentialMetadataKey } from '../utils/metadata'
 import { proofRequestUsesUnqualifiedIdentifiers } from '../utils/proofRequest'
 import { getAnoncredsCredentialInfoFromRecord, getW3cRecordAnonCredsTags } from '../utils/w3cAnonCredsUtils'
 
-import { getRevocationMetadata } from './utils'
+import { getRevocationMetadata } from './utils'hashmap-credo-
 
 @injectable()
 export class AnonCredsRsHolderService implements AnonCredsHolderService {

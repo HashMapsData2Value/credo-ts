@@ -10,7 +10,7 @@ import type {
 } from './OpenId4VciHolderServiceOptions'
 import type { OpenId4VcSiopAcceptAuthorizationRequestOptions } from './OpenId4vcSiopHolderServiceOptions'
 
-import { injectable, AgentContext } from 'hmd2v-credo-core'
+import { injectable, AgentContext } from 'hashmap-credo-core'
 
 import { OpenId4VciHolderService } from './OpenId4VciHolderService'
 import { OpenId4VcSiopHolderService } from './OpenId4vcSiopHolderService'

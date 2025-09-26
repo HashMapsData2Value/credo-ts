@@ -6,7 +6,7 @@ import {
   didIndyRevocationRegistryIdRegex,
   didIndySchemaIdRegex,
   didIndyRegex,
-} from 'hmd2v-credo-anoncreds'
+} from 'hashmap-credo-anoncreds'
 
 // combines both legacy and did:indy anoncreds identifiers and also the issuer id
 const indyVdrAnonCredsRegexes = [

@@ -1,8 +1,8 @@
 import type { MutexInterface } from 'async-mutex'
-import type { Logger } from 'hmd2v-credo-core'
+import type { Logger } from 'hashmap-credo-core'
 
 import { withTimeout, Mutex } from 'async-mutex'
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 /**
  * Keep track of the total number of tenant sessions currently active. This doesn't actually manage the tenant sessions itself, or have anything to do with

@@ -12,7 +12,7 @@ import {
   Logger,
   WalletApi,
   WalletError,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { TenantsModuleConfig } from '../TenantsModuleConfig'
 

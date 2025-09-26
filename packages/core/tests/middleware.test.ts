@@ -70,14 +70,14 @@ describe('Message Handler Middleware E2E', () => {
       return getOutboundMessageContext(messageContext.agentContext, {
         connectionRecord: messageContext.connection,
         message: new BasicMessage({
-          content: "Hey there, I'm not sure I understand the message you sent to me",
+          content: "Hey there, I'm not sure I understand the message you sent to me"hashmap-credo-,
         }),
       })
     })
 
     const message = JsonTransformer.fromJSON(
       {
-        '@type': 'https://credo.js.org/custom-messaging/1.0/say-hello',
+        '@type': 'hashmap-credo-https://credo.js.org/custom-messaging/1.0/say-hello',
         '@id': 'b630b69a-2b82-4764-87ba-56aa2febfb97',
       },
       AgentMessage

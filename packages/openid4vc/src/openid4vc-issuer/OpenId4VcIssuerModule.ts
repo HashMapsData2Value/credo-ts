@@ -1,8 +1,8 @@
 import type { OpenId4VcIssuerModuleConfigOptions } from './OpenId4VcIssuerModuleConfig'
 import type { OpenId4VcIssuanceRequest } from './router'
-import type { AgentContext, DependencyManager, Module } from 'hmd2v-credo-core'
+import type { AgentContext, DependencyManager, Module } from 'hashmap-credo-core'
 
-import { AgentConfig } from 'hmd2v-credo-core'
+import { AgentConfig } from 'hashmap-credo-core'
 
 import { getAgentContextForActorId, getRequestContext, importExpress } from '../shared/router'
 
@@ -37,7 +37,7 @@ export class OpenId4VcIssuerModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The '@credo-ts/openid4vc' Issuer module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'hashmap-credo-@credo-ts/openid4vc' Issuer module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Register config

@@ -1,4 +1,4 @@
-import type { WalletConfig } from 'hmd2v-credo-core'
+import type { WalletConfig } from 'hashmap-credo-core'
 
 import {
   JsonTransformer,
@@ -6,7 +6,7 @@ import {
   KeyType,
   SigningProviderRegistry,
   KeyDerivationMethod,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { agentDependencies } from '../../../../core/tests/helpers'
 import testLogger from '../../../../core/tests/logger'

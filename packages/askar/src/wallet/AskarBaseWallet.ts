@@ -13,7 +13,7 @@ import type {
   Logger,
   SigningProviderRegistry,
   WalletDirectEncryptCompactJwtEcdhEsOptions,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   CryptoBox,
@@ -38,7 +38,7 @@ import {
   KeyBackend,
   KeyType,
   utils,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { importSecureEnvironment } from '../secureEnvironment'
 import {

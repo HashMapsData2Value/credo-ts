@@ -1,5 +1,5 @@
 import { KeyAlgs } from '@hyperledger/aries-askar-shared'
-import { KeyType } from 'hmd2v-credo-core'
+import { KeyType } from 'hashmap-credo-core'
 
 export enum AskarKeyTypePurpose {
   KeyManagement = 'KeyManagement',

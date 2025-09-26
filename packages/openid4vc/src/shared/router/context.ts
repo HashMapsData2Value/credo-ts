@@ -1,7 +1,7 @@
-import type { AgentContext, Logger } from 'hmd2v-credo-core'
+import type { AgentContext, Logger } from 'hashmap-credo-core'
 import type { Response, Request } from 'express'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 export interface OpenId4VcRequest<RC extends Record<string, unknown> = Record<string, never>> extends Request {
   requestContext?: RC & OpenId4VcRequestContext

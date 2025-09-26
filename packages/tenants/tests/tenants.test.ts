@@ -1,7 +1,7 @@
-import type { InitConfig } from 'hmd2v-credo-core'
+import type { InitConfig } from 'hashmap-credo-core'
 
-import { ConnectionsModule, OutOfBandRecord, Agent, CacheModule, InMemoryLruCache } from 'hmd2v-credo-core'
-import { agentDependencies } from 'hmd2v-credo-node'
+import { ConnectionsModule, OutOfBandRecord, Agent, CacheModule, InMemoryLruCache } from 'hashmap-credo-core'
+import { agentDependencies } from 'hashmap-credo-node'
 
 import { InMemoryWalletModule } from '../../../tests/InMemoryWalletModule'
 import { SubjectInboundTransport } from '../../../tests/transport/SubjectInboundTransport'

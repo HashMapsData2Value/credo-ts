@@ -14,7 +14,7 @@ import type {
   RegisterRevocationStatusListReturn,
 } from './RevocationStatusListOptions'
 import type { GetSchemaReturn, RegisterSchemaOptions, RegisterSchemaReturn } from './SchemaOptions'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 /**
  * @public

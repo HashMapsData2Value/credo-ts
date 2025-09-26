@@ -1,4 +1,4 @@
-import type { ConnectionRecord, CredentialExchangeRecord, ProofExchangeRecord } from 'hmd2v-credo-core'
+import type { ConnectionRecord, CredentialExchangeRecord, ProofExchangeRecord } from 'hashmap-credo-core'
 
 import { BaseAgent } from './BaseAgent'
 import { greenText, Output, redText } from './OutputClass'

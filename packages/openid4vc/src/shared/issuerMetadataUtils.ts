@@ -5,9 +5,9 @@ import type {
   OpenId4VciCredentialSupportedWithId,
 } from './models'
 import type { CredentialOfferFormatV1_0_11 } from '@sphereon/oid4vci-common'
-import type { AgentContext, JwaSignatureAlgorithm } from 'hmd2v-credo-core'
+import type { AgentContext, JwaSignatureAlgorithm } from 'hashmap-credo-core'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 import { getSupportedJwaSignatureAlgorithms } from './utils'
 

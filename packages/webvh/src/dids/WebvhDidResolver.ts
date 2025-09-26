@@ -1,6 +1,6 @@
-import type { AgentContext, DidResolutionResult, DidResolver } from 'hmd2v-credo-core'
+import type { AgentContext, DidResolutionResult, DidResolver } from 'hashmap-credo-core'
 
-import { DidDocument, JsonTransformer } from 'hmd2v-credo-core'
+import { DidDocument, JsonTransformer } from 'hashmap-credo-core'
 import { resolveDID } from 'didwebvh-ts'
 
 import { WebvhDidCrypto } from './WebvhDidCrypto'

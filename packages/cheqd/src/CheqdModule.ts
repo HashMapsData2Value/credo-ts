@@ -1,7 +1,7 @@
 import type { CheqdModuleConfigOptions } from './CheqdModuleConfig'
-import type { AgentContext, DependencyManager, Module } from 'hmd2v-credo-core'
+import type { AgentContext, DependencyManager, Module } from 'hashmap-credo-core'
 
-import { AgentConfig, Buffer } from 'hmd2v-credo-core'
+import { AgentConfig, Buffer } from 'hashmap-credo-core'
 
 import { CheqdApi } from './CheqdApi'
 import { CheqdModuleConfig } from './CheqdModuleConfig'
@@ -20,7 +20,7 @@ export class CheqdModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The '@credo-ts/cheqd' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'hashmap-credo-@credo-ts/cheqd' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Register config

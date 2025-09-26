@@ -4,7 +4,7 @@ import type {
   CredentialPreviewAttribute,
   AgentConfig,
   CredentialStateChangedEvent,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   EventEmitter,
@@ -25,7 +25,7 @@ import {
   AckStatus,
   CredentialProblemReportReason,
   CredentialRole,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { Subject } from 'rxjs'
 
 import { ConnectionService } from '../../../../../../core/src/modules/connections/services/ConnectionService'

@@ -1,6 +1,6 @@
-import type { Wallet } from 'hmd2v-credo-core'
+import type { Wallet } from 'hashmap-credo-core'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 import { AskarWallet, AskarProfileWallet } from '../wallet'
 

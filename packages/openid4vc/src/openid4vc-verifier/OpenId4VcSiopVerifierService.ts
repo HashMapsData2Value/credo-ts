@@ -17,7 +17,7 @@ import type {
   QueryOptions,
   RecordSavedEvent,
   RecordUpdatedEvent,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   AuthorizationRequest,
@@ -57,7 +57,7 @@ import {
   MdocDeviceResponse,
   TypedArrayEncoder,
   Jwt,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { filter, first, firstValueFrom, map, timeout } from 'rxjs'
 
 import { storeActorIdForContextCorrelationId } from '../shared/router'

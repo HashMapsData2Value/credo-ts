@@ -1,12 +1,12 @@
-import type { DependencyManager, FeatureRegistry } from 'hmd2v-credo-core'
+import type { DependencyManager, FeatureRegistry } from 'hashmap-credo-core'
 
-import { Protocol } from 'hmd2v-credo-core'
+import { Protocol } from 'hashmap-credo-core'
 import {
   QuestionAnswerModule,
   QuestionAnswerRepository,
   QuestionAnswerRole,
   QuestionAnswerService,
-} from 'hmd2v-credo-question-answer'
+} from 'hashmap-credo-question-answer'
 
 const dependencyManager = {
   registerInstance: jest.fn(),

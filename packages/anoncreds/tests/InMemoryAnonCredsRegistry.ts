@@ -17,10 +17,10 @@ import type {
   RegisterSchemaOptions,
   RegisterSchemaReturn,
 } from '../src'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import BigNumber from 'bn.js'
-import { Hasher, utils } from 'hmd2v-credo-core'
+import { Hasher, utils } from 'hashmap-credo-core'
 
 import {
   getDidIndyCredentialDefinitionId,

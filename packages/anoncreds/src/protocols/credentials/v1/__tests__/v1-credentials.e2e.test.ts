@@ -6,7 +6,7 @@ import {
   CredentialState,
   DidCommMessageRepository,
   JsonTransformer,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { waitForCredentialRecord } from '../../../../../../core/tests/helpers'
 import testLogger from '../../../../../../core/tests/logger'

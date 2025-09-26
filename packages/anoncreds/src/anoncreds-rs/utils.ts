@@ -1,6 +1,6 @@
 import type { AnonCredsNonRevokedInterval } from '../models'
 import type { NonRevokedIntervalOverride } from '@hyperledger/anoncreds-shared'
-import type { AgentContext, JsonObject, W3cJsonLdVerifiableCredential } from 'hmd2v-credo-core'
+import type { AgentContext, JsonObject, W3cJsonLdVerifiableCredential } from 'hashmap-credo-core'
 
 import {
   W3cCredential as AnonCredsW3cCredential,
@@ -8,7 +8,7 @@ import {
   RevocationStatusList,
   CredentialRevocationState,
 } from '@hyperledger/anoncreds-shared'
-import { CredoError, JsonTransformer } from 'hmd2v-credo-core'
+import { CredoError, JsonTransformer } from 'hashmap-credo-core'
 
 import { AnonCredsModuleConfig } from '../AnonCredsModuleConfig'
 import {

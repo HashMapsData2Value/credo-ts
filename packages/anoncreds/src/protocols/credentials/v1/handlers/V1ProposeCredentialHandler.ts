@@ -1,7 +1,7 @@
 import type { V1CredentialProtocol } from '../V1CredentialProtocol'
-import type { CredentialExchangeRecord, MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
+import type { CredentialExchangeRecord, MessageHandler, MessageHandlerInboundMessage } from 'hashmap-credo-core'
 
-import { getOutboundMessageContext } from 'hmd2v-credo-core'
+import { getOutboundMessageContext } from 'hashmap-credo-core'
 
 import { V1ProposeCredentialMessage } from '../messages'
 

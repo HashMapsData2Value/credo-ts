@@ -11,7 +11,7 @@ import type {
   VerificationMethod,
   W3cVerifiableCredential,
   W3cVerifyCredentialResult,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   SdJwtVcApi,
@@ -34,7 +34,7 @@ import {
   getJwkFromKey,
   getKeyFromVerificationMethod,
   w3cDate,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { AskarModule } from '../../../../askar/src'
 import { askarModuleConfig } from '../../../../askar/tests/helpers'

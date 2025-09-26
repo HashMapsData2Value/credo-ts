@@ -1,6 +1,6 @@
 import { Expose, Type } from 'class-transformer'
 import { IsBoolean, IsInstance, IsOptional, IsString, ValidateNested } from 'class-validator'
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 import { ValidResponse } from '../models'
 

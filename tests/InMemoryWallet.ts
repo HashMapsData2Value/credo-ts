@@ -6,7 +6,7 @@ import type {
   UnpackedMessageContext,
   WalletVerifyOptions,
   Wallet,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { CryptoBox, Store, Key as AskarKey, keyAlgFromString } from '@hyperledger/aries-askar-nodejs'
 import BigNumber from 'bn.js'
@@ -23,7 +23,7 @@ import {
   Key,
   TypedArrayEncoder,
   KeyBackend,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { convertToAskarKeyBackend } from '../packages/askar/src/utils/askarKeyBackend'
 import { didcommV1Pack, didcommV1Unpack } from '../packages/askar/src/wallet/didcommV1'

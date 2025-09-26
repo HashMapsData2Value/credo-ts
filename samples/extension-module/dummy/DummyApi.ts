@@ -1,5 +1,5 @@
 import type { DummyRecord } from './repository/DummyRecord'
-import type { Query, QueryOptions } from 'hmd2v-credo-core'
+import type { Query, QueryOptions } from 'hashmap-credo-core'
 
 import {
   getOutboundMessageContext,
@@ -7,7 +7,7 @@ import {
   ConnectionService,
   injectable,
   MessageSender,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { DummyRequestHandler, DummyResponseHandler } from './handlers'
 import { DummyState } from './repository'

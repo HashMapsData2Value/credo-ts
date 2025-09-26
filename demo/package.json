@@ -1,5 +1,5 @@
 {
-  "name": "credo-demo",
+  "name": "hashmap-credo-demo",
   "version": "1.0.0",
   "private": true,
   "repository": {
@@ -24,11 +24,11 @@
     "clear": "^0.1.0",
     "figlet": "^1.5.2",
     "ts-node": "^10.4.0",
-    "hmd2v-credo-core": "workspace:*",
-    "hmd2v-credo-anoncreds": "workspace:*",
-    "hmd2v-credo-askar": "workspace:*",
-    "hmd2v-credo-cheqd": "workspace:*",
-    "hmd2v-credo-indy-vdr": "workspace:*",
-    "hmd2v-credo-node": "workspace:*"
+    "hashmap-credo-core": "workspace:*",
+    "hashmap-credo-anoncreds": "workspace:*",
+    "hashmap-credo-askar": "workspace:*",
+    "hashmap-credo-cheqd": "workspace:*",
+    "hashmap-credo-indy-vdr": "workspace:*",
+    "hashmap-credo-node": "workspace:*"
   }
 }

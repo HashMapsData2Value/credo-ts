@@ -1,4 +1,4 @@
-import type { DependencyManager, Module } from 'hmd2v-credo-core'
+import type { DependencyManager, Module } from 'hashmap-credo-core'
 
 import { WebvhDidResolver } from './dids/WebvhDidResolver'
 

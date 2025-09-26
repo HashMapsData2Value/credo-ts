@@ -1,6 +1,6 @@
 import type { DummyState } from '../dummy/repository'
 import type { DummyStateChangedEvent } from '../dummy/services'
-import type { Agent } from 'hmd2v-credo-core'
+import type { Agent } from 'hashmap-credo-core'
 import type { Observable } from 'rxjs'
 
 import { catchError, filter, firstValueFrom, map, ReplaySubject, timeout } from 'rxjs'

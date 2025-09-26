@@ -1,6 +1,6 @@
 import { Expose } from 'class-transformer'
 import { IsString } from 'class-validator'
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 export class AnswerMessage extends AgentMessage {
   /**

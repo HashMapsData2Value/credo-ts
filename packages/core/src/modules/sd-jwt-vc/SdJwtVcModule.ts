@@ -20,7 +20,7 @@ export class SdJwtVcModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The 'SdJwtVc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'SdJwtVc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Services

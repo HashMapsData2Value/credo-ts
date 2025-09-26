@@ -1,6 +1,6 @@
-import type { TagsBase } from 'hmd2v-credo-core'
+import type { TagsBase } from 'hashmap-credo-core'
 
-import { BaseRecord, utils } from 'hmd2v-credo-core'
+import { BaseRecord, utils } from 'hashmap-credo-core'
 
 export interface AnonCredsKeyCorrectnessProofRecordProps {
   id?: string

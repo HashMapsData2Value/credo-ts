@@ -1,9 +1,9 @@
-import type { DifPresentationExchangeDefinitionV2 } from 'hmd2v-credo-core'
-import type { OpenId4VcVerifierRecord } from 'hmd2v-credo-openid4vc'
+import type { DifPresentationExchangeDefinitionV2 } from 'hashmap-credo-core'
+import type { OpenId4VcVerifierRecord } from 'hashmap-credo-openid4vc'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import { AskarModule } from 'hmd2v-credo-askar'
-import { OpenId4VcVerifierModule } from 'hmd2v-credo-openid4vc'
+import { AskarModule } from 'hashmap-credo-askar'
+import { OpenId4VcVerifierModule } from 'hashmap-credo-openid4vc'
 import { Router } from 'express'
 
 import { BaseAgent } from './BaseAgent'

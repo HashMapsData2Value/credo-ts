@@ -9,7 +9,7 @@ import {
   Buffer,
   NewDidCommV2ServiceEndpoint,
   DidCommV2Service,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 export type CommEndpointType = 'endpoint' | 'did-communication' | 'DIDComm' | 'DIDCommMessaging'
 

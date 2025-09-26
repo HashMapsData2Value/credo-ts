@@ -10,7 +10,7 @@ import {
   W3cCredential,
   W3cCredentialService,
   W3cCredentialSubject,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   createDidKidVerificationMethod,

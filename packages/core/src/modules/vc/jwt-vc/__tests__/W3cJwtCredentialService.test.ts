@@ -19,7 +19,7 @@ import {
   CredoEs256DidJwkJwtVcSubjectSeed,
   CredoEs256DidKeyJwtVp,
   Ed256DidJwkJwtVcUnsigned,
-} from './fixtures/credo-jwt-vc'
+} from 'hashmap-credo-./fixtures/credo-jwt-vc'
 import { didIonJwtVcPresentationProfileJwtVc } from './fixtures/jwt-vc-presentation-profile'
 import { didKeyTransmuteJwtVc, didKeyTransmuteJwtVp } from './fixtures/transmute-verifiable-data'
 

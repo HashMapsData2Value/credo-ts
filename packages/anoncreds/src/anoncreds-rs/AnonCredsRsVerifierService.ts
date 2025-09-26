@@ -7,10 +7,10 @@ import type {
   RevocationRegistryDefinition,
   VerifyW3cPresentationOptions as VerifyAnonCredsW3cPresentationOptions,
 } from '@hyperledger/anoncreds-shared'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import { Presentation, W3cPresentation, W3cCredential as AnonCredsW3cCredential } from '@hyperledger/anoncreds-shared'
-import { JsonTransformer, injectable } from 'hmd2v-credo-core'
+import { JsonTransformer, injectable } from 'hashmap-credo-core'
 
 import { fetchRevocationStatusList } from '../utils'
 

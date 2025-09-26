@@ -1,10 +1,10 @@
-import { TypedArrayEncoder } from 'hmd2v-credo-core'
+import { TypedArrayEncoder } from 'hashmap-credo-core'
 import nock, { cleanAll, enableNetConnect } from 'nock'
 import path from 'path'
 
 import { NodeFileSystem } from '../src/NodeFileSystem'
 
-describe('@credo-ts/file-system-node', () => {
+describe('hashmap-credo-@credo-ts/file-system-node', () => {
   describe('NodeFileSystem', () => {
     const fileSystem = new NodeFileSystem()
 

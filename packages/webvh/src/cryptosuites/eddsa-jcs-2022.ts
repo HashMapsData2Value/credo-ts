@@ -1,8 +1,8 @@
 import type { ProofOptions } from './types'
 import type { WebVhResource } from '../anoncreds/utils/transform'
 
-import { type AgentContext, CredoError, Key } from 'hmd2v-credo-core'
-import { DidsApi, Hasher, MultiBaseEncoder, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { type AgentContext, CredoError, Key } from 'hashmap-credo-core'
+import { DidsApi, Hasher, MultiBaseEncoder, TypedArrayEncoder } from 'hashmap-credo-core'
 import { canonicalize } from 'json-canonicalize'
 
 import { WebvhDidCrypto } from '../dids'

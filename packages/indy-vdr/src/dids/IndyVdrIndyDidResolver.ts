@@ -1,6 +1,6 @@
-import type { AgentContext, DidResolutionResult, DidResolver } from 'hmd2v-credo-core'
+import type { AgentContext, DidResolutionResult, DidResolver } from 'hashmap-credo-core'
 
-import { parseIndyDid } from 'hmd2v-credo-anoncreds'
+import { parseIndyDid } from 'hashmap-credo-anoncreds'
 
 import { IndyVdrPoolService } from '../pool'
 

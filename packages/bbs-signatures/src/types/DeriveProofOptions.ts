@@ -11,7 +11,7 @@
  * limitations under the License.
  */
 
-import type { JsonObject, DocumentLoader, Proof } from 'hmd2v-credo-core'
+import type { JsonObject, DocumentLoader, Proof } from 'hashmap-credo-core'
 
 /**
  * Options for creating a proof

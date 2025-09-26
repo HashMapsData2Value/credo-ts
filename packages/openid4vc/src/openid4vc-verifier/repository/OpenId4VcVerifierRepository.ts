@@ -1,6 +1,6 @@
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from 'hmd2v-credo-core'
+import { Repository, StorageService, InjectionSymbols, EventEmitter, inject, injectable } from 'hashmap-credo-core'
 
 import { OpenId4VcVerifierRecord } from './OpenId4VcVerifierRecord'
 

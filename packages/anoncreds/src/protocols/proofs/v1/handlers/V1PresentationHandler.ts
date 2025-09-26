@@ -1,7 +1,7 @@
 import type { V1ProofProtocol } from '../V1ProofProtocol'
-import type { MessageHandler, MessageHandlerInboundMessage, ProofExchangeRecord } from 'hmd2v-credo-core'
+import type { MessageHandler, MessageHandlerInboundMessage, ProofExchangeRecord } from 'hashmap-credo-core'
 
-import { CredoError, getOutboundMessageContext } from 'hmd2v-credo-core'
+import { CredoError, getOutboundMessageContext } from 'hashmap-credo-core'
 
 import { V1PresentationMessage } from '../messages'
 

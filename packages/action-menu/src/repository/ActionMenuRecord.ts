@@ -1,9 +1,9 @@
 import type { ActionMenuRole } from '../ActionMenuRole'
 import type { ActionMenuState } from '../ActionMenuState'
-import type { TagsBase } from 'hmd2v-credo-core'
+import type { TagsBase } from 'hashmap-credo-core'
 
 import { Type } from 'class-transformer'
-import { CredoError, BaseRecord, utils } from 'hmd2v-credo-core'
+import { CredoError, BaseRecord, utils } from 'hashmap-credo-core'
 
 import { ActionMenuSelection, ActionMenu } from '../models'
 

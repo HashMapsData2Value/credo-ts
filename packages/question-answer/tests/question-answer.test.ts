@@ -1,7 +1,7 @@
-import type { ConnectionRecord } from 'hmd2v-credo-core'
+import type { ConnectionRecord } from 'hashmap-credo-core'
 
-import { Agent } from 'hmd2v-credo-core'
-import { QuestionAnswerModule, QuestionAnswerRole, QuestionAnswerState } from 'hmd2v-credo-question-answer'
+import { Agent } from 'hashmap-credo-core'
+import { QuestionAnswerModule, QuestionAnswerRole, QuestionAnswerState } from 'hashmap-credo-question-answer'
 
 import { setupSubjectTransports, testLogger, makeConnection, getInMemoryAgentOptions } from '../../core/tests'
 

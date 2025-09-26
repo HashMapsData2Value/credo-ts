@@ -1,4 +1,4 @@
-import { EventEmitter, inject, injectable, InjectionSymbols, Repository, StorageService } from 'hmd2v-credo-core'
+import { EventEmitter, inject, injectable, InjectionSymbols, Repository, StorageService } from 'hashmap-credo-core'
 
 import { QuestionAnswerRecord } from './QuestionAnswerRecord'
 

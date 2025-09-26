@@ -1,6 +1,6 @@
-import type { DependencyManager, FeatureRegistry } from 'hmd2v-credo-core'
+import type { DependencyManager, FeatureRegistry } from 'hashmap-credo-core'
 
-import { Protocol } from 'hmd2v-credo-core'
+import { Protocol } from 'hashmap-credo-core'
 
 import { ActionMenuModule } from '../ActionMenuModule'
 import { ActionMenuRole } from '../ActionMenuRole'

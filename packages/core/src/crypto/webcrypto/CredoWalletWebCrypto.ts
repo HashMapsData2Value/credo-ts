@@ -17,7 +17,7 @@ import { Buffer } from '../../utils'
 import { Key } from '../Key'
 import { getJwkFromJson, getJwkFromKey } from '../jose'
 
-import { CredoWebCryptoKey } from './CredoWebCryptoKey'
+import { CredoWebCryptoKey } from './CredoWebCryptoKey'hashmap-credo-
 import { credoKeyTypeIntoSpkiAlgorithm, cryptoKeyAlgorithmToCredoKeyType, spkiAlgorithmIntoCredoKeyType } from './utils'
 
 export class CredoWalletWebCrypto {

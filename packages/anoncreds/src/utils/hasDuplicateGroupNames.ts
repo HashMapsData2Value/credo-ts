@@ -1,6 +1,6 @@
 import type { AnonCredsProofRequest } from '../models'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 function attributeNamesToArray(proofRequest: AnonCredsProofRequest) {
   // Attributes can contain either a `name` string value or an `names` string array. We reduce it to a single array

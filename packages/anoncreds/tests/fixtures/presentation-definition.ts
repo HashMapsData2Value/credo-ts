@@ -1,4 +1,4 @@
-import type { DifPresentationExchangeDefinitionV1 } from 'hmd2v-credo-core'
+import type { DifPresentationExchangeDefinitionV1 } from 'hashmap-credo-core'
 
 export const presentationDefinition: DifPresentationExchangeDefinitionV1 = {
   id: '5591656f-5b5d-40f8-ab5c-9041c8e3a6a0',

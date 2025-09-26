@@ -1,7 +1,7 @@
 import type { DummyService } from '../services'
-import type { MessageHandler, MessageHandlerInboundMessage } from 'hmd2v-credo-core'
+import type { MessageHandler, MessageHandlerInboundMessage } from 'hashmap-credo-core'
 
-import { getOutboundMessageContext } from 'hmd2v-credo-core'
+import { getOutboundMessageContext } from 'hashmap-credo-core'
 
 import { DummyRequestMessage } from '../messages'
 

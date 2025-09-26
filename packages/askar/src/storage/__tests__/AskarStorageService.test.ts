@@ -1,4 +1,4 @@
-import type { AgentContext, TagsBase } from 'hmd2v-credo-core'
+import type { AgentContext, TagsBase } from 'hashmap-credo-core'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
 import {
@@ -6,7 +6,7 @@ import {
   SigningProviderRegistry,
   RecordDuplicateError,
   RecordNotFoundError,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { TestRecord } from '../../../../core/src/storage/__tests__/TestRecord'
 import { agentDependencies, getAgentConfig, getAgentContext } from '../../../../core/tests/helpers'

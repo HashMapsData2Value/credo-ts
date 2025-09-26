@@ -1,5 +1,5 @@
 {
-  "name": "hmd2v-credo-cheqd",
+  "name": "hashmap-credo-cheqd",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -36,8 +36,8 @@
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
     "tsyringe": "^4.8.0",
-    "hmd2v-credo-core": "workspace:*",
-    "hmd2v-credo-anoncreds": "workspace:*"
+    "hashmap-credo-core": "workspace:*",
+    "hashmap-credo-anoncreds": "workspace:*"
   },
   "devDependencies": {
     "rimraf": "^4.0.7",

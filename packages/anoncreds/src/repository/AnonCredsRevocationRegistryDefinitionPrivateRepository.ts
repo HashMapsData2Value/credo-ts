@@ -1,7 +1,7 @@
 import type { AnonCredsRevocationRegistryState } from './AnonCredsRevocationRegistryDefinitionPrivateRecord'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { Repository, InjectionSymbols, StorageService, EventEmitter, injectable, inject } from 'hmd2v-credo-core'
+import { Repository, InjectionSymbols, StorageService, EventEmitter, injectable, inject } from 'hashmap-credo-core'
 
 import { AnonCredsRevocationRegistryDefinitionPrivateRecord } from './AnonCredsRevocationRegistryDefinitionPrivateRecord'
 

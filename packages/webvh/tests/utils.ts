@@ -1,4 +1,4 @@
-import { DidDocument, DidDocumentService, VerificationMethod } from 'hmd2v-credo-core'
+import { DidDocument, DidDocumentService, VerificationMethod } from 'hashmap-credo-core'
 
 export const validDid = 'did:webvh:QmdmPkUdYzbr9txmx8gM2rsHPgr5L6m3gHjJGAf4vUFoGE:domain.example'
 

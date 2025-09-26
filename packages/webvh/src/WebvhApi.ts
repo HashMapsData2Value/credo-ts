@@ -1,4 +1,4 @@
-import { AgentContext } from 'hmd2v-credo-core'
+import { AgentContext } from 'hashmap-credo-core'
 import { injectable } from 'tsyringe'
 
 import { WebvhDidResolver } from './dids/WebvhDidResolver'

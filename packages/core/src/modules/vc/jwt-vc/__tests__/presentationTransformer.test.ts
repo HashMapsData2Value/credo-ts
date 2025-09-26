@@ -4,7 +4,7 @@ import { W3cPresentation } from '../../models'
 import { W3cJwtVerifiableCredential } from '../W3cJwtVerifiableCredential'
 import { getJwtPayloadFromPresentation, getPresentationFromJwtPayload } from '../presentationTransformer'
 
-import { CredoEs256DidJwkJwtVc } from './fixtures/credo-jwt-vc'
+import { CredoEs256DidJwkJwtVc } from 'hashmap-credo-./fixtures/credo-jwt-vc'
 
 describe('presentationTransformer', () => {
   describe('getJwtPayloadFromPresentation', () => {

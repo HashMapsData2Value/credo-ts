@@ -1,6 +1,6 @@
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { Repository, InjectionSymbols, StorageService, EventEmitter, inject, injectable } from 'hmd2v-credo-core'
+import { Repository, InjectionSymbols, StorageService, EventEmitter, inject, injectable } from 'hashmap-credo-core'
 
 import { AnonCredsSchemaRecord } from './AnonCredsSchemaRecord'
 

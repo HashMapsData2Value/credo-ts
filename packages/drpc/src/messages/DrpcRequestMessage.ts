@@ -1,5 +1,5 @@
 import { Expose } from 'class-transformer'
-import { IsValidMessageType, parseMessageType, AgentMessage } from 'hmd2v-credo-core'
+import { IsValidMessageType, parseMessageType, AgentMessage } from 'hashmap-credo-core'
 
 import { IsValidDrpcRequest } from '../models'
 

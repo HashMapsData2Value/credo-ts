@@ -1,6 +1,6 @@
 import type { DummyRecord } from '../repository/DummyRecord'
 import type { DummyState } from '../repository/DummyState'
-import type { BaseEvent } from 'hmd2v-credo-core'
+import type { BaseEvent } from 'hashmap-credo-core'
 
 export enum DummyEventTypes {
   StateChanged = 'DummyStateChanged',

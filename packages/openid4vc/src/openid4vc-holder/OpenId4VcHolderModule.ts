@@ -1,6 +1,6 @@
-import type { DependencyManager, Module } from 'hmd2v-credo-core'
+import type { DependencyManager, Module } from 'hashmap-credo-core'
 
-import { AgentConfig } from 'hmd2v-credo-core'
+import { AgentConfig } from 'hashmap-credo-core'
 
 import { OpenId4VcHolderApi } from './OpenId4VcHolderApi'
 import { OpenId4VciHolderService } from './OpenId4VciHolderService'
@@ -21,7 +21,7 @@ export class OpenId4VcHolderModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The '@credo-ts/openid4vc' Holder module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'hashmap-credo-@credo-ts/openid4vc' Holder module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Services

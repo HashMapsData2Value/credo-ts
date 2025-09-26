@@ -1,9 +1,9 @@
 import type { SubjectMessage } from '../../../tests/transport/SubjectInboundTransport'
-import type { ConnectionRecord } from 'hmd2v-credo-core'
+import type { ConnectionRecord } from 'hashmap-credo-core'
 
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
-import { AskarModule } from 'hmd2v-credo-askar'
-import { Agent } from 'hmd2v-credo-core'
+import { AskarModule } from 'hashmap-credo-askar'
+import { Agent } from 'hashmap-credo-core'
 import { Subject } from 'rxjs'
 
 import { getAgentOptions, makeConnection } from '../../../packages/core/tests/helpers'

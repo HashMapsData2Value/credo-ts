@@ -4,7 +4,7 @@ import type {
   CompactSdJwtVc as SphereonCompactSdJwtVc,
   WrappedVerifiablePresentation,
 } from '@sphereon/ssi-types'
-import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from 'hmd2v-credo-core'
+import type { SdJwtVc, VerifiablePresentation, VerifiableCredential } from 'hashmap-credo-core'
 
 import {
   JsonTransformer,
@@ -17,7 +17,7 @@ import {
   Mdoc,
   TypedArrayEncoder,
   MdocDeviceResponse,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 export function getSphereonVerifiableCredential(
   verifiableCredential: VerifiableCredential

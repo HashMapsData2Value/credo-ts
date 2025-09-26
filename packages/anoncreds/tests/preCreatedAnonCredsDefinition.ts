@@ -1,5 +1,5 @@
 import type { AnonCredsSchema, AnonCredsCredentialDefinition } from '../src'
-import type { Agent } from 'hmd2v-credo-core'
+import type { Agent } from 'hashmap-credo-core'
 
 import {
   AnonCredsCredentialDefinitionRepository,
@@ -23,17 +23,17 @@ export interface PreCreatedAnonCredsDefinition {
 }
 
 export const anoncredsDefinitionFourAttributesNoRevocation = {
-  issuerId: 'credo:local',
-  schemaId: 'credo:local:schema',
+  issuerId: 'hashmap-credo-credo:local',
+  schemaId: 'hashmap-credo-credo:local:schema',
   schema: {
     attrNames: ['name', 'age', 'x-ray', 'profile_picture'],
-    issuerId: 'credo:local',
+    issuerId: 'hashmap-credo-credo:local',
     name: 'Schema Name',
     version: '1.0',
   },
-  credentialDefinitionId: 'credo:local:credential-definition',
+  credentialDefinitionId: 'hashmap-credo-credo:local:credential-definition',
   credentialDefinition: {
-    schemaId: 'credo:local:schema',
+    schemaId: 'hashmap-credo-credo:local:schema',
     type: 'CL',
     tag: 'tag',
     value: {
@@ -55,7 +55,7 @@ export const anoncredsDefinitionFourAttributesNoRevocation = {
         z: '5086587237066022122592240466639759759197483459008844919556388558833089663388745591506920438478975788937430639765987249898508923678351803973966395842087396772473869807319134567545547452734083776130923170509623388183986706092631690714781941282838024654249896893122657288906270700076463278050469772885634503867932830785454843583497077679797341553636350691461767337121931803370579640775369014088566460120702115889992200717701648077014995999075705835588872372779039259166655013491756409300211842297643755762635305221446843135791869943423621935351723204484939009848795467272824067020396930592203947811218809406908148715719',
       },
     },
-    issuerId: 'credo:local',
+    issuerId: 'hashmap-credo-credo:local',
   } as const,
   credentialDefinitionPrivate: {
     value: {

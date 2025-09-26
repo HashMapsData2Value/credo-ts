@@ -1,5 +1,5 @@
 import { KeyBackend as AskarKeyBackend } from '@hyperledger/aries-askar-shared'
-import { KeyBackend as CredoKeyBackend } from 'hmd2v-credo-core'
+import { KeyBackend as CredoKeyBackend } from 'hashmap-credo-core'
 
 export const convertToAskarKeyBackend = (credoKeyBackend: CredoKeyBackend) => {
   switch (credoKeyBackend) {

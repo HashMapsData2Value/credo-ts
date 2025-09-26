@@ -1,6 +1,6 @@
-import type { ProblemReportMessageOptions } from 'hmd2v-credo-core'
+import type { ProblemReportMessageOptions } from 'hashmap-credo-core'
 
-import { IsValidMessageType, parseMessageType, ProblemReportMessage } from 'hmd2v-credo-core'
+import { IsValidMessageType, parseMessageType, ProblemReportMessage } from 'hashmap-credo-core'
 
 export type ActionMenuProblemReportMessageOptions = ProblemReportMessageOptions
 

@@ -1,6 +1,6 @@
-import type { FeatureRegistry, DependencyManager, Module } from 'hmd2v-credo-core'
+import type { FeatureRegistry, DependencyManager, Module } from 'hashmap-credo-core'
 
-import { Protocol, AgentConfig } from 'hmd2v-credo-core'
+import { Protocol, AgentConfig } from 'hashmap-credo-core'
 
 import { DrpcApi } from './DrpcApi'
 import { DrpcRole } from './models/DrpcRole'
@@ -18,7 +18,7 @@ export class DrpcModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The '@credo-ts/drpc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'hashmap-credo-@credo-ts/drpc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Services

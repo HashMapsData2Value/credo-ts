@@ -2,7 +2,7 @@ import type { AnonCredsCredential } from '../../../../models'
 
 import { Expose, Type } from 'class-transformer'
 import { IsString, IsOptional, IsArray, ValidateNested, IsInstance } from 'class-validator'
-import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { Attachment, AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 export const INDY_CREDENTIAL_ATTACHMENT_ID = 'libindy-cred-0'
 

@@ -1,4 +1,4 @@
-import { AgentMessage, IsValidMessageType, parseMessageType, ReturnRouteTypes } from 'hmd2v-credo-core'
+import { AgentMessage, IsValidMessageType, parseMessageType, ReturnRouteTypes } from 'hashmap-credo-core'
 
 export interface DummyRequestMessageOptions {
   id?: string

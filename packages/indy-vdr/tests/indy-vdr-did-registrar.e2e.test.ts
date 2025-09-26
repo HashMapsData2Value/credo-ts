@@ -2,7 +2,7 @@ import type { IndyVdrDidCreateOptions, IndyVdrDidCreateResult } from '../src/did
 
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs'
 import { convertPublicKeyToX25519, generateKeyPairFromSeed } from '@stablelib/ed25519'
-import { didIndyRegex } from 'hmd2v-credo-anoncreds'
+import { didIndyRegex } from 'hashmap-credo-anoncreds'
 import {
   Key,
   JsonTransformer,
@@ -14,7 +14,7 @@ import {
   Agent,
   DidsModule,
   NewDidCommV2ServiceEndpoint,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   getInMemoryAgentOptions,

@@ -1,11 +1,11 @@
-import type { WalletConfig } from 'hmd2v-credo-core'
+import type { WalletConfig } from 'hashmap-credo-core'
 
 import {
   SigningProviderRegistry,
   WalletDuplicateError,
   WalletNotFoundError,
   KeyDerivationMethod,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { testLogger, agentDependencies } from '../../../../core/tests'
 import { AskarProfileWallet } from '../AskarProfileWallet'

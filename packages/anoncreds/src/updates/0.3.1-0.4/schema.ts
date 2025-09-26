@@ -1,5 +1,5 @@
 import type { AnonCredsSchema } from '../../models'
-import type { BaseAgent } from 'hmd2v-credo-core'
+import type { BaseAgent } from 'hashmap-credo-core'
 
 import { AnonCredsSchemaRepository } from '../../repository'
 

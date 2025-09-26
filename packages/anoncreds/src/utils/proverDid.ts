@@ -1,4 +1,4 @@
-import { TypedArrayEncoder, utils } from 'hmd2v-credo-core'
+import { TypedArrayEncoder, utils } from 'hashmap-credo-core'
 
 /**
  * generates a string that adheres to the format of a legacy indy did.

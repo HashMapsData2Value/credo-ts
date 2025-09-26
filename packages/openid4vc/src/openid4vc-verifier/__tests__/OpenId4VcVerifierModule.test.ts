@@ -1,5 +1,5 @@
 import type { OpenId4VcVerifierModuleConfigOptions } from '../OpenId4VcVerifierModuleConfig'
-import type { DependencyManager } from 'hmd2v-credo-core'
+import type { DependencyManager } from 'hashmap-credo-core'
 
 import { Router } from 'express'
 

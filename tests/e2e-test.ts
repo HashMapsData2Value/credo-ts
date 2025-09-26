@@ -1,5 +1,5 @@
 import type { AnonCredsTestsAgent } from '../packages/anoncreds/tests/anoncredsSetup'
-import type { AgentMessageProcessedEvent, AgentMessageSentEvent } from 'hmd2v-credo-core'
+import type { AgentMessageProcessedEvent, AgentMessageSentEvent } from 'hashmap-credo-core'
 
 import {
   V2CredentialPreview,
@@ -13,7 +13,7 @@ import {
   CredentialEventTypes,
   ProofEventTypes,
   AgentEventTypes,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { filter, firstValueFrom, map } from 'rxjs'
 
 import { presentAnonCredsProof, issueAnonCredsCredential } from '../packages/anoncreds/tests/anoncredsSetup'

@@ -1,4 +1,4 @@
-import { JsonTransformer } from 'hmd2v-credo-core'
+import { JsonTransformer } from 'hashmap-credo-core'
 
 import { WebVhResource } from '../../utils/transform'
 

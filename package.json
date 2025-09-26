@@ -1,5 +1,5 @@
 {
-  "name": "credo-ts",
+  "name": "hashmap-credo-workspace",
   "private": true,
   "license": "Apache-2.0",
   "workspaces": [

@@ -1,4 +1,4 @@
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import { AnonCredsRsError } from '../error/AnonCredsRsError'
 import { AnonCredsLinkSecretRecord, AnonCredsLinkSecretRepository } from '../repository'

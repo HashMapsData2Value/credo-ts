@@ -1,5 +1,5 @@
 {
-  "name": "hmd2v-credo-react-native",
+  "name": "hashmap-credo-react-native",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -28,7 +28,7 @@
   "dependencies": {
     "@azure/core-asynciterator-polyfill": "^1.0.2",
     "events": "^3.3.0",
-    "hmd2v-credo-core": "workspace:*"
+    "hashmap-credo-core": "workspace:*"
   },
   "devDependencies": {
     "react-native": "^0.71.4",

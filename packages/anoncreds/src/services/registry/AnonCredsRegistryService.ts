@@ -1,7 +1,7 @@
 import type { AnonCredsRegistry } from '.'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { injectable } from 'hmd2v-credo-core'
+import { injectable } from 'hashmap-credo-core'
 
 import { AnonCredsModuleConfig } from '../../AnonCredsModuleConfig'
 import { AnonCredsError } from '../../error'

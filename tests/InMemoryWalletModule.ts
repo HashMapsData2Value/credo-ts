@@ -1,6 +1,6 @@
-import type { DependencyManager, Module } from 'hmd2v-credo-core'
+import type { DependencyManager, Module } from 'hashmap-credo-core'
 
-import { CredoError, InjectionSymbols } from 'hmd2v-credo-core'
+import { CredoError, InjectionSymbols } from 'hashmap-credo-core'
 
 import { InMemoryStorageService } from './InMemoryStorageService'
 import { InMemoryWallet } from './InMemoryWallet'

@@ -2,7 +2,7 @@ import type { ActionMenuOptionOptions } from '../models'
 
 import { Expose, Type } from 'class-transformer'
 import { IsInstance, IsOptional, IsString } from 'class-validator'
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 import { ActionMenuOption } from '../models'
 

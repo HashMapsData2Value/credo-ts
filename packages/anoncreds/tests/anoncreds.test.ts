@@ -1,4 +1,4 @@
-import { Agent, KeyType, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { Agent, KeyType, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests'
 import { AnonCredsModule } from '../src'
@@ -72,7 +72,7 @@ const existingRevocationStatusLists = {
 
 const agent = new Agent(
   getInMemoryAgentOptions(
-    'credo-anoncreds-package',
+    'hashmap-credo-anoncreds-package',
     {},
     {
       anoncreds: new AnonCredsModule({

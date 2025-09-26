@@ -20,7 +20,7 @@ import type {
   CreateCredentialOfferOptions,
 } from '../services'
 import type { CredentialDefinitionPrivate, JsonObject, KeyCorrectnessProof } from '@hyperledger/anoncreds-shared'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import {
   RevocationStatusList,
@@ -32,7 +32,7 @@ import {
   CredentialOffer,
   Schema,
 } from '@hyperledger/anoncreds-shared'
-import { injectable, CredoError } from 'hmd2v-credo-core'
+import { injectable, CredoError } from 'hashmap-credo-core'
 
 import { AnonCredsRsError } from '../error'
 import {

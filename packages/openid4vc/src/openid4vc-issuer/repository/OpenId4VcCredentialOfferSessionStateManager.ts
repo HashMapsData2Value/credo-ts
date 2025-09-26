@@ -1,9 +1,9 @@
 import type { OpenId4VcIssuanceSessionStateChangedEvent } from '../OpenId4VcIssuerEvents'
 import type { CredentialOfferSession, IStateManager } from '@sphereon/oid4vci-common'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import { IssueStatus } from '@sphereon/oid4vci-common'
-import { CredoError, EventEmitter } from 'hmd2v-credo-core'
+import { CredoError, EventEmitter } from 'hashmap-credo-core'
 
 import { isCredentialOfferV1Draft13 } from '../../shared/utils'
 import { OpenId4VcIssuanceSessionState } from '../OpenId4VcIssuanceSessionState'

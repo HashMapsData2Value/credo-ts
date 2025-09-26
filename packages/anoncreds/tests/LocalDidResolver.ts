@@ -1,6 +1,6 @@
-import type { DidResolutionResult, DidResolver, AgentContext } from 'hmd2v-credo-core'
+import type { DidResolutionResult, DidResolver, AgentContext } from 'hashmap-credo-core'
 
-import { DidsApi } from 'hmd2v-credo-core'
+import { DidsApi } from 'hashmap-credo-core'
 
 export class LocalDidResolver implements DidResolver {
   public readonly supportedMethods = ['sov', 'indy']

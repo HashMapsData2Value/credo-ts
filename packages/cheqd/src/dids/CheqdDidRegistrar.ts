@@ -8,7 +8,7 @@ import type {
   DidDeactivateResult,
   DidUpdateResult,
   DidUpdateOptions,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { MethodSpecificIdAlgo, createDidVerificationMethod } from '@cheqd/sdk'
 import { MsgCreateResourcePayload } from '@cheqd/ts-proto/cheqd/resource/v2'
@@ -27,7 +27,7 @@ import {
   VerificationMethod,
   SECURITY_JWS_CONTEXT_URL,
   DID_V1_CONTEXT_URL,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   ED25519_SUITE_CONTEXT_URL_2018,

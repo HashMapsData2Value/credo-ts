@@ -1,7 +1,7 @@
-import type { InitConfig } from 'hmd2v-credo-core'
+import type { InitConfig } from 'hashmap-credo-core'
 
-import { KeyDerivationMethod, Agent } from 'hmd2v-credo-core'
-import { agentDependencies } from 'hmd2v-credo-node'
+import { KeyDerivationMethod, Agent } from 'hashmap-credo-core'
+import { agentDependencies } from 'hashmap-credo-node'
 import { copyFileSync, existsSync, mkdirSync, unlinkSync } from 'fs'
 import { homedir } from 'os'
 import path from 'path'

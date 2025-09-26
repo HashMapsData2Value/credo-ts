@@ -1,4 +1,4 @@
-import type { BaseAgent } from 'hmd2v-credo-core'
+import type { BaseAgent } from 'hashmap-credo-core'
 
 import { AnonCredsLinkSecretRecord, AnonCredsLinkSecretRepository } from '../../repository'
 

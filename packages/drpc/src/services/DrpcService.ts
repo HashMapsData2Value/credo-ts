@@ -1,9 +1,9 @@
 import type { DrpcRequestStateChangedEvent } from '../DrpcRequestEvents'
 import type { DrpcResponseStateChangedEvent } from '../DrpcResponseEvents'
 import type { DrpcRequest, DrpcResponse } from '../messages'
-import type { AgentContext, InboundMessageContext, Query, QueryOptions } from 'hmd2v-credo-core'
+import type { AgentContext, InboundMessageContext, Query, QueryOptions } from 'hashmap-credo-core'
 
-import { EventEmitter, injectable } from 'hmd2v-credo-core'
+import { EventEmitter, injectable } from 'hashmap-credo-core'
 
 import { DrpcRequestEventTypes } from '../DrpcRequestEvents'
 import { DrpcResponseEventTypes } from '../DrpcResponseEvents'

@@ -2,7 +2,7 @@ import type { OpenId4VcIssuerX5c, OpenId4VcJwtIssuer } from './models'
 import type { JwtIssuerWithContext as VpJwtIssuerWithContext, VerifyJwtCallback } from '@sphereon/did-auth-siop'
 import type { DPoPJwtIssuerWithContext, CreateJwtCallback, JwtIssuer } from '@sphereon/oid4vc-common'
 import type { CredentialOfferPayloadV1_0_11, CredentialOfferPayloadV1_0_13 } from '@sphereon/oid4vci-common'
-import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'hmd2v-credo-core'
+import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'hashmap-credo-core'
 
 import {
   CredoError,
@@ -16,7 +16,7 @@ import {
   getJwkFromJson,
   getJwkFromKey,
   getKeyFromVerificationMethod,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 /**
  * Returns the JWA Signature Algorithms that are supported by the wallet.

@@ -1,4 +1,4 @@
-import type { EncryptedMessage } from 'hmd2v-credo-core'
+import type { EncryptedMessage } from 'hashmap-credo-core'
 
 import { CryptoBox, Key as AskarKey, KeyAlgs } from '@hyperledger/aries-askar-shared'
 import {
@@ -9,7 +9,7 @@ import {
   KeyType,
   TypedArrayEncoder,
   Buffer,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { JweEnvelope, JweRecipient } from './JweEnvelope'
 

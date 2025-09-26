@@ -27,7 +27,7 @@ export class X509Module implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The 'X509' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'X509' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Register config

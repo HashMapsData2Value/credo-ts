@@ -1,5 +1,5 @@
 {
-  "name": "test-tails-file-server",
+  "name": "hashmap-credo-test-tails-file-server",
   "version": "1.0.0",
   "private": true,
   "repository": {
@@ -21,7 +21,7 @@
     "@types/ws": "^8.5.4",
     "form-data": "^4.0.0",
     "multer": "^1.4.5-lts.1",
-    "hmd2v-credo-core": "workspace:*",
-    "hmd2v-credo-anoncreds": "workspace:*"
+    "hashmap-credo-core": "workspace:*",
+    "hashmap-credo-anoncreds": "workspace:*"
   }
 }

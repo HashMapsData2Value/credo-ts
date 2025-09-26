@@ -20,7 +20,7 @@ export class MdocModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "The 'Mdoc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "hashmap-credo-The 'Mdoc' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Services

@@ -1,4 +1,4 @@
-import type { DidRepository, Wallet } from 'hmd2v-credo-core'
+import type { DidRepository, Wallet } from 'hashmap-credo-core'
 
 import {
   CredentialState,
@@ -15,7 +15,7 @@ import {
   W3cCredentialRepository,
   W3cCredentialsModuleConfig,
   CredentialRepository,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../../../../tests/InMemoryStorageService'

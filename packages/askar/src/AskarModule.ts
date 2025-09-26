@@ -1,8 +1,8 @@
 import type { AskarModuleConfigOptions } from './AskarModuleConfig'
-import type { AgentContext, DependencyManager, Module } from 'hmd2v-credo-core'
+import type { AgentContext, DependencyManager, Module } from 'hashmap-credo-core'
 
 import { Store } from '@hyperledger/aries-askar-shared'
-import { CredoError, InjectionSymbols } from 'hmd2v-credo-core'
+import { CredoError, InjectionSymbols } from 'hashmap-credo-core'
 
 import { AskarMultiWalletDatabaseScheme, AskarModuleConfig } from './AskarModuleConfig'
 import { AskarStorageService } from './storage'

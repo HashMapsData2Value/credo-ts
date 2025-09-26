@@ -11,8 +11,8 @@ import type {
   EndpointMetadataResult,
   OpenId4VCIVersion,
 } from '@sphereon/oid4vci-common'
-import type { JwaSignatureAlgorithm, Jwk, KeyType } from 'hmd2v-credo-core'
-import type { VerifiableCredential } from 'hmd2v-credo-core/src/modules/dif-presentation-exchange/models/index'
+import type { JwaSignatureAlgorithm, Jwk, KeyType } from 'hashmap-credo-core'
+import type { VerifiableCredential } from 'hashmap-credo-core/src/modules/dif-presentation-exchange/models/index'
 
 import { OpenId4VciCredentialFormatProfile } from '../shared/models/OpenId4VciCredentialFormatProfile'
 

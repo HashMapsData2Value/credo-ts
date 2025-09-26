@@ -19,7 +19,7 @@ import type {
   AgentContext,
   W3cJsonLdVerifiableCredential,
   W3cJsonLdVerifiablePresentation,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 export const AnonCredsHolderServiceSymbol = Symbol('AnonCredsHolderService')
 

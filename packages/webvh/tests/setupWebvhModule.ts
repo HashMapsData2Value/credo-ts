@@ -1,4 +1,4 @@
-import { DidsModule } from 'hmd2v-credo-core'
+import { DidsModule } from 'hashmap-credo-core'
 
 import { WebvhModule, WebvhDidResolver } from '../src'
 

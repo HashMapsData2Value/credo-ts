@@ -6,7 +6,7 @@ import type {
   AnonCredsRevocationRegistryDefinition,
   AnonCredsRevocationStatusList,
   AnonCredsSchema,
-} from 'hmd2v-credo-anoncreds'
+} from 'hashmap-credo-anoncreds'
 
 import { Type } from 'class-transformer'
 import {

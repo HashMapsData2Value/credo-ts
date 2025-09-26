@@ -1,7 +1,7 @@
 import type { ActionMenuProblemReportReason } from './ActionMenuProblemReportReason'
-import type { ProblemReportErrorOptions } from 'hmd2v-credo-core'
+import type { ProblemReportErrorOptions } from 'hashmap-credo-core'
 
-import { ProblemReportError } from 'hmd2v-credo-core'
+import { ProblemReportError } from 'hashmap-credo-core'
 
 import { ActionMenuProblemReportMessage } from '../messages'
 

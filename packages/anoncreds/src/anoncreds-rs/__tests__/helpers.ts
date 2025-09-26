@@ -6,8 +6,8 @@ import type {
   AnonCredsCredentialInfo,
   AnonCredsCredentialOffer,
   AnonCredsSchema,
-} from 'hmd2v-credo-anoncreds'
-import type { AgentContext } from 'hmd2v-credo-core'
+} from 'hashmap-credo-anoncreds'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import {
   CredentialDefinition,
@@ -27,7 +27,7 @@ import {
   W3cCredentialRepository,
   W3cCredentialService,
   W3cJsonLdVerifiableCredential,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { W3cAnonCredsCredentialMetadataKey } from '../../utils/metadata'
 

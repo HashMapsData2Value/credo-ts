@@ -1,6 +1,6 @@
 import type { DrpcRequestObject } from '../messages'
 
-import { DidExchangeState } from 'hmd2v-credo-core'
+import { DidExchangeState } from 'hashmap-credo-core'
 
 import { EventEmitter } from '../../../core/src/agent/EventEmitter'
 import { InboundMessageContext } from '../../../core/src/agent/models/InboundMessageContext'

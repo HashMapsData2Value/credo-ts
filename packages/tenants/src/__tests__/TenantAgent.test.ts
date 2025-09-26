@@ -1,4 +1,4 @@
-import { Agent, AgentContext } from 'hmd2v-credo-core'
+import { Agent, AgentContext } from 'hashmap-credo-core'
 
 import { getAgentConfig, getAgentContext, getInMemoryAgentOptions } from '../../../core/tests/helpers'
 import { TenantAgent } from '../TenantAgent'

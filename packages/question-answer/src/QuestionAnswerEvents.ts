@@ -1,6 +1,6 @@
 import type { QuestionAnswerState } from './models'
 import type { QuestionAnswerRecord } from './repository'
-import type { BaseEvent } from 'hmd2v-credo-core'
+import type { BaseEvent } from 'hashmap-credo-core'
 
 export enum QuestionAnswerEventTypes {
   QuestionAnswerStateChanged = 'QuestionAnswerStateChanged',

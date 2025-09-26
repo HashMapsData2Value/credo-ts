@@ -1,5 +1,5 @@
-import type { AnonCredsCredentialRequest } from 'hmd2v-credo-anoncreds'
-import type { DidRepository, Wallet } from 'hmd2v-credo-core'
+import type { AnonCredsCredentialRequest } from 'hashmap-credo-anoncreds'
+import type { DidRepository, Wallet } from 'hashmap-credo-core'
 
 import {
   AnonCredsCredentialDefinitionPrivateRecord,
@@ -23,7 +23,7 @@ import {
   AnonCredsSchemaRecord,
   AnonCredsSchemaRepository,
   AnonCredsVerifierServiceSymbol,
-} from 'hmd2v-credo-anoncreds'
+} from 'hashmap-credo-anoncreds'
 import {
   CredentialRole,
   ProofRole,
@@ -37,7 +37,7 @@ import {
   DidsModuleConfig,
   SignatureSuiteToken,
   W3cCredentialsModuleConfig,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { Subject } from 'rxjs'
 
 import { InMemoryStorageService } from '../../../tests/InMemoryStorageService'

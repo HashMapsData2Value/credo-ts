@@ -7,7 +7,7 @@ import {
   CredentialExchangeRecord,
   JsonTransformer,
   CredentialRole,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { waitForCredentialRecord, waitForCredentialRecordSubject, testLogger } from '../../../../../../core/tests'
 import { setupAnonCredsTests } from '../../../../../tests/legacyAnonCredsSetup'

@@ -9,7 +9,7 @@ import type {
   ProblemReportMessage,
   ExtractCredentialFormats,
   CredentialProtocol,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   CredentialRole,
@@ -31,7 +31,7 @@ import {
   DidCommMessageRole,
   BaseCredentialProtocol,
   isLinkedAttachment,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { AnonCredsCredentialProposal } from '../../../models/AnonCredsCredentialProposal'
 import { composeCredentialAutoAccept, areCredentialPreviewAttributesEqual } from '../../../utils'

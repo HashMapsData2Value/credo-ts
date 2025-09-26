@@ -1,7 +1,7 @@
 import type { AgentType, TenantType } from './utils'
 import type { OpenId4VciSignMdocCredential } from '../src'
 import type { OpenId4VciCredentialBindingResolver } from '../src/openid4vc-holder'
-import type { DifPresentationExchangeDefinitionV2, Mdoc, MdocDeviceResponse, SdJwtVc } from 'hmd2v-credo-core'
+import type { DifPresentationExchangeDefinitionV2, Mdoc, MdocDeviceResponse, SdJwtVc } from 'hashmap-credo-core'
 import type { Server } from 'http'
 
 import {
@@ -24,7 +24,7 @@ import {
   X509ModuleConfig,
   parseDid,
   X509Service,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import express, { type Express } from 'express'
 
 import { AskarModule } from '../../askar/src'

@@ -1,6 +1,6 @@
 import type { CheqdDidCreateOptions } from '../src'
 
-import { Agent, JsonTransformer, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { Agent, JsonTransformer, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests/helpers'
 import { CheqdAnonCredsRegistry } from '../src/anoncreds'

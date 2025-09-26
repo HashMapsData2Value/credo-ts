@@ -1,7 +1,7 @@
 import type { AnonCredsRegistry } from '../services'
-import type { DependencyManager } from 'hmd2v-credo-core'
+import type { DependencyManager } from 'hashmap-credo-core'
 
-import { AnonCredsDataIntegrityServiceSymbol } from 'hmd2v-credo-core'
+import { AnonCredsDataIntegrityServiceSymbol } from 'hashmap-credo-core'
 
 import { anoncreds } from '../../tests/helpers'
 import { AnonCredsModule } from '../AnonCredsModule'

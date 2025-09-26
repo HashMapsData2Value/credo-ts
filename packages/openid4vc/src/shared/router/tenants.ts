@@ -1,7 +1,7 @@
-import type { AgentContext, AgentContextProvider } from 'hmd2v-credo-core'
-import type { TenantsModule } from 'hmd2v-credo-tenants'
+import type { AgentContext, AgentContextProvider } from 'hashmap-credo-core'
+import type { TenantsModule } from 'hashmap-credo-tenants'
 
-import { getApiForModuleByName, InjectionSymbols } from 'hmd2v-credo-core'
+import { getApiForModuleByName, InjectionSymbols } from 'hashmap-credo-core'
 
 const OPENID4VC_ACTOR_IDS_METADATA_KEY = '_openid4vc/openId4VcActorIds'
 

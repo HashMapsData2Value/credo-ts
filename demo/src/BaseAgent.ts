@@ -1,5 +1,5 @@
-import type { InitConfig } from 'hmd2v-credo-core'
-import type { IndyVdrPoolConfig } from 'hmd2v-credo-indy-vdr'
+import type { InitConfig } from 'hashmap-credo-core'
+import type { IndyVdrPoolConfig } from 'hashmap-credo-indy-vdr'
 
 import { anoncreds } from '@hyperledger/anoncreds-nodejs'
 import { ariesAskar } from '@hyperledger/aries-askar-nodejs'
@@ -12,15 +12,15 @@ import {
   LegacyIndyProofFormatService,
   V1CredentialProtocol,
   V1ProofProtocol,
-} from 'hmd2v-credo-anoncreds'
-import { AskarModule } from 'hmd2v-credo-askar'
+} from 'hashmap-credo-anoncreds'
+import { AskarModule } from 'hashmap-credo-askar'
 import {
   CheqdAnonCredsRegistry,
   CheqdDidRegistrar,
   CheqdDidResolver,
   CheqdModule,
   CheqdModuleConfig,
-} from 'hmd2v-credo-cheqd'
+} from 'hashmap-credo-cheqd'
 import {
   ConnectionsModule,
   DidsModule,
@@ -32,9 +32,9 @@ import {
   CredentialsModule,
   Agent,
   HttpOutboundTransport,
-} from 'hmd2v-credo-core'
-import { IndyVdrIndyDidResolver, IndyVdrAnonCredsRegistry, IndyVdrModule } from 'hmd2v-credo-indy-vdr'
-import { agentDependencies, HttpInboundTransport } from 'hmd2v-credo-node'
+} from 'hashmap-credo-core'
+import { IndyVdrIndyDidResolver, IndyVdrAnonCredsRegistry, IndyVdrModule } from 'hashmap-credo-indy-vdr'
+import { agentDependencies, HttpInboundTransport } from 'hashmap-credo-node'
 
 import { greenText } from './OutputClass'
 

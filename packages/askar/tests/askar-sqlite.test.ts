@@ -11,7 +11,7 @@ import {
   WalletDuplicateError,
   WalletInvalidKeyError,
   WalletNotFoundError,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { tmpdir } from 'os'
 import path from 'path'
 

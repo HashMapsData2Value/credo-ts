@@ -5,7 +5,7 @@ import type {
   OpenId4VciCreateIssuerOptions,
 } from './OpenId4VcIssuerServiceOptions'
 
-import { AgentContext, injectable } from 'hmd2v-credo-core'
+import { AgentContext, injectable } from 'hashmap-credo-core'
 
 import { credentialsSupportedV13ToV11, type OpenId4VciCredentialRequest } from '../shared'
 

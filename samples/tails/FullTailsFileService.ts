@@ -1,8 +1,8 @@
-import type { AnonCredsRevocationRegistryDefinition } from 'hmd2v-credo-anoncreds'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AnonCredsRevocationRegistryDefinition } from 'hashmap-credo-anoncreds'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { BasicTailsFileService } from 'hmd2v-credo-anoncreds'
-import { utils } from 'hmd2v-credo-core'
+import { BasicTailsFileService } from 'hashmap-credo-anoncreds'
+import { utils } from 'hashmap-credo-core'
 import FormData from 'form-data'
 import fs from 'fs'
 

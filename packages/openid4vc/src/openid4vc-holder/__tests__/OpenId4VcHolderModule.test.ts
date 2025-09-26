@@ -1,4 +1,4 @@
-import type { DependencyManager } from 'hmd2v-credo-core'
+import type { DependencyManager } from 'hashmap-credo-core'
 
 import { OpenId4VcHolderModule } from '../OpenId4VcHolderModule'
 import { OpenId4VciHolderService } from '../OpenId4VciHolderService'

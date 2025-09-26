@@ -1,5 +1,5 @@
 {
-  "name": "hmd2v-credo-indy-sdk-to-askar-migration",
+  "name": "hashmap-credo-indy-sdk-to-askar-migration",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -26,10 +26,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "hmd2v-credo-core": "workspace:*",
-    "hmd2v-credo-anoncreds": "workspace:*",
-    "hmd2v-credo-askar": "workspace:*",
-    "hmd2v-credo-node": "workspace:*"
+    "hashmap-credo-core": "workspace:*",
+    "hashmap-credo-anoncreds": "workspace:*",
+    "hashmap-credo-askar": "workspace:*",
+    "hashmap-credo-node": "workspace:*"
   },
   "devDependencies": {
     "@hyperledger/aries-askar-nodejs": "^0.2.3",

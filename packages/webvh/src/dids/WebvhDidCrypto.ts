@@ -1,6 +1,6 @@
 import type { Verifier } from 'didwebvh-ts'
 
-import { Buffer, type AgentContext, Key, KeyType } from 'hmd2v-credo-core'
+import { Buffer, type AgentContext, Key, KeyType } from 'hashmap-credo-core'
 
 export class WebvhDidCrypto implements Verifier {
   private agentContext: AgentContext

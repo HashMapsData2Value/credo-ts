@@ -5,7 +5,7 @@ import type {
   WithTenantAgentCallback,
 } from './TenantsApiOptions'
 import type { TenantRecord } from './repository'
-import type { DefaultAgentModules, ModulesMap, Query, QueryOptions } from 'hmd2v-credo-core'
+import type { DefaultAgentModules, ModulesMap, Query, QueryOptions } from 'hashmap-credo-core'
 
 import {
   isStorageUpToDate,
@@ -15,7 +15,7 @@ import {
   InjectionSymbols,
   Logger,
   UpdateAssistant,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { TenantAgent } from './TenantAgent'
 import { TenantAgentContextProvider } from './context/TenantAgentContextProvider'

@@ -1,8 +1,8 @@
-import type { Attachment } from 'hmd2v-credo-core'
+import type { Attachment } from 'hashmap-credo-core'
 
 import { Expose, Type } from 'class-transformer'
 import { IsInstance, IsOptional, IsString, Matches, ValidateNested } from 'class-validator'
-import { AgentMessage, IsValidMessageType, parseMessageType } from 'hmd2v-credo-core'
+import { AgentMessage, IsValidMessageType, parseMessageType } from 'hashmap-credo-core'
 
 import {
   unqualifiedCredentialDefinitionIdRegex,

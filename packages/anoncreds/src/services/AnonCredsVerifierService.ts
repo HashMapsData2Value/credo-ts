@@ -1,5 +1,5 @@
 import type { VerifyProofOptions, VerifyW3cPresentationOptions } from './AnonCredsVerifierServiceOptions'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 export const AnonCredsVerifierServiceSymbol = Symbol('AnonCredsVerifierService')
 

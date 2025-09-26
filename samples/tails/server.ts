@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { ConsoleLogger, LogLevel } from 'hmd2v-credo-core'
+import { ConsoleLogger, LogLevel } from 'hashmap-credo-core'
 import { createHash } from 'crypto'
 import express from 'express'
 import fs from 'fs'

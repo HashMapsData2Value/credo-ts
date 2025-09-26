@@ -1,6 +1,6 @@
 import type { GetNymResponseData, IndyEndpointAttrib } from './didSovUtil'
 import type { IndyVdrPool } from '../pool'
-import type { DidResolutionResult, ParsedDid, DidResolver, AgentContext } from 'hmd2v-credo-core'
+import type { DidResolutionResult, ParsedDid, DidResolver, AgentContext } from 'hashmap-credo-core'
 
 import { GetAttribRequest, GetNymRequest } from '@hyperledger/indy-vdr-shared'
 

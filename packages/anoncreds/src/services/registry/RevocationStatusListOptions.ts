@@ -7,7 +7,7 @@ import type {
   AnonCredsOperationStateAction,
 } from './base'
 import type { AnonCredsRevocationStatusList } from '../../models/registry'
-import type { Optional } from 'hmd2v-credo-core'
+import type { Optional } from 'hashmap-credo-core'
 
 export interface GetRevocationStatusListReturn {
   revocationStatusList?: AnonCredsRevocationStatusList

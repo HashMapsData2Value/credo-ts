@@ -1,12 +1,12 @@
-import type { WalletConfig } from 'hmd2v-credo-core'
+import type { WalletConfig } from 'hashmap-credo-core'
 
 import { KdfMethod, StoreKeyMethod } from '@hyperledger/aries-askar-shared'
-import { KeyDerivationMethod, WalletError } from 'hmd2v-credo-core'
+import { KeyDerivationMethod, WalletError } from 'hashmap-credo-core'
 
 import {
   isAskarWalletPostgresStorageConfig,
   isAskarWalletSqliteStorageConfig,
-} from '../wallet/AskarWalletStorageConfig'
+} from '../wallet/AskarWalletStorageConfig'hashmap-credo-
 
 export const keyDerivationMethodToStoreKeyMethod = (keyDerivationMethod: KeyDerivationMethod) => {
   const correspondenceTable = {
@@ -41,7 +41,7 @@ export const uriFromWalletConfig = (
   const storageConfig = walletConfig.storage
   if (isAskarWalletSqliteStorageConfig(storageConfig)) {
     if (storageConfig.config?.inMemory) {
-      uri = 'sqlite://:memory:'
+      uri = 'sqlite://:memory:'hashmap-credo-
     } else {
       path = storageConfig.config?.path ?? `${credoDataPath}/wallet/${walletConfig.id}/sqlite.db`
       uri = `sqlite://${path}`

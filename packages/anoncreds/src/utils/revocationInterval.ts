@@ -1,6 +1,6 @@
 import type { AnonCredsNonRevokedInterval } from '../models'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 // This sets the `to` value to be required. We do this check in the `assertBestPracticeRevocationInterval` method,
 // and it makes it easier to work with the object in TS

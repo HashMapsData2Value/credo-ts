@@ -27,7 +27,7 @@ import type {
   Jwt,
   OpenIDResponse,
 } from '@sphereon/oid4vci-common'
-import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'hmd2v-credo-core'
+import type { AgentContext, JwaSignatureAlgorithm, JwkJson, Key } from 'hashmap-credo-core'
 
 import { CreateDPoPClientOpts, CreateDPoPJwtPayloadProps, SigningAlgo } from '@sphereon/oid4vc-common'
 import {
@@ -72,7 +72,7 @@ import {
   inject,
   injectable,
   parseDid,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { OpenId4VciCredentialFormatProfile } from '../shared'
 import { getOfferedCredentials, getTypesFromCredentialSupported } from '../shared/issuerMetadataUtils'

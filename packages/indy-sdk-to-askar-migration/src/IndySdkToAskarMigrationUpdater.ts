@@ -1,11 +1,11 @@
 import type { EntryObject } from '@hyperledger/aries-askar-shared'
-import type { AnonCredsCredentialValue } from 'hmd2v-credo-anoncreds'
-import type { Agent, FileSystem, WalletConfig } from 'hmd2v-credo-core'
+import type { AnonCredsCredentialValue } from 'hashmap-credo-anoncreds'
+import type { Agent, FileSystem, WalletConfig } from 'hashmap-credo-core'
 
 import { Migration, Key, KeyAlgs, Store } from '@hyperledger/aries-askar-shared'
-import { AnonCredsCredentialRecord, AnonCredsLinkSecretRecord } from 'hmd2v-credo-anoncreds'
-import { AskarWallet } from 'hmd2v-credo-askar'
-import { InjectionSymbols, KeyDerivationMethod, JsonTransformer, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { AnonCredsCredentialRecord, AnonCredsLinkSecretRecord } from 'hashmap-credo-anoncreds'
+import { AskarWallet } from 'hashmap-credo-askar'
+import { InjectionSymbols, KeyDerivationMethod, JsonTransformer, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { IndySdkToAskarMigrationError } from './errors/IndySdkToAskarMigrationError'
 import { keyDerivationMethodToStoreKeyMethod, transformFromRecordTagValues } from './utils'
@@ -166,7 +166,7 @@ export class IndySdkToAskarMigrationUpdater {
   // e.g. cron-job and system restart (depending on the os) we could omit
   // this call `await this.fs.delete(this.backupFile)`.
   private async cleanBackup() {
-    this.agent.config.logger.trace(`Deleting the backup file at '${this.backupFile}'`)
+    this.agent.config.logger.trace(`Deleting the backup file at '${this.backupFile}'hashmap-credo-`)
     await this.fs.delete(this.backupFile)
 
     // Also delete wal-file if it exists

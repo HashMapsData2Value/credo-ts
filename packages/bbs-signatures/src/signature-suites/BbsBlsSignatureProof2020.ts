@@ -5,7 +5,7 @@
  * You may obtain a copy of the License at
  *     http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
+ * distributed under the License is distributed on an "AS IS"hashmap-credo- BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
@@ -13,12 +13,12 @@
 
 import type { DeriveProofOptions, VerifyProofOptions, CreateVerifyDataOptions, CanonizeOptions } from '../types'
 import type { VerifyProofResult } from '../types/VerifyProofResult'
-import type { JsonObject, DocumentLoader, Proof } from 'hmd2v-credo-core'
+import type { JsonObject, DocumentLoader, Proof } from 'hashmap-credo-core'
 
 import { blsCreateProof, blsVerifyProof } from '@mattrglobal/bbs-signatures'
 import { Bls12381G2KeyPair } from '@mattrglobal/bls12381-key-pair'
 import { randomBytes } from '@stablelib/random'
-import { CredoError, TypedArrayEncoder, SECURITY_CONTEXT_URL, vcLibraries } from 'hmd2v-credo-core'
+import { CredoError, TypedArrayEncoder, SECURITY_CONTEXT_URL, vcLibraries } from 'hashmap-credo-core'
 
 import { BbsBlsSignature2020 } from './BbsBlsSignature2020'
 

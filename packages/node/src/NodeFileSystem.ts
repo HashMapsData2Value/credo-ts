@@ -1,6 +1,6 @@
-import type { DownloadToFileOptions, FileSystem } from 'hmd2v-credo-core'
+import type { DownloadToFileOptions, FileSystem } from 'hashmap-credo-core'
 
-import { CredoError, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { CredoError, TypedArrayEncoder } from 'hashmap-credo-core'
 import { createHash } from 'crypto'
 import fs, { promises } from 'fs'
 import http from 'http'

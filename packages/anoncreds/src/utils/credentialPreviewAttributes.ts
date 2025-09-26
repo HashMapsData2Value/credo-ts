@@ -1,4 +1,4 @@
-import type { CredentialPreviewAttributeOptions } from 'hmd2v-credo-core'
+import type { CredentialPreviewAttributeOptions } from 'hashmap-credo-core'
 
 export function areCredentialPreviewAttributesEqual(
   firstAttributes: CredentialPreviewAttributeOptions[],

@@ -1,4 +1,4 @@
-export const issuerId = 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01'
+export const issuerId = 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01'
 export const verificationMethodId = `${issuerId}#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS`
 export const schemaId = `${issuerId}/resources/zQmSmhgCkiknv5HpLWiiNjgcurgQvwhUqiu8MSGMDVJt3xK`
 export const credDefId = `${issuerId}/resources/zQmedeFDzpfN3o3vmWBKWygVYg4uB74qwYPhU3TNW1bh1uq`
@@ -7,32 +7,32 @@ export const revRegEntryId = `${issuerId}/resources/zQmNtsRpmUaeDAbtNSrL1Jjz5bAx
 
 export const mockResolvedDidDocument = {
   '@context': ['https://www.w3.org/ns/did/v1', 'https://www.w3.org/ns/cid/v1'],
-  id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+  id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
   verificationMethod: [
     {
-      id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+      id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
       type: 'Multikey',
-      controller: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+      controller: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
       publicKeyMultibase: 'z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
     },
   ],
   authentication: [
-    'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+    'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   ],
   assertionMethod: [
-    'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+    'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   ],
   service: [
     {
       id: '#files',
       type: 'relativeRef',
-      serviceEndpoint: 'https://id.test-suite.app/credo/01',
+      serviceEndpoint: 'hashmap-credo-https://id.test-suite.app/credo/01',
     },
     {
       '@context': 'https://identity.foundation/linked-vp/contexts/v1',
       id: '#whois',
       type: 'LinkedVerifiablePresentation',
-      serviceEndpoint: 'https://id.test-suite.app/credo/01/whois.vp',
+      serviceEndpoint: 'hashmap-credo-https://id.test-suite.app/credo/01/whois.vp',
     },
   ],
 }
@@ -40,9 +40,9 @@ export const mockResolvedDidDocument = {
 export const mockSchemaResource = {
   '@context': ['https://opsecid.github.io/attested-resource/v1', 'https://w3id.org/security/data-integrity/v2'],
   type: ['AttestedResource'],
-  id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmSmhgCkiknv5HpLWiiNjgcurgQvwhUqiu8MSGMDVJt3xK',
+  id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmSmhgCkiknv5HpLWiiNjgcurgQvwhUqiu8MSGMDVJt3xK',
   content: {
-    issuerId: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+    issuerId: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
     attrNames: ['firstName'],
     name: 'CredoTest',
     version: '1.0',
@@ -58,18 +58,18 @@ export const mockSchemaResource = {
     proofPurpose: 'assertionMethod',
     proofValue: 'z7T11v6ebMHtvhkgpeZRkjQcbMTPmeTBYS7VMCydX2XUN8ygV44xHDckNpf4P9kczTFJHA9g3UzEGcJ2cQsD7Y3B',
     verificationMethod:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   },
 }
 
 export const mockCredDefResource = {
   '@context': ['https://opsecid.github.io/attested-resource/v1', 'https://w3id.org/security/data-integrity/v2'],
   type: ['AttestedResource'],
-  id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmedeFDzpfN3o3vmWBKWygVYg4uB74qwYPhU3TNW1bh1uq',
+  id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmedeFDzpfN3o3vmWBKWygVYg4uB74qwYPhU3TNW1bh1uq',
   content: {
-    issuerId: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+    issuerId: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
     schemaId:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmSmhgCkiknv5HpLWiiNjgcurgQvwhUqiu8MSGMDVJt3xK',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmSmhgCkiknv5HpLWiiNjgcurgQvwhUqiu8MSGMDVJt3xK',
     type: 'CL',
     tag: 'default',
     value: {
@@ -115,19 +115,19 @@ export const mockCredDefResource = {
     proofPurpose: 'assertionMethod',
     proofValue: 'z237iFL6DctCx5LfjmzpZZM41F5pFLFALZrCViZH7Q2BmU6xbKD6MVufCXFGJEsW6UTL4wHYepAPTHzasAvpasNEb',
     verificationMethod:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   },
 }
 
 export const mockRevRegDefResource = {
   '@context': ['https://opsecid.github.io/attested-resource/v1', 'https://w3id.org/security/data-integrity/v2'],
   type: ['AttestedResource'],
-  id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmePh8MmoGB415uy6ChYnzVCGTH7y4LSkDfpauUyeqQtvS',
+  id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmePh8MmoGB415uy6ChYnzVCGTH7y4LSkDfpauUyeqQtvS',
   content: {
-    issuerId: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+    issuerId: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
     revocDefType: 'CL_ACCUM',
     credDefId:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmedeFDzpfN3o3vmWBKWygVYg4uB74qwYPhU3TNW1bh1uq',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmedeFDzpfN3o3vmWBKWygVYg4uB74qwYPhU3TNW1bh1uq',
     tag: '0',
     value: {
       publicKeys: {
@@ -147,7 +147,7 @@ export const mockRevRegDefResource = {
   },
   links: [
     {
-      id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmNtsRpmUaeDAbtNSrL1Jjz5bAx5vok2bGWHoGYmKUwfsX',
+      id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmNtsRpmUaeDAbtNSrL1Jjz5bAx5vok2bGWHoGYmKUwfsX',
       type: 'anonCredsStatusList',
       timestamp: 1755036190,
     },
@@ -158,18 +158,18 @@ export const mockRevRegDefResource = {
     proofPurpose: 'assertionMethod',
     proofValue: 'z5B1mYRxRpJsJERpvThZpbM827563AMPfcX4wSPxNZc3ZBRA7Xu1hHN86fCz3wDb31KN4Pe2fKTBGvhhnKyR9NZ4P',
     verificationMethod:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   },
 }
 
 export const mockRegRevEntryResource = {
   '@context': ['https://opsecid.github.io/attested-resource/v1', 'https://w3id.org/security/data-integrity/v2'],
   type: ['AttestedResource'],
-  id: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmNtsRpmUaeDAbtNSrL1Jjz5bAx5vok2bGWHoGYmKUwfsX',
+  id: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmNtsRpmUaeDAbtNSrL1Jjz5bAx5vok2bGWHoGYmKUwfsX',
   content: {
-    issuerId: 'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
+    issuerId: 'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01',
     revRegDefId:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmePh8MmoGB415uy6ChYnzVCGTH7y4LSkDfpauUyeqQtvS',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01/resources/zQmePh8MmoGB415uy6ChYnzVCGTH7y4LSkDfpauUyeqQtvS',
     revocationList: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     currentAccumulator:
       '1 225091CA85417142EB5CF0547DE320A615F1A2CB0F8F28347474270FDA72D6E5 1 233BC1CDA10D0D2CDA1F6A32CD65D1079A94CE72963B9657974083C6E7485FD8 1 046D6A7055CCD897E61CE67CC82E006B3800EF536C3D29FB815268CD7BB68B29 1 220D932AD66540D49B9B57DE2FEF6210514045C87A9E1E0AB7A33360439BD05F 2 095E45DDF417D05FB10933FFC63D474548B7FFFF7888802F07FFFFFF7D07A8A8 1 0000000000000000000000000000000000000000000000000000000000000000',
@@ -186,6 +186,6 @@ export const mockRegRevEntryResource = {
     proofPurpose: 'assertionMethod',
     proofValue: 'z31XZjX4Zp75NBfo8Dena19Fw8c45ABBzkixP2DC1trcCC61xmqnDRPjzJapGaFpeo9VnJPeXBm9G9MP4WcNd7gNy',
     verificationMethod:
-      'did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
+      'hashmap-credo-did:webvh:QmXysm9EF3kPH4fdCWf48YqCzREgiAe5nFXG3RCXaCShFX:id.test-suite.app:credo:01#z6MkukEa8GPVCEPy7EzRSbeHPXD1vsuPy3eD13CkDKQsoCGS',
   },
 }

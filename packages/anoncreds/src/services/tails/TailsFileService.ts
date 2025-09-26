@@ -1,5 +1,5 @@
 import type { AnonCredsRevocationRegistryDefinition } from '../../models'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 export interface TailsFileService {
   /**

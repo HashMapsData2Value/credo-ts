@@ -1,7 +1,7 @@
 import type { DummyModuleConfigOptions } from './DummyModuleConfig'
-import type { DependencyManager, FeatureRegistry, Module } from 'hmd2v-credo-core'
+import type { DependencyManager, FeatureRegistry, Module } from 'hashmap-credo-core'
 
-import { Protocol } from 'hmd2v-credo-core'
+import { Protocol } from 'hashmap-credo-core'
 
 import { DummyApi } from './DummyApi'
 import { DummyModuleConfig } from './DummyModuleConfig'

@@ -1,7 +1,7 @@
 import type { AnonCredsTestsAgent } from './anoncredsSetup'
 import type { EventReplaySubject } from '../../core/tests'
-import type { AnonCredsRequestProofFormat } from 'hmd2v-credo-anoncreds'
-import type { CredentialExchangeRecord } from 'hmd2v-credo-core'
+import type { AnonCredsRequestProofFormat } from 'hashmap-credo-anoncreds'
+import type { CredentialExchangeRecord } from 'hashmap-credo-core'
 
 import {
   Attachment,
@@ -12,7 +12,7 @@ import {
   V2ProposePresentationMessage,
   V2RequestPresentationMessage,
   V2PresentationMessage,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { sleep } from '../../core/src/utils/sleep'
 import { waitForProofExchangeRecord } from '../../core/tests'

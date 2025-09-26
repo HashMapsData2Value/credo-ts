@@ -1,5 +1,5 @@
 {
-  "name": "credo-extension-module-sample",
+  "name": "hashmap-credo-extension-module-sample",
   "version": "1.0.0",
   "private": true,
   "repository": {
@@ -22,8 +22,8 @@
     "class-validator": "0.14.1",
     "rxjs": "^7.8.0",
     "@hyperledger/aries-askar-nodejs": "^0.2.3",
-    "hmd2v-credo-core": "workspace:*",
-    "hmd2v-credo-askar": "workspace:*",
-    "hmd2v-credo-node": "workspace:*"
+    "hashmap-credo-core": "workspace:*",
+    "hashmap-credo-askar": "workspace:*",
+    "hashmap-credo-node": "workspace:*"
   }
 }

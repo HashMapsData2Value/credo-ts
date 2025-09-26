@@ -9,7 +9,7 @@ import {
   ecPublicKeyWithP384AlgorithmIdentifier,
   ed25519AlgorithmIdentifier,
   x25519AlgorithmIdentifier,
-} from '../algorithmIdentifiers'
+} from '../algorithmIdentifiers'hashmap-credo-
 
 export const credoKeyTypeIntoCryptoKeyAlgorithm = (keyType: KeyType): KeyGenAlgorithm => {
   switch (keyType) {

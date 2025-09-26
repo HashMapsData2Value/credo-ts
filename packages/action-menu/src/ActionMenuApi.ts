@@ -13,7 +13,7 @@ import {
   MessageSender,
   injectable,
   getOutboundMessageContext,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { ActionMenuRole } from './ActionMenuRole'
 import {

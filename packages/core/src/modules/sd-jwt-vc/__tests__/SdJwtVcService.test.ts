@@ -1,5 +1,5 @@
 import type { SdJwtVcHeader } from '../SdJwtVcOptions'
-import type { AgentContext, Jwk, Key } from 'hmd2v-credo-core'
+import type { AgentContext, Jwk, Key } from 'hashmap-credo-core'
 
 import { createHeaderAndPayload, StatusList } from '@sd-jwt/jwt-status-list'
 import { SDJWTException } from '@sd-jwt/utils'
@@ -18,7 +18,7 @@ import {
   parseDid,
   TypedArrayEncoder,
   X509ModuleConfig,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 import { randomUUID } from 'crypto'
 
 import { agentDependencies, getInMemoryAgentOptions } from '../../../../tests'

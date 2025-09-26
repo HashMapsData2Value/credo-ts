@@ -5,7 +5,7 @@ import type {
   Query,
   QueryOptions,
   StorageService,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { Scan } from '@hyperledger/aries-askar-shared'
 import {
@@ -14,7 +14,7 @@ import {
   RecordNotFoundError,
   injectable,
   JsonTransformer,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { AskarErrorCode, isAskarError } from '../utils/askarError'
 import { assertAskarWallet } from '../utils/assertAskarWallet'

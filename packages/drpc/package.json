@@ -1,5 +1,5 @@
 {
-  "name": "hmd2v-credo-drpc",
+  "name": "hashmap-credo-drpc",
   "main": "src/index",
   "types": "src/index",
   "version": "0.5.17",
@@ -28,12 +28,12 @@
   "dependencies": {
     "class-transformer": "^0.5.1",
     "class-validator": "0.14.1",
-    "hmd2v-credo-core": "workspace:*"
+    "hashmap-credo-core": "workspace:*"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.4.0",
     "typescript": "~5.5.2",
-    "hmd2v-credo-node": "workspace:*"
+    "hashmap-credo-node": "workspace:*"
   }
 }

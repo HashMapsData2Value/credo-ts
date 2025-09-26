@@ -8,7 +8,7 @@ import * as x509 from '@peculiar/x509'
 import { Key } from '../../crypto/Key'
 import { KeyType } from '../../crypto/KeyType'
 import { compress } from '../../crypto/jose/jwk/ecCompression'
-import { CredoWebCryptoKey } from '../../crypto/webcrypto'
+import { CredoWebCryptoKey } from '../../crypto/webcrypto'hashmap-credo-
 import { credoKeyTypeIntoCryptoKeyAlgorithm, spkiAlgorithmIntoCredoKeyType } from '../../crypto/webcrypto/utils'
 import { TypedArrayEncoder } from '../../utils'
 
@@ -94,7 +94,7 @@ export class X509Certificate {
 
   public get sanUriNames() {
     const subjectAlternativeNameExtensionUri = this.getMatchingExtensions<string>(id_ce_subjectAltName, 'url')
-    return subjectAlternativeNameExtensionUri?.filter((e) => typeof e === 'string') ?? []
+    return subjectAlternativeNameExtensionUri?.filter((e) => typeof e === 'string'hashmap-credo-) ?? []
   }
 
   public static async createSelfSigned(
@@ -112,7 +112,7 @@ export class X509Certificate {
             name.split(', ').map((s) => {
               const keyValPairs = s.trim().split('=')
               if (keyValPairs.some((pair) => pair.length !== 2)) {
-                throw new X509Error(`Cannot create self-signed certificate. Name parsing failed. '${name}'`)
+                throw new X509Error(`Cannot create self-signed certificate. Name parsing failed. '${name}'hashmap-credo-`)
               }
               return keyValPairs.map(([key, val]) => [key, [val]] as [string, string[]])
             })

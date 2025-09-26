@@ -11,7 +11,7 @@ import {
 import { MsgCreateDidDocPayload, MsgDeactivateDidDocPayload } from '@cheqd/ts-proto/cheqd/did/v2'
 import { EnglishMnemonic as _ } from '@cosmjs/crypto'
 import { DirectSecp256k1HdWallet, DirectSecp256k1Wallet } from '@cosmjs/proto-signing'
-import { DidDocument, CredoError, JsonEncoder, TypedArrayEncoder, JsonTransformer } from 'hmd2v-credo-core'
+import { DidDocument, CredoError, JsonEncoder, TypedArrayEncoder, JsonTransformer } from 'hashmap-credo-core'
 
 export function validateSpecCompliantPayload(didDocument: DidDocument): SpecValidationResult {
   // id is required, validated on both compile and runtime

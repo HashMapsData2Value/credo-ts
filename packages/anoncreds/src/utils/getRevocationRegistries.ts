@@ -1,8 +1,8 @@
 import type { AnonCredsProof, AnonCredsProofRequest, AnonCredsSelectedCredentials } from '../models'
 import type { CreateProofOptions, VerifyProofOptions } from '../services'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 import { AnonCredsModuleConfig } from '../AnonCredsModuleConfig'
 import { AnonCredsRegistryService } from '../services'

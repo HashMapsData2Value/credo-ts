@@ -1,6 +1,6 @@
 import type { DummyState } from './DummyState'
 
-import { BaseRecord } from 'hmd2v-credo-core'
+import { BaseRecord } from 'hashmap-credo-core'
 import { v4 as uuid } from 'uuid'
 
 export interface DummyStorageProps {

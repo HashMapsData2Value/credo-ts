@@ -1,5 +1,5 @@
 import { SigningAlgo } from '@sphereon/oid4vc-common'
-import { Jwt } from 'hmd2v-credo-core'
+import { Jwt } from 'hashmap-credo-core'
 import { cleanAll, enableNetConnect } from 'nock'
 
 import { AskarModule } from '../../../../askar/src'

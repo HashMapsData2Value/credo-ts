@@ -1,9 +1,9 @@
 import type { GetNymResponse } from '@hyperledger/indy-vdr-shared'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
 import { GetNymRequest } from '@hyperledger/indy-vdr-shared'
-import { didIndyRegex } from 'hmd2v-credo-anoncreds'
-import { Logger, InjectionSymbols, injectable, inject, CacheModuleConfig } from 'hmd2v-credo-core'
+import { didIndyRegex } from 'hashmap-credo-anoncreds'
+import { Logger, InjectionSymbols, injectable, inject, CacheModuleConfig } from 'hashmap-credo-core'
 
 import { IndyVdrModuleConfig } from '../IndyVdrModuleConfig'
 import { IndyVdrError, IndyVdrNotFoundError, IndyVdrNotConfiguredError } from '../error'

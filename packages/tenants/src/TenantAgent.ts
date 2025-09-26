@@ -1,6 +1,6 @@
-import type { AgentContext, DefaultAgentModules, ModulesMap } from 'hmd2v-credo-core'
+import type { AgentContext, DefaultAgentModules, ModulesMap } from 'hashmap-credo-core'
 
-import { CredoError, BaseAgent } from 'hmd2v-credo-core'
+import { CredoError, BaseAgent } from 'hashmap-credo-core'
 
 export class TenantAgent<AgentModules extends ModulesMap = DefaultAgentModules> extends BaseAgent<AgentModules> {
   private sessionHasEnded = false

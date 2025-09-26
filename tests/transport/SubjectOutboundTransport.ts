@@ -1,7 +1,7 @@
 import type { SubjectMessage } from './SubjectInboundTransport'
-import type { OutboundPackage, OutboundTransport, Agent, Logger } from 'hmd2v-credo-core'
+import type { OutboundPackage, OutboundTransport, Agent, Logger } from 'hashmap-credo-core'
 
-import { MessageReceiver, InjectionSymbols, CredoError } from 'hmd2v-credo-core'
+import { MessageReceiver, InjectionSymbols, CredoError } from 'hashmap-credo-core'
 import { takeUntil, Subject, take } from 'rxjs'
 
 export class SubjectOutboundTransport implements OutboundTransport {

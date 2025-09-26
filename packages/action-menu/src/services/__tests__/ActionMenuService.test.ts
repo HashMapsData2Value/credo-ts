@@ -1,8 +1,8 @@
 import type { ActionMenuStateChangedEvent } from '../../ActionMenuEvents'
 import type { ActionMenuSelection } from '../../models'
-import type { AgentContext, AgentConfig, Repository } from 'hmd2v-credo-core'
+import type { AgentContext, AgentConfig, Repository } from 'hashmap-credo-core'
 
-import { DidExchangeState, EventEmitter, InboundMessageContext } from 'hmd2v-credo-core'
+import { DidExchangeState, EventEmitter, InboundMessageContext } from 'hashmap-credo-core'
 import { Subject } from 'rxjs'
 
 import {

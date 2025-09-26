@@ -1,7 +1,7 @@
 import 'react-native-get-random-values'
 import '@azure/core-asynciterator-polyfill'
 
-import type { AgentDependencies } from 'hmd2v-credo-core'
+import type { AgentDependencies } from 'hashmap-credo-core'
 
 import { EventEmitter } from 'events'
 

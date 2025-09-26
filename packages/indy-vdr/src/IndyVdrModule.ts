@@ -1,5 +1,5 @@
 import type { IndyVdrModuleConfigOptions } from './IndyVdrModuleConfig'
-import type { AgentContext, DependencyManager, Module } from 'hmd2v-credo-core'
+import type { AgentContext, DependencyManager, Module } from 'hashmap-credo-core'
 
 import { IndyVdrApi } from './IndyVdrApi'
 import { IndyVdrModuleConfig } from './IndyVdrModuleConfig'

@@ -2,7 +2,7 @@ import type { OpenId4VcVerificationRequest } from './requestContext'
 import type { OpenId4VcVerificationSessionStateChangedEvent } from '../OpenId4VcVerifierEvents'
 import type { Router, Response } from 'express'
 
-import { EventEmitter, joinUriParts } from 'hmd2v-credo-core'
+import { EventEmitter, joinUriParts } from 'hashmap-credo-core'
 
 import { getRequestContext, sendErrorResponse } from '../../shared/router'
 import { OpenId4VcSiopVerifierService } from '../OpenId4VcSiopVerifierService'

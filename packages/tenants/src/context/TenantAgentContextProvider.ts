@@ -4,7 +4,7 @@ import type {
   RoutingCreatedEvent,
   EncryptedMessage,
   UpdateAssistantUpdateOptions,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import {
   isStorageUpToDate,
@@ -22,7 +22,7 @@ import {
   isValidJweStructure,
   JsonEncoder,
   isJsonObject,
-} from 'hmd2v-credo-core'
+} from 'hashmap-credo-core'
 
 import { TenantAgent } from '../TenantAgent'
 import { TenantRecordService } from '../services'

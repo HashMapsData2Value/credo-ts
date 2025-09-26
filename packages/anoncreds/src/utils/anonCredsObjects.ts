@@ -1,7 +1,7 @@
 import type { AnonCredsCredentialDefinition, AnonCredsRevocationStatusList, AnonCredsSchema } from '../models'
-import type { AgentContext } from 'hmd2v-credo-core'
+import type { AgentContext } from 'hashmap-credo-core'
 
-import { CredoError } from 'hmd2v-credo-core'
+import { CredoError } from 'hashmap-credo-core'
 
 import { AnonCredsRegistryService } from '../services'
 

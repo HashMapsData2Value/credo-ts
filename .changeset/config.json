@@ -5,7 +5,7 @@
   "privatePackages": false,
   "fixed": [
     [
-      "hmd2v-credo-*"
+      "hashmap-credo-*"
     ]
   ],
   "access": "public",

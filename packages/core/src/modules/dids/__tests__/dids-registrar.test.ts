@@ -1,7 +1,7 @@
 import type { KeyDidCreateOptions } from '../methods/key/KeyDidRegistrar'
 import type { PeerDidNumAlgo0CreateOptions } from '../methods/peer/PeerDidRegistrar'
 
-import { JsonTransformer, TypedArrayEncoder } from 'hmd2v-credo-core'
+import { JsonTransformer, TypedArrayEncoder } from 'hashmap-credo-core'
 
 import { getInMemoryAgentOptions } from '../../../../tests/helpers'
 import { Agent } from '../../../agent/Agent'

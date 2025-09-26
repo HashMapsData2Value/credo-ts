@@ -1,4 +1,4 @@
-import { Agent } from 'hmd2v-credo-core'
+import { Agent } from 'hashmap-credo-core'
 
 import { getInMemoryAgentOptions } from '../../core/tests/helpers'
 
