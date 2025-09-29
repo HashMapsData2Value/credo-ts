@@ -166,7 +166,7 @@ export class IndySdkToAskarMigrationUpdater {
   // e.g. cron-job and system restart (depending on the os) we could omit
   // this call `await this.fs.delete(this.backupFile)`.
   private async cleanBackup() {
-    this.agent.config.logger.trace(`Deleting the backup file at '${this.backupFile}'hashmap-credo-`)
+    this.agent.config.logger.trace(`Deleting the backup file at '${this.backupFile}'`)
     await this.fs.delete(this.backupFile)
 
     // Also delete wal-file if it exists

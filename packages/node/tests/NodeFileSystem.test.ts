@@ -4,7 +4,7 @@ import path from 'path'
 
 import { NodeFileSystem } from '../src/NodeFileSystem'
 
-describe('hashmap-credo-@credo-ts/file-system-node', () => {
+describe('@credo-ts/file-system-node', () => {
   describe('NodeFileSystem', () => {
     const fileSystem = new NodeFileSystem()
 

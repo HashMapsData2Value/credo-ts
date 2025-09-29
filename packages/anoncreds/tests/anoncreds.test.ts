@@ -72,7 +72,7 @@ const existingRevocationStatusLists = {
 
 const agent = new Agent(
   getInMemoryAgentOptions(
-    'hashmap-credo-anoncreds-package',
+    'anoncreds-package',
     {},
     {
       anoncreds: new AnonCredsModule({

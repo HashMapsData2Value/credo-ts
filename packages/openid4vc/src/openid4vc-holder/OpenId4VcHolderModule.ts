@@ -21,7 +21,7 @@ export class OpenId4VcHolderModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "hashmap-credo-The 'hashmap-credo-@credo-ts/openid4vc' Holder module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "The '@credo-ts/openid4vc' Holder module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Services

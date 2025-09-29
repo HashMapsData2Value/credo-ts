@@ -20,7 +20,7 @@ export class CheqdModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "hashmap-credo-The 'hashmap-credo-@credo-ts/cheqd' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "The '@credo-ts/cheqd' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Register config

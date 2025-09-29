@@ -6,7 +6,7 @@ import { KeyDerivationMethod, WalletError } from 'hashmap-credo-core'
 import {
   isAskarWalletPostgresStorageConfig,
   isAskarWalletSqliteStorageConfig,
-} from '../wallet/AskarWalletStorageConfig'hashmap-credo-
+} from '../wallet/AskarWalletStorageConfig'
 
 export const keyDerivationMethodToStoreKeyMethod = (keyDerivationMethod: KeyDerivationMethod) => {
   const correspondenceTable = {
@@ -41,7 +41,7 @@ export const uriFromWalletConfig = (
   const storageConfig = walletConfig.storage
   if (isAskarWalletSqliteStorageConfig(storageConfig)) {
     if (storageConfig.config?.inMemory) {
-      uri = 'sqlite://:memory:'hashmap-credo-
+      uri = 'sqlite://:memory:'
     } else {
       path = storageConfig.config?.path ?? `${credoDataPath}/wallet/${walletConfig.id}/sqlite.db`
       uri = `sqlite://${path}`

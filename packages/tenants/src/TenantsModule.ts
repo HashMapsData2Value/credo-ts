@@ -28,7 +28,7 @@ export class TenantsModule<AgentModules extends ModulesMap = EmptyModuleMap> imp
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "hashmap-credo-The 'hashmap-credo-@credo-ts/tenants' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "The '@credo-ts/tenants' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // Api

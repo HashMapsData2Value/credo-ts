@@ -82,7 +82,7 @@ import { W3cAnonCredsCredentialMetadataKey } from '../utils/metadata'
 import { proofRequestUsesUnqualifiedIdentifiers } from '../utils/proofRequest'
 import { getAnoncredsCredentialInfoFromRecord, getW3cRecordAnonCredsTags } from '../utils/w3cAnonCredsUtils'
 
-import { getRevocationMetadata } from './utils'hashmap-credo-
+import { getRevocationMetadata } from './utils'
 
 @injectable()
 export class AnonCredsRsHolderService implements AnonCredsHolderService {

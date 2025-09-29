@@ -33,7 +33,7 @@ export class OpenId4VcVerifierModule implements Module {
     // Warn about experimental module
     const logger = dependencyManager.resolve(AgentConfig).logger
     logger.warn(
-      "hashmap-credo-The 'hashmap-credo-@credo-ts/openid4vc' Verifier module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+      "The '@credo-ts/openid4vc' Verifier module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
     )
 
     // Register config

@@ -16,7 +16,7 @@ export class DifPresentationExchangeModule implements Module {
     dependencyManager
       .resolve(AgentConfig)
       .logger.warn(
-        "hashmap-credo-The 'DifPresentationExchangeModule' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+        "The 'DifPresentationExchangeModule' module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
       )
 
     // service
