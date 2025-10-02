@@ -17,24 +17,38 @@ export class AskarModule implements Module {
   }
 
   public register(dependencyManager: DependencyManager) {
+    console.log('🔍 AskarModule.register() called')
+
     dependencyManager.registerInstance(AskarModuleConfig, this.config)
+    console.log('🔍 AskarModuleConfig registered')
 
     if (dependencyManager.isRegistered(InjectionSymbols.Wallet)) {
+      console.log('🔍 Wallet already registered - throwing error')
       throw new CredoError('There is an instance of Wallet already registered')
     } else {
+      console.log('🔍 Registering AskarWallet with InjectionSymbols.Wallet')
       dependencyManager.registerContextScoped(InjectionSymbols.Wallet, AskarWallet)
+      console.log('🔍 AskarWallet registered successfully')
 
       // If the multiWalletDatabaseScheme is set to ProfilePerWallet, we want to register the AskarProfileWallet
       if (this.config.multiWalletDatabaseScheme === AskarMultiWalletDatabaseScheme.ProfilePerWallet) {
+        console.log('🔍 Registering AskarProfileWallet for ProfilePerWallet scheme')
         dependencyManager.registerContextScoped(AskarProfileWallet)
       }
     }
 
     if (dependencyManager.isRegistered(InjectionSymbols.StorageService)) {
+      console.log('🔍 StorageService already registered - throwing error')
       throw new CredoError('There is an instance of StorageService already registered')
     } else {
+      console.log('🔍 Registering AskarStorageService')
       dependencyManager.registerSingleton(InjectionSymbols.StorageService, AskarStorageService)
+      console.log('🔍 AskarStorageService registered successfully')
     }
+
+    console.log('🔍 AskarModule.register() completed - checking final state')
+    console.log('🔍 Final wallet registration check:', dependencyManager.isRegistered(InjectionSymbols.Wallet))
+    console.log('🔍 Final storage registration check:', dependencyManager.isRegistered(InjectionSymbols.StorageService))
   }
 
   public async initialize(agentContext: AgentContext): Promise<void> {
