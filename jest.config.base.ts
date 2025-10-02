@@ -7,7 +7,7 @@ const config: Config.InitialOptions = {
   // update that match as well when changing this one
   testMatch: ['**/?(*.)test.ts'],
   moduleNameMapper: {
-    'hashmap-credo-@credo-ts/(.+)': ['<rootDir>/../../packages/$1/src', '<rootDir>/../packages/$1/src', '<rootDir>/packages/$1/src'],
+    'hashmap-credo-(.+)': ['<rootDir>/../../packages/$1/src', '<rootDir>/../packages/$1/src', '<rootDir>/packages/$1/src'],
   },
   transform: {
     '^.+\\.tsx?$': [
