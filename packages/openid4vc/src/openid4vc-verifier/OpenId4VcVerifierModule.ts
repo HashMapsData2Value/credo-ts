@@ -3,6 +3,8 @@ import type { OpenId4VcVerificationRequest } from './router'
 import type { NextFunction } from 'express'
 import type { AgentContext, DependencyManager, Module } from 'hashmap-credo-core'
 
+import { AgentConfig } from 'hashmap-credo-core'
+
 import { getAgentContextForActorId, getRequestContext, importExpress } from '../shared/router'
 
 import { OpenId4VcSiopVerifierService } from './OpenId4VcSiopVerifierService'
@@ -28,6 +30,12 @@ export class OpenId4VcVerifierModule implements Module {
    * Registers the dependencies of the question answer module on the dependency manager.
    */
   public register(dependencyManager: DependencyManager) {
+    // Warn about experimental module
+    const logger = dependencyManager.resolve(AgentConfig).logger
+    logger.warn(
+      "The '@credo-ts/openid4vc' Verifier module is experimental and could have unexpected breaking changes. When using this module, make sure to use strict versions for all @credo-ts packages."
+    )
+
     // Register config
     dependencyManager.registerInstance(OpenId4VcVerifierModuleConfig, this.config)
 

@@ -72,7 +72,7 @@ const existingRevocationStatusLists = {
 
 const agent = new Agent(
   getInMemoryAgentOptions(
-    'anoncreds-package',
+    'credo-anoncreds-package',
     {},
     {
       anoncreds: new AnonCredsModule({
@@ -287,7 +287,7 @@ describe('AnonCreds API', () => {
       revocationRegistryDefinitionId: 'VsKV7grR1BUE29mG2Fm2kX:4:VsKV7grR1BUE29mG2Fm2kX:3:CL:75206:TAG:CL_ACCUM:TAG',
       revocationRegistryDefinition:
         existingRevocationRegistryDefinitions[
-          'VsKV7grR1BUE29mG2Fm2kX:4:VsKV7grR1BUE29mG2Fm2kX:3:CL:75206:TAG:CL_ACCUM:TAG'
+        'VsKV7grR1BUE29mG2Fm2kX:4:VsKV7grR1BUE29mG2Fm2kX:3:CL:75206:TAG:CL_ACCUM:TAG'
         ],
       resolutionMetadata: {},
       revocationRegistryDefinitionMetadata: {},
@@ -303,7 +303,7 @@ describe('AnonCreds API', () => {
     expect(revocationStatusList).toEqual({
       revocationStatusList:
         existingRevocationStatusLists[
-          'VsKV7grR1BUE29mG2Fm2kX:4:VsKV7grR1BUE29mG2Fm2kX:3:CL:75206:TAG:CL_ACCUM:TAG'
+        'VsKV7grR1BUE29mG2Fm2kX:4:VsKV7grR1BUE29mG2Fm2kX:3:CL:75206:TAG:CL_ACCUM:TAG'
         ][10123],
       resolutionMetadata: {},
       revocationStatusListMetadata: {},
